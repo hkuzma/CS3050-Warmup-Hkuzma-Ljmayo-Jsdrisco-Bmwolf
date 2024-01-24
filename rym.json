@@ -3086,7 +3086,7 @@
       "release_date": "1982-03-22",
       "release_type": "album",
       "primary_genres": "NWOBHM, Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, melodic, malevocals, anthemic, passionate, heavy, epic, history, war, rebellious",
       "avg_rating": 3.92,
       "rating_count": 18159,
@@ -3142,7 +3142,7 @@
       "release_date": "2007-07-08",
       "release_type": "album",
       "primary_genres": "Indie Folk, Singer-Songwriter",
-      "secondary_genres": "NA",
+      
       "descriptors": "breakup, melancholic, acoustic, winter, malevocals, romantic, sad, sparse, passionate, melodic",
       "avg_rating": 3.77,
       "rating_count": 18057,
@@ -3394,7 +3394,7 @@
       "release_date": "1990-06-26",
       "release_type": "album",
       "primary_genres": "Alternative Rock, Noise Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, noisy, malevocals, rebellious, femalevocals, dissonant, apathetic, anxious, sexual, raw",
       "avg_rating": 3.8,
       "rating_count": 17342,
@@ -3534,7 +3534,7 @@
       "release_date": "2006-11-14",
       "release_type": "album",
       "primary_genres": "Chamber Folk, Singer-Songwriter, Progressive Folk",
-      "secondary_genres": "NA",
+      
       "descriptors": "poetic, passionate, pastoral, complex, femalevocals, lush, spring, melodic, warm, acoustic",
       "avg_rating": 3.99,
       "rating_count": 17067,
@@ -3576,7 +3576,7 @@
       "release_date": "1972-02-25",
       "release_type": "album",
       "primary_genres": "Country Rock, Folk Rock, Singer-Songwriter",
-      "secondary_genres": "NA",
+      
       "descriptors": "pastoral, bittersweet, warm, autumn, melodic, malevocals, sentimental, mellow, introspective, acoustic",
       "avg_rating": 4,
       "rating_count": 17032,
@@ -3716,7 +3716,7 @@
       "release_date": "1984-11-01",
       "release_type": "album",
       "primary_genres": "Dream Pop, Ethereal Wave",
-      "secondary_genres": "NA",
+      
       "descriptors": "ethereal, atmospheric, mysterious, cryptic, femalevocals, melodic, lush, nocturnal, hypnotic, melancholic",
       "avg_rating": 3.96,
       "rating_count": 16755,
@@ -3828,7 +3828,7 @@
       "release_date": "1977-10-28",
       "release_type": "album",
       "primary_genres": "Punk Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "rebellious, malevocals, energetic, sarcastic, nihilistic, political, angry, misanthropic, raw, hedonistic",
       "avg_rating": 3.57,
       "rating_count": 16625,
@@ -4416,7 +4416,7 @@
       "release_date": "1981-02-09",
       "release_type": "album",
       "primary_genres": "Progressive Rock, Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, melodic, complex, progressive, technical, sciencefiction, uncommontimesignatures, optimistic, philosophical",
       "avg_rating": 3.91,
       "rating_count": 15366,
@@ -4794,7 +4794,7 @@
       "release_date": "1987-09-22",
       "release_type": "album",
       "primary_genres": "Jangle Pop, Indie Pop",
-      "secondary_genres": "NA",
+      
       "descriptors": "sarcastic, melancholic, lonely, poetic, romantic, malevocals, melodic, introspective, bittersweet, passionate",
       "avg_rating": 3.74,
       "rating_count": 14801,
@@ -5256,7 +5256,7 @@
       "release_date": "1990-03-20",
       "release_type": "album",
       "primary_genres": "Post-Hardcore",
-      "secondary_genres": "NA",
+      
       "descriptors": "political, energetic, passionate, rebellious, conscious, malevocals, angry, raw, rhythmic, protest",
       "avg_rating": 3.86,
       "rating_count": 14111,
@@ -5382,7 +5382,7 @@
       "release_date": "1977-04-08",
       "release_type": "album",
       "primary_genres": "Punk Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "political, angry, energetic, rebellious, raw, rhythmic, conscious, malevocals, anthemic, melodic",
       "avg_rating": 3.82,
       "rating_count": 13894,
@@ -5578,7 +5578,7 @@
       "release_date": "1994-04-25",
       "release_type": "album",
       "primary_genres": "Britpop",
-      "secondary_genres": "NA",
+      
       "descriptors": "playful, energetic, satirical, sarcastic, eclectic, malevocals, melodic, urban, uplifting, psychedelic",
       "avg_rating": 3.67,
       "rating_count": 13712,
@@ -5704,7 +5704,7 @@
       "release_date": "1980-04-22",
       "release_type": "album",
       "primary_genres": "Post-Punk, Gothic Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "sombre, atmospheric, melancholic, cold, winter, malevocals, nocturnal, anxious, introspective, depressive",
       "avg_rating": 3.78,
       "rating_count": 13527,
@@ -5844,7 +5844,7 @@
       "release_date": "1980-04-14",
       "release_type": "album",
       "primary_genres": "NWOBHM, Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, malevocals, heavy, rebellious, melodic, raw, anthemic, fantasy, rhythmic, nocturnal",
       "avg_rating": 3.83,
       "rating_count": 13381,
@@ -6166,7 +6166,7 @@
       "release_date": "1973-10-13",
       "release_type": "album",
       "primary_genres": "Jazz-Funk, Jazz Fusion",
-      "secondary_genres": "NA",
+      
       "descriptors": "rhythmic, playful, instrumental, energetic, happy, improvisation, uplifting, psychedelic, warm, progressive",
       "avg_rating": 3.97,
       "rating_count": 13085,
@@ -6446,7 +6446,7 @@
       "release_date": "1958-01-01",
       "release_type": "album",
       "primary_genres": "Hard Bop",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, improvisation, energetic, acoustic, melodic, uplifting, technical, nocturnal, rhythmic",
       "avg_rating": 4.02,
       "rating_count": 12589,
@@ -6544,7 +6544,7 @@
       "release_date": "1992-12-15",
       "release_type": "album",
       "primary_genres": "G-Funk, West Coast Hip Hop, Gangsta Rap",
-      "secondary_genres": "NA",
+      
       "descriptors": "crime, urban, drugs, vulgar, violence, sampling, boastful, sexual, malevocals, hedonistic",
       "avg_rating": 3.81,
       "rating_count": 12463,
@@ -6586,7 +6586,7 @@
       "release_date": "1970-05-15",
       "release_type": "album",
       "primary_genres": "Progressive Rock, Art Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "fantasy, mythology, complex, uncommontimesignatures, poetic, progressive, malevocals, suspenseful, technical, avant-garde",
       "avg_rating": 3.58,
       "rating_count": 12442,
@@ -6740,7 +6740,7 @@
       "release_date": "1961-03-01",
       "release_type": "album",
       "primary_genres": "Modal Jazz, Post-Bop",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, warm, improvisation, passionate, technical, bittersweet, acoustic, playful, uplifting, peaceful",
       "avg_rating": 4.1,
       "rating_count": 12303,
@@ -6768,7 +6768,7 @@
       "release_date": "2004-08-31",
       "release_type": "album",
       "primary_genres": "Sludge Metal, Progressive Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, conceptalbum, technical, aquatic, heavy, aggressive, malevocals, progressive, poetic, epic",
       "avg_rating": 3.86,
       "rating_count": 12300,
@@ -6852,7 +6852,7 @@
       "release_date": "1983-05-16",
       "release_type": "album",
       "primary_genres": "Heavy Metal, NWOBHM",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, epic, passionate, history, anthemic, mythology, melodic, heavy, fantasy",
       "avg_rating": 3.82,
       "rating_count": 12242,
@@ -6950,7 +6950,7 @@
       "release_date": "1995-07-21",
       "release_type": "album",
       "primary_genres": "Singer-Songwriter, Indie Folk",
-      "secondary_genres": "NA",
+      
       "descriptors": "acoustic, melancholic, sad, lo-fi, drugs, lonely, bittersweet, malevocals, poetic, sombre",
       "avg_rating": 3.92,
       "rating_count": 12068,
@@ -7188,7 +7188,7 @@
       "release_date": "2004-09-28",
       "release_type": "album",
       "primary_genres": "Post-Punk Revival, Indie Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "romantic, sexual, malevocals, introspective, cryptic, melancholic, melodic, rhythmic, urban, passionate",
       "avg_rating": 3.58,
       "rating_count": 11873,
@@ -7356,7 +7356,7 @@
       "release_date": "2003-11-04",
       "release_type": "album",
       "primary_genres": "Post-Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, melancholic, uplifting, atmospheric, melodic, bittersweet, sentimental, lush, epic, peaceful",
       "avg_rating": 3.58,
       "rating_count": 11742,
@@ -7832,7 +7832,7 @@
       "release_date": "1970-02-01",
       "release_type": "album",
       "primary_genres": "Blues Rock, Psychedelic Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, malevocals, poetic, psychedelic, passionate, warm, playful, melodic, urban",
       "avg_rating": 3.73,
       "rating_count": 11340,
@@ -7846,7 +7846,7 @@
       "release_date": "1981-02-02",
       "release_type": "album",
       "primary_genres": "NWOBHM, Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, malevocals, rebellious, violence, heavy, melodic, anthemic, raw, nocturnal, rhythmic",
       "avg_rating": 3.71,
       "rating_count": 11327,
@@ -8322,7 +8322,7 @@
       "release_date": "1964-01-13",
       "release_type": "album",
       "primary_genres": "Contemporary Folk, Singer-Songwriter",
-      "secondary_genres": "NA",
+      
       "descriptors": "political, acoustic, protest, poetic, malevocals, conscious, minimalistic, serious, sombre, melancholic",
       "avg_rating": 3.78,
       "rating_count": 10870,
@@ -8448,7 +8448,7 @@
       "release_date": "1998-09-15",
       "release_type": "album",
       "primary_genres": "Technical Death Metal, Progressive Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "technical, complex, philosophical, malevocals, existential, progressive, uncommontimesignatures, poetic, aggressive, passionate",
       "avg_rating": 3.91,
       "rating_count": 10700,
@@ -8616,7 +8616,7 @@
       "release_date": "1990-10-09",
       "release_type": "album",
       "primary_genres": "Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, aggressive, death, malevocals, dark, angry, war, heavy, rhythmic, misanthropic",
       "avg_rating": 3.88,
       "rating_count": 10577,
@@ -8630,7 +8630,7 @@
       "release_date": "1993-11-23",
       "release_type": "album",
       "primary_genres": "G-Funk, West Coast Hip Hop, Gangsta Rap",
-      "secondary_genres": "NA",
+      
       "descriptors": "vulgar, sexual, drugs, humorous, hedonistic, boastful, urban, crime, party, malevocals",
       "avg_rating": 3.84,
       "rating_count": 10577,
@@ -8756,7 +8756,7 @@
       "release_date": "1978-08-01",
       "release_type": "album",
       "primary_genres": "Post-Punk, Art Punk",
-      "secondary_genres": "NA",
+      
       "descriptors": "mysterious, cryptic, abstract, anxious, malevocals, surreal, sarcastic, eclectic, suspenseful, dark",
       "avg_rating": 3.94,
       "rating_count": 10541,
@@ -9120,7 +9120,7 @@
       "release_date": "1959-12-14",
       "release_type": "album",
       "primary_genres": "Cool Jazz",
-      "secondary_genres": "NA",
+      
       "descriptors": "uncommontimesignatures, instrumental, mellow, melodic, playful, acoustic, rhythmic, soothing, complex, technical",
       "avg_rating": 3.94,
       "rating_count": 10257,
@@ -9204,7 +9204,7 @@
       "release_date": "1983-04-14",
       "release_type": "album",
       "primary_genres": "Pop Rock, New Wave, Dance-Pop",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, malevocals, party, rhythmic, happy, uplifting, hedonistic, nocturnal, love, sensual",
       "avg_rating": 3.34,
       "rating_count": 10216,
@@ -9386,7 +9386,7 @@
       "release_date": "1999-02-02",
       "release_type": "album",
       "primary_genres": "Indie Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "melodic, malevocals, philosophical, bittersweet, summer, introspective, uplifting, melancholic, warm, sentimental",
       "avg_rating": 3.91,
       "rating_count": 10129,
@@ -9442,7 +9442,7 @@
       "release_date": "1994-05-24",
       "release_type": "album",
       "primary_genres": "Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "cold, satanic, dark, aggressive, sombre, nocturnal, malevocals, death, occult, misanthropic",
       "avg_rating": 3.83,
       "rating_count": 10105,
@@ -9540,7 +9540,7 @@
       "release_date": "1988-07-05",
       "release_type": "album",
       "primary_genres": "Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "dark, angry, malevocals, death, heavy, aggressive, energetic, infernal, war, misanthropic",
       "avg_rating": 3.84,
       "rating_count": 10001,
@@ -9708,7 +9708,7 @@
       "release_date": "1971-10-01",
       "release_type": "album",
       "primary_genres": "Glam Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, sexual, playful, sensual, love, energetic, melodic, passionate, fantasy, warm",
       "avg_rating": 3.91,
       "rating_count": 9949,
@@ -9918,7 +9918,7 @@
       "release_date": "1978-04-01",
       "release_type": "album",
       "primary_genres": "Minimalism",
-      "secondary_genres": "NA",
+      
       "descriptors": "repetitive, hypnotic, rhythmic, minimalistic, atmospheric, ethereal, soothing, femalevocals, polyphonic, avant-garde",
       "avg_rating": 4.07,
       "rating_count": 9793,
@@ -9932,7 +9932,7 @@
       "release_date": "2010-02-23",
       "release_type": "album",
       "primary_genres": "Chamber Folk, Singer-Songwriter, Progressive Folk",
-      "secondary_genres": "NA",
+      
       "descriptors": "poetic, pastoral, warm, passionate, lush, complex, autumn, femalevocals, melodic, bittersweet",
       "avg_rating": 3.95,
       "rating_count": 9791,
@@ -10086,7 +10086,7 @@
       "release_date": "2004-03-16",
       "release_type": "album",
       "primary_genres": "Singer-Songwriter, Indie Folk, Chamber Folk",
-      "secondary_genres": "NA",
+      
       "descriptors": "Christian, religious, acoustic, malevocals, mellow, melancholic, bittersweet, pastoral, calm, autumn",
       "avg_rating": 3.73,
       "rating_count": 9692,
@@ -10114,7 +10114,7 @@
       "release_date": "1983-02-28",
       "release_type": "album",
       "primary_genres": "Post-Punk, Alternative Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "war, political, malevocals, protest, passionate, energetic, angry, conscious, anthemic, melodic",
       "avg_rating": 3.68,
       "rating_count": 9679,
@@ -10632,7 +10632,7 @@
       "release_date": "1994-02-21",
       "release_type": "album",
       "primary_genres": "Symphonic Black Metal, Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "cold, atmospheric, epic, nocturnal, fantasy, dark, mysterious, occult, winter, satanic",
       "avg_rating": 3.9,
       "rating_count": 9396,
@@ -10786,7 +10786,7 @@
       "release_date": "2019-07-19",
       "release_type": "album",
       "primary_genres": "Neoclassical Darkwave, Death Industrial",
-      "secondary_genres": "NA",
+      
       "descriptors": "hateful, femalevocals, angry, noisy, violence, disturbing, death, depressive, scary, ominous",
       "avg_rating": 3.72,
       "rating_count": 9297,
@@ -11234,7 +11234,7 @@
       "release_date": "1987-07-01",
       "release_type": "album",
       "primary_genres": "Neoclassical Darkwave",
-      "secondary_genres": "NA",
+      
       "descriptors": "sombre, atmospheric, ethereal, mysterious, nocturnal, dark, epic, spiritual, hypnotic, ominous",
       "avg_rating": 3.88,
       "rating_count": 9084,
@@ -11276,7 +11276,7 @@
       "release_date": "1999-10-04",
       "release_type": "album",
       "primary_genres": "Alternative Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "anxious, energetic, malevocals, passionate, melodic, romantic, love, space, nocturnal, melancholic",
       "avg_rating": 3.25,
       "rating_count": 9061,
@@ -11318,7 +11318,7 @@
       "release_date": "1988-11-16",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, heavy, death, malevocals, energetic, pessimistic, angry, ominous, manic, rhythmic",
       "avg_rating": 3.87,
       "rating_count": 9025,
@@ -11346,7 +11346,7 @@
       "release_date": "1995-08-01",
       "release_type": "album",
       "primary_genres": "East Coast Hip Hop, Gangsta Rap, Boom Bap",
-      "secondary_genres": "NA",
+      
       "descriptors": "crime, urban, drugs, sampling, rhythmic, malevocals, violence, boastful, dark, atmospheric",
       "avg_rating": 3.93,
       "rating_count": 9022,
@@ -11458,7 +11458,7 @@
       "release_date": "1990-07-24",
       "release_type": "album",
       "primary_genres": "Groove Metal, Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, heavy, energetic, rhythmic, malevocals, angry, violence",
       "avg_rating": 3.59,
       "rating_count": 8950,
@@ -11822,7 +11822,7 @@
       "release_date": "1999-11-16",
       "release_type": "album",
       "primary_genres": "Gangsta Rap, West Coast Hip Hop",
-      "secondary_genres": "NA",
+      
       "descriptors": "drugs, sexual, crime, malevocals, vulgar, urban, boastful, rhythmic, humorous, party",
       "avg_rating": 3.65,
       "rating_count": 8809,
@@ -11892,7 +11892,7 @@
       "release_date": "1978-10-29",
       "release_type": "album",
       "primary_genres": "Progressive Rock, Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "uncommontimesignatures, malevocals, technical, complex, progressive, mythology, fantasy, philosophical, epic, sciencefiction",
       "avg_rating": 3.9,
       "rating_count": 8788,
@@ -11920,7 +11920,7 @@
       "release_date": "1994-02-17",
       "release_type": "album",
       "primary_genres": "Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "lo-fi, cold, raw, dark, satanic, repetitive, atmospheric, nocturnal, misanthropic, aggressive",
       "avg_rating": 3.83,
       "rating_count": 8772,
@@ -11962,7 +11962,7 @@
       "release_date": "2006-09-12",
       "release_type": "album",
       "primary_genres": "Progressive Metal, Sludge Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "fantasy, technical, malevocals, conceptalbum, energetic, progressive, heavy, aggressive, poetic, psychedelic",
       "avg_rating": 3.74,
       "rating_count": 8759,
@@ -11990,7 +11990,7 @@
       "release_date": "1971-11-12",
       "release_type": "album",
       "primary_genres": "Progressive Rock, Symphonic Prog",
-      "secondary_genres": "NA",
+      
       "descriptors": "fantasy, malevocals, surreal, quirky, playful, progressive, melodic, uncommontimesignatures, humorous, passionate",
       "avg_rating": 3.85,
       "rating_count": 8752,
@@ -12844,7 +12844,7 @@
       "release_date": "1989-05-12",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "satanic, occult, aggressive, heavy, malevocals, hateful, technical, misanthropic, infernal, dark",
       "avg_rating": 3.89,
       "rating_count": 8328,
@@ -12900,7 +12900,7 @@
       "release_date": "1973-03-23",
       "release_type": "album",
       "primary_genres": "Art Rock, Glam Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "sexual, dark, malevocals, nocturnal, anxious, energetic, sensual, melodic, hedonistic, urban",
       "avg_rating": 3.86,
       "rating_count": 8301,
@@ -12956,7 +12956,7 @@
       "release_date": "1969-04-09",
       "release_type": "album",
       "primary_genres": "Country Rock, Singer-Songwriter, Folk Rock, Country",
-      "secondary_genres": "NA",
+      
       "descriptors": "romantic, bittersweet, love, pastoral, warm, melodic, malevocals, mellow, longing, playful",
       "avg_rating": 3.59,
       "rating_count": 8266,
@@ -12970,7 +12970,7 @@
       "release_date": "1978-06-06",
       "release_type": "album",
       "primary_genres": "New Wave, Power Pop, Pop Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "playful, uplifting, melodic, love, energetic, malevocals, anthemic, rhythmic, quirky, romantic",
       "avg_rating": 3.74,
       "rating_count": 8262,
@@ -13180,7 +13180,7 @@
       "release_date": "1980-01-14",
       "release_type": "album",
       "primary_genres": "Progressive Rock, Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "philosophical, malevocals, uncommontimesignatures, complex, sciencefiction, progressive, melodic, introspective, technical, energetic",
       "avg_rating": 3.86,
       "rating_count": 8180,
@@ -13502,7 +13502,7 @@
       "release_date": "1977-09-01",
       "release_type": "album",
       "primary_genres": "Progressive Rock, Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "progressive, technical, fantasy, sciencefiction, complex, malevocals, epic, philosophical, uncommontimesignatures, passionate",
       "avg_rating": 3.86,
       "rating_count": 8045,
@@ -13852,7 +13852,7 @@
       "release_date": "1998-09-08",
       "release_type": "album",
       "primary_genres": "Twee Pop, Chamber Pop, Indie Pop",
-      "secondary_genres": "NA",
+      
       "descriptors": "bittersweet, warm, poetic, melancholic, romantic, melodic, malevocals, summer, mellow, soft",
       "avg_rating": 3.66,
       "rating_count": 7910,
@@ -14230,7 +14230,7 @@
       "release_date": "1996-07-02",
       "release_type": "album",
       "primary_genres": "East Coast Hip Hop, Boom Bap, Gangsta Rap",
-      "secondary_genres": "NA",
+      
       "descriptors": "urban, crime, boastful, malevocals, sampling, conscious, aggressive, violence, rhythmic, dark",
       "avg_rating": 3.71,
       "rating_count": 7760,
@@ -14356,7 +14356,7 @@
       "release_date": "1997-02-11",
       "release_type": "album",
       "primary_genres": "Indie Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "melodic, mellow, bittersweet, abstract, autumn, surreal, playful, malevocals, cryptic, humorous",
       "avg_rating": 3.78,
       "rating_count": 7707,
@@ -14412,7 +14412,7 @@
       "release_date": "2015-07-17",
       "release_type": "album",
       "primary_genres": "Trap, Southern Hip Hop",
-      "secondary_genres": "NA",
+      
       "descriptors": "drugs, sexual, hedonistic, urban, crime, atmospheric, nihilistic, hypnotic, malevocals, sad",
       "avg_rating": 3.48,
       "rating_count": 7698,
@@ -14566,7 +14566,7 @@
       "release_date": "2001-04-02",
       "release_type": "album",
       "primary_genres": "Neue Deutsche Härte",
-      "secondary_genres": "NA",
+      
       "descriptors": "heavy, energetic, malevocals, sexual, anthemic, aggressive, sombre, martial, ominous, rhythmic",
       "avg_rating": 3.7,
       "rating_count": 7635,
@@ -14622,7 +14622,7 @@
       "release_date": "1992-05-11",
       "release_type": "album",
       "primary_genres": "Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, malevocals, epic, melodic, nocturnal, dark, anthemic, anxious, death, heavy",
       "avg_rating": 3.21,
       "rating_count": 7604,
@@ -14734,7 +14734,7 @@
       "release_date": "1959-01-01",
       "release_type": "album",
       "primary_genres": "Hard Bop",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, improvisation, rhythmic, acoustic, passionate, warm, energetic, melodic, playful, technical",
       "avg_rating": 4.05,
       "rating_count": 7574,
@@ -14776,7 +14776,7 @@
       "release_date": "1996-07-03",
       "release_type": "album",
       "primary_genres": "Brutal Death Metal, Technical Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, technical, heavy, manic, death, violence, malevocals, misanthropic, chaotic, infernal",
       "avg_rating": 3.92,
       "rating_count": 7565,
@@ -14804,7 +14804,7 @@
       "release_date": "1991-09-17",
       "release_type": "album",
       "primary_genres": "Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "vulgar, bittersweet, malevocals, energetic, rebellious, love, anthemic, eclectic",
       "avg_rating": 3.36,
       "rating_count": 7559,
@@ -15322,7 +15322,7 @@
       "release_date": "1986-06-10",
       "release_type": "album",
       "primary_genres": "Epic Doom Metal, Traditional Doom Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "epic, heavy, sombre, ominous, occult, dark, fantasy, melodic, malevocals, death",
       "avg_rating": 3.86,
       "rating_count": 7407,
@@ -15560,7 +15560,7 @@
       "release_date": "1993-02-05",
       "release_type": "album",
       "primary_genres": "Drone Metal, Drone",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, repetitive, hypnotic, dense, heavy, atmospheric, noisy, meditative, minimalistic, lethargic",
       "avg_rating": 3.59,
       "rating_count": 7333,
@@ -15798,7 +15798,7 @@
       "release_date": "1969-09-01",
       "release_type": "album",
       "primary_genres": "Singer-Songwriter, Country, Contemporary Folk",
-      "secondary_genres": "NA",
+      
       "descriptors": "melancholic, acoustic, malevocals, pastoral, poetic, love, bittersweet, sad, longing, romantic",
       "avg_rating": 4.01,
       "rating_count": 7251,
@@ -16008,7 +16008,7 @@
       "release_date": "1992-11-01",
       "release_type": "album",
       "primary_genres": "Stoner Metal, Doom Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "heavy, psychedelic, fantasy, malevocals, repetitive, drugs, epic, hypnotic, rhythmic, sciencefiction",
       "avg_rating": 3.78,
       "rating_count": 7169,
@@ -16050,7 +16050,7 @@
       "release_date": "2011-12-06",
       "release_type": "album",
       "primary_genres": "Garage Rock, Blues Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, anthemic, uplifting, malevocals, love, melodic, summer, warm, romantic, repetitive",
       "avg_rating": 3.44,
       "rating_count": 7156,
@@ -16064,7 +16064,7 @@
       "release_date": "2007-06-19",
       "release_type": "album",
       "primary_genres": "Blues Rock, Garage Rock Revival, Alternative Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, raw, energetic, eclectic, passionate, playful, rebellious, melodic, love, anxious",
       "avg_rating": 3.44,
       "rating_count": 7154,
@@ -16106,7 +16106,7 @@
       "release_date": "1998-06-23",
       "release_type": "album",
       "primary_genres": "Technical Death Metal, Avant-Garde Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "technical, uncommontimesignatures, complex, dissonant, chaotic, atonal, heavy, dark, avant-garde, ominous",
       "avg_rating": 3.91,
       "rating_count": 7143,
@@ -16372,7 +16372,7 @@
       "release_date": "1980-09-01",
       "release_type": "album",
       "primary_genres": "Heavy Metal, Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, anthemic, energetic, occult, melodic, introspective, dark, heavy",
       "avg_rating": 3.75,
       "rating_count": 7053,
@@ -16428,7 +16428,7 @@
       "release_date": "1994-10-24",
       "release_type": "album",
       "primary_genres": "Post-Hardcore, Noise Rock, Math Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "raw, dissonant, malevocals, angry, rhythmic, aggressive, sarcastic, minimalistic, repetitive, misanthropic",
       "avg_rating": 3.71,
       "rating_count": 7032,
@@ -16652,7 +16652,7 @@
       "release_date": "1997-07-08",
       "release_type": "album",
       "primary_genres": "Symphonic Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "epic, dense, fantasy, malevocals, heavy, energetic, complex, atmospheric, triumphant, technical",
       "avg_rating": 3.92,
       "rating_count": 6978,
@@ -16904,7 +16904,7 @@
       "release_date": "2005-05-10",
       "release_type": "album",
       "primary_genres": "Power Pop, Alternative Rock, Pop Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, melodic, melancholic, bittersweet, love, lonely, anthemic, energetic, anxious, passionate",
       "avg_rating": 2.13,
       "rating_count": 6906,
@@ -17198,7 +17198,7 @@
       "release_date": "1985-06-12",
       "release_type": "album",
       "primary_genres": "Thrash Metal, Speed Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, energetic, malevocals, death, raw, heavy, rebellious, ominous, misanthropic, angry",
       "avg_rating": 3.46,
       "rating_count": 6802,
@@ -17254,7 +17254,7 @@
       "release_date": "1981-11-04",
       "release_type": "album",
       "primary_genres": "Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, heavy, energetic, fantasy, passionate, dark, epic, anthemic, melodic, nocturnal",
       "avg_rating": 3.68,
       "rating_count": 6793,
@@ -18654,7 +18654,7 @@
       "release_date": "1976-12-08",
       "release_type": "album",
       "primary_genres": "Pop Rock, Country Rock, Soft Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, sentimental, melancholic, summer, nocturnal, conceptalbum, passionate, ballad, melodic",
       "avg_rating": 3.29,
       "rating_count": 6455,
@@ -18752,7 +18752,7 @@
       "release_date": "1999-06-21",
       "release_type": "album",
       "primary_genres": "Emoviolence",
-      "secondary_genres": "NA",
+      
       "descriptors": "passionate, angry, aggressive, anxious, chaotic, philosophical, raw, energetic, malevocals, dark",
       "avg_rating": 3.77,
       "rating_count": 6444,
@@ -18906,7 +18906,7 @@
       "release_date": "1982-03-01",
       "release_type": "album",
       "primary_genres": "Horror Punk, Hardcore Punk",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, rebellious, dark, raw, anthemic, melodic, violence, playful, paranormal, malevocals",
       "avg_rating": 3.73,
       "rating_count": 6416,
@@ -19088,7 +19088,7 @@
       "release_date": "1993-06-01",
       "release_type": "album",
       "primary_genres": "Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "lo-fi, raw, cold, dark, misanthropic, satanic, ominous, nocturnal, forest, aggressive",
       "avg_rating": 3.81,
       "rating_count": 6376,
@@ -19130,7 +19130,7 @@
       "release_date": "1978-02-10",
       "release_type": "album",
       "primary_genres": "Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, malevocals, heavy, melodic, rebellious, anthemic, sciencefiction, passionate, war, triumphant",
       "avg_rating": 3.88,
       "rating_count": 6364,
@@ -19200,7 +19200,7 @@
       "release_date": "2008-08-19",
       "release_type": "album",
       "primary_genres": "Dance-Pop, Electropop",
-      "secondary_genres": "NA",
+      
       "descriptors": "party, femalevocals, sexual, love, energetic, romantic, hedonistic, summer, nocturnal, optimistic",
       "avg_rating": 3.03,
       "rating_count": 6360,
@@ -19284,7 +19284,7 @@
       "release_date": "1978-11-10",
       "release_type": "album",
       "primary_genres": "Punk Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "political, energetic, raw, protest, malevocals, melodic, passionate, rebellious, drugs, anthemic",
       "avg_rating": 3.55,
       "rating_count": 6346,
@@ -19326,7 +19326,7 @@
       "release_date": "1973-10-19",
       "release_type": "album",
       "primary_genres": "Glam Rock, Pop Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, quirky, playful, melodic, eclectic, rhythmic",
       "avg_rating": 2.78,
       "rating_count": 6340,
@@ -19396,7 +19396,7 @@
       "release_date": "1973-08-28",
       "release_type": "album",
       "primary_genres": "Smooth Soul",
-      "secondary_genres": "NA",
+      
       "descriptors": "sexual, romantic, sensual, love, passionate, warm, malevocals, melodic, urban, lush",
       "avg_rating": 3.88,
       "rating_count": 6329,
@@ -19774,7 +19774,7 @@
       "release_date": "2002-03-25",
       "release_type": "album",
       "primary_genres": "UKGarage, UKHip Hop",
-      "secondary_genres": "NA",
+      
       "descriptors": "urban, humorous, drugs, bittersweet, nocturnal, melancholic, alcohol, philosophical, playful, introspective",
       "avg_rating": 3.67,
       "rating_count": 6251,
@@ -20194,7 +20194,7 @@
       "release_date": "2001-09-18",
       "release_type": "album",
       "primary_genres": "Abstract Hip Hop, East Coast Hip Hop, Conscious Hip Hop",
-      "secondary_genres": "NA",
+      
       "descriptors": "atmospheric, cryptic, complex, urban, poetic, conscious, philosophical, abstract, mysterious, malevocals",
       "avg_rating": 3.72,
       "rating_count": 6176,
@@ -20334,7 +20334,7 @@
       "release_date": "1996-10-08",
       "release_type": "album",
       "primary_genres": "Industrial Rock, Industrial Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "misanthropic, aggressive, anti-religious, vulgar, conceptalbum, malevocals, hateful, angry, apocalyptic, heavy",
       "avg_rating": 3.49,
       "rating_count": 6132,
@@ -20376,7 +20376,7 @@
       "release_date": "2005-08-30",
       "release_type": "album",
       "primary_genres": "Indie Pop, Indie Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "melancholic, sad, romantic, bittersweet, melodic, malevocals, introspective, love, death, existential",
       "avg_rating": 3.52,
       "rating_count": 6129,
@@ -20670,7 +20670,7 @@
       "release_date": "1984-01-24",
       "release_type": "album",
       "primary_genres": "Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, malevocals, melodic, anthemic, heavy, rebellious, triumphant, passionate, futuristic, epic",
       "avg_rating": 3.89,
       "rating_count": 6065,
@@ -20810,7 +20810,7 @@
       "release_date": "1995-11-14",
       "release_type": "album",
       "primary_genres": "Melodic Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "angry, melodic, heavy, anti-religious, energetic, aggressive, misanthropic, death, malevocals, pessimistic",
       "avg_rating": 3.73,
       "rating_count": 6038,
@@ -20866,7 +20866,7 @@
       "release_date": "1984-09-07",
       "release_type": "album",
       "primary_genres": "Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "satanic, energetic, occult, malevocals, melodic, dark, heavy, suspenseful, passionate, anthemic",
       "avg_rating": 3.91,
       "rating_count": 6002,
@@ -21286,7 +21286,7 @@
       "release_date": "1957-04-01",
       "release_type": "album",
       "primary_genres": "Hard Bop",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, warm, improvisation, acoustic, energetic, melodic, mellow, passionate, urban, nocturnal",
       "avg_rating": 3.96,
       "rating_count": 5909,
@@ -21412,7 +21412,7 @@
       "release_date": "1973-10-26",
       "release_type": "album",
       "primary_genres": "Progressive Rock, Symphonic Prog",
-      "secondary_genres": "NA",
+      
       "descriptors": "epic, malevocals, fantasy, complex, optimistic, uncommontimesignatures, uplifting, spiritual, philosophical, technical",
       "avg_rating": 3.48,
       "rating_count": 5880,
@@ -21468,7 +21468,7 @@
       "release_date": "2018-04-20",
       "release_type": "album",
       "primary_genres": "Stoner Metal, Doom Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "drugs, heavy, psychedelic, malevocals, space, sciencefiction, hypnotic, repetitive, epic, fantasy",
       "avg_rating": 3.6,
       "rating_count": 5870,
@@ -21594,7 +21594,7 @@
       "release_date": "1994-03-15",
       "release_type": "album",
       "primary_genres": "Groove Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "angry, aggressive, heavy, rhythmic, boastful, malevocals, vulgar, hateful, energetic, introspective",
       "avg_rating": 3.5,
       "rating_count": 5853,
@@ -21664,7 +21664,7 @@
       "release_date": "2009-10-30",
       "release_type": "album",
       "primary_genres": "Power Pop, Pop Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, party, melodic, love, optimistic, anthemic, uplifting, energetic, bittersweet, lonely",
       "avg_rating": 1.58,
       "rating_count": 5842,
@@ -21748,7 +21748,7 @@
       "release_date": "1976-09-25",
       "release_type": "album",
       "primary_genres": "Hard Rock, Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, rhythmic, love, melodic, eclectic, longing",
       "avg_rating": 3,
       "rating_count": 5828,
@@ -21790,7 +21790,7 @@
       "release_date": "1980-10-20",
       "release_type": "album",
       "primary_genres": "Post-Punk",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, malevocals, passionate, atmospheric, raw, melodic, sombre, introspective, winter, longing",
       "avg_rating": 3.51,
       "rating_count": 5822,
@@ -21804,7 +21804,7 @@
       "release_date": "1997-03-01",
       "release_type": "album",
       "primary_genres": "Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "lo-fi, noisy, raw, nocturnal, aggressive, forest, fantasy, conceptalbum, philosophical, malevocals",
       "avg_rating": 3.71,
       "rating_count": 5821,
@@ -21832,7 +21832,7 @@
       "release_date": "1970-11-23",
       "release_type": "album",
       "primary_genres": "Singer-Songwriter, Folk Pop, Folk Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "bittersweet, acoustic, optimistic, peaceful, soft, poetic, malevocals, longing, melodic, love",
       "avg_rating": 3.82,
       "rating_count": 5818,
@@ -21874,7 +21874,7 @@
       "release_date": "2002-06-11",
       "release_type": "album",
       "primary_genres": "Art Rock, Alternative Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "sombre, bittersweet, malevocals, melancholic, melodic, poetic, lonely, atmospheric, urban",
       "avg_rating": 3.44,
       "rating_count": 5813,
@@ -21972,7 +21972,7 @@
       "release_date": "1983-10-30",
       "release_type": "album",
       "primary_genres": "Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "satanic, dark, occult, malevocals, melodic, heavy, epic, progressive, suspenseful, raw",
       "avg_rating": 3.89,
       "rating_count": 5792,
@@ -22168,7 +22168,7 @@
       "release_date": "1990-06-04",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "heavy, dark, aggressive, malevocals, misanthropic, energetic, angry, anti-religious, death, raw",
       "avg_rating": 3.86,
       "rating_count": 5763,
@@ -22378,7 +22378,7 @@
       "release_date": "1976-03-26",
       "release_type": "album",
       "primary_genres": "Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, malevocals, rebellious, melodic, anthemic, passionate, playful, love, triumphant, sentimental",
       "avg_rating": 3.87,
       "rating_count": 5739,
@@ -22420,7 +22420,7 @@
       "release_date": "1975-02-15",
       "release_type": "album",
       "primary_genres": "Hard Rock, Progressive Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, progressive, fantasy, melodic, passionate, triumphant, complex, philosophical, epic",
       "avg_rating": 3.5,
       "rating_count": 5734,
@@ -22658,7 +22658,7 @@
       "release_date": "2000-12-04",
       "release_type": "album",
       "primary_genres": "Emoviolence",
-      "secondary_genres": "NA",
+      
       "descriptors": "philosophical, passionate, chaotic, raw, aggressive, dissonant, energetic, malevocals, rebellious, angry",
       "avg_rating": 3.83,
       "rating_count": 5678,
@@ -22672,7 +22672,7 @@
       "release_date": "1955-04-25",
       "release_type": "album",
       "primary_genres": "Standards, Vocal Jazz",
-      "secondary_genres": "NA",
+      
       "descriptors": "lonely, melancholic, introspective, malevocals, nocturnal, conceptalbum, romantic, sentimental, breakup, mellow",
       "avg_rating": 3.64,
       "rating_count": 5666,
@@ -22714,7 +22714,7 @@
       "release_date": "1993-09-02",
       "release_type": "album",
       "primary_genres": "Groove Metal, Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "heavy, aggressive, malevocals, energetic, political, angry, violence, war, protest, dense",
       "avg_rating": 3.7,
       "rating_count": 5653,
@@ -22812,7 +22812,7 @@
       "release_date": "1996-05-28",
       "release_type": "album",
       "primary_genres": "Harsh Noise",
-      "secondary_genres": "NA",
+      
       "descriptors": "noisy, chaotic, dense, aggressive, instrumental, dissonant, avant-garde, atonal, hypnotic, raw",
       "avg_rating": 2.76,
       "rating_count": 5637,
@@ -22938,7 +22938,7 @@
       "release_date": "1997-08-22",
       "release_type": "album",
       "primary_genres": "Neue Deutsche Härte",
-      "secondary_genres": "NA",
+      
       "descriptors": "heavy, malevocals, dark, energetic, rhythmic, sexual, aggressive, mechanical, ominous, nocturnal",
       "avg_rating": 3.53,
       "rating_count": 5621,
@@ -22952,7 +22952,7 @@
       "release_date": "1982-05-10",
       "release_type": "album",
       "primary_genres": "New Romantic, Synthpop, New Wave",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, romantic, passionate, love, energetic, melodic, hedonistic, lush, playful, rhythmic",
       "avg_rating": 3.62,
       "rating_count": 5619,
@@ -23022,7 +23022,7 @@
       "release_date": "2001-09-04",
       "release_type": "album",
       "primary_genres": "Post-Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, atmospheric, melancholic, uplifting, epic, apocalyptic, triumphant, passionate, optimistic",
       "avg_rating": 3.58,
       "rating_count": 5589,
@@ -23064,7 +23064,7 @@
       "release_date": "1982-07-10",
       "release_type": "album",
       "primary_genres": "Gothic Rock, Post-Punk, Ethereal Wave",
-      "secondary_genres": "NA",
+      
       "descriptors": "dark, ominous, femalevocals, atmospheric, cold, mysterious, nocturnal, sombre, ethereal, surreal",
       "avg_rating": 3.47,
       "rating_count": 5577,
@@ -23204,7 +23204,7 @@
       "release_date": "1974-02-01",
       "release_type": "album",
       "primary_genres": "Power Pop",
-      "secondary_genres": "NA",
+      
       "descriptors": "melodic, bittersweet, malevocals, romantic, warm, summer, playful, passionate, urban",
       "avg_rating": 3.82,
       "rating_count": 5543,
@@ -23498,7 +23498,7 @@
       "release_date": "2001-06-12",
       "release_type": "album",
       "primary_genres": "Pop Punk",
-      "secondary_genres": "NA",
+      
       "descriptors": "rebellious, malevocals, breakup, melodic, anthemic, humorous, love, bittersweet, energetic, summer",
       "avg_rating": 3.18,
       "rating_count": 5483,
@@ -23512,7 +23512,7 @@
       "release_date": "1992-01-01",
       "release_type": "album",
       "primary_genres": "Neofolk",
-      "secondary_genres": "NA",
+      
       "descriptors": "melancholic, atmospheric, malevocals, lonely, pessimistic, acoustic, poetic, nihilistic, sombre, anti-religious",
       "avg_rating": 3.62,
       "rating_count": 5482,
@@ -23540,7 +23540,7 @@
       "release_date": "1999-11-02",
       "release_type": "album",
       "primary_genres": "Alternative Rock, Post-Grunge",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, melodic, energetic, summer, warm, passionate, optimistic, dense, bittersweet, raw",
       "avg_rating": 3.25,
       "rating_count": 5477,
@@ -23554,7 +23554,7 @@
       "release_date": "2014-02-25",
       "release_type": "album",
       "primary_genres": "West Coast Hip Hop, Gangsta Rap, Hardcore Hip Hop",
-      "secondary_genres": "NA",
+      
       "descriptors": "drugs, crime, boastful, sexual, hedonistic, vulgar, urban, malevocals, aggressive, rhythmic",
       "avg_rating": 3.32,
       "rating_count": 5470,
@@ -23862,7 +23862,7 @@
       "release_date": "1957-04-01",
       "release_type": "album",
       "primary_genres": "Hard Bop",
-      "secondary_genres": "NA",
+      
       "descriptors": "mellow, improvisation, technical, instrumental, playful, complex, acoustic",
       "avg_rating": 3.86,
       "rating_count": 5425,
@@ -24282,7 +24282,7 @@
       "release_date": "2017-06-07",
       "release_type": "album",
       "primary_genres": "Death Industrial, Neoclassical Darkwave",
-      "secondary_genres": "NA",
+      
       "descriptors": "misanthropic, femalevocals, noisy, ominous, disturbing, depressive, apocalyptic, alienation, nihilistic, conceptalbum",
       "avg_rating": 3.78,
       "rating_count": 5362,
@@ -24632,7 +24632,7 @@
       "release_date": "1973-11-19",
       "release_type": "album",
       "primary_genres": "Progressive Rock, Symphonic Prog",
-      "secondary_genres": "NA",
+      
       "descriptors": "complex, technical, fantasy, playful, manic, malevocals, epic, progressive, uncommontimesignatures, eclectic",
       "avg_rating": 3.57,
       "rating_count": 5313,
@@ -24674,7 +24674,7 @@
       "release_date": "1975-05-01",
       "release_type": "album",
       "primary_genres": "Symphonic Prog, Progressive Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, conceptalbum, epic, winter, progressive, mellow, melodic, lush, fantasy, complex",
       "avg_rating": 3.85,
       "rating_count": 5305,
@@ -24842,7 +24842,7 @@
       "release_date": "1996-04-02",
       "release_type": "album",
       "primary_genres": "Melodic Death Metal, Progressive Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "fantasy, epic, apocalyptic, melodic, heavy, progressive, dark, malevocals, conceptalbum, sciencefiction",
       "avg_rating": 3.86,
       "rating_count": 5278,
@@ -25080,7 +25080,7 @@
       "release_date": "1992-09-29",
       "release_type": "album",
       "primary_genres": "Grunge, Hard Rock, Alternative Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "anxious, malevocals, angry, heavy, raw, energetic, aggressive, melodic, dark, passionate",
       "avg_rating": 3.53,
       "rating_count": 5231,
@@ -25094,7 +25094,7 @@
       "release_date": "2002-02-19",
       "release_type": "album",
       "primary_genres": "Singer-Songwriter, Indie Folk",
-      "secondary_genres": "NA",
+      
       "descriptors": "lo-fi, acoustic, bittersweet, malevocals, poetic, conceptalbum, pastoral, raw, minimalistic, breakup",
       "avg_rating": 3.85,
       "rating_count": 5230,
@@ -25374,7 +25374,7 @@
       "release_date": "1996-02-20",
       "release_type": "album",
       "primary_genres": "Melodic Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "melodic, malevocals, heavy, passionate, energetic, fantasy, epic, poetic, aggressive, conceptalbum",
       "avg_rating": 3.73,
       "rating_count": 5179,
@@ -25444,7 +25444,7 @@
       "release_date": "1976-03-26",
       "release_type": "album",
       "primary_genres": "Progressive Rock, Symphonic Prog",
-      "secondary_genres": "NA",
+      
       "descriptors": "mellow, epic, uncommontimesignatures, progressive, melancholic, winter, melodic, lonely, spiritual, nocturnal",
       "avg_rating": 3.86,
       "rating_count": 5166,
@@ -25640,7 +25640,7 @@
       "release_date": "2004-11-22",
       "release_type": "album",
       "primary_genres": "Pop Rock, Alternative Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, love, passionate, sentimental",
       "avg_rating": 2.79,
       "rating_count": 5139,
@@ -25766,7 +25766,7 @@
       "release_date": "1994-10-10",
       "release_type": "album",
       "primary_genres": "Britpop, Glam Rock, Art Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "drugs, dark, sexual, melodic, melancholic, anxious, malevocals, death, poetic, pessimistic",
       "avg_rating": 3.82,
       "rating_count": 5103,
@@ -25892,7 +25892,7 @@
       "release_date": "2004-09-27",
       "release_type": "album",
       "primary_genres": "Neue Deutsche Härte",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, heavy, energetic, ominous, dark, sombre, anthemic, rhythmic, dense, epic",
       "avg_rating": 3.53,
       "rating_count": 5084,
@@ -26060,7 +26060,7 @@
       "release_date": "2010-04-13",
       "release_type": "album",
       "primary_genres": "Contemporary Folk, Singer-Songwriter",
-      "secondary_genres": "NA",
+      
       "descriptors": "acoustic, nature, poetic, bittersweet, melodic, passionate, malevocals, uplifting, pastoral, raw",
       "avg_rating": 3.62,
       "rating_count": 5042,
@@ -26102,7 +26102,7 @@
       "release_date": "1977-04-08",
       "release_type": "album",
       "primary_genres": "Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, heavy, melodic, melancholic, introspective, anthemic, sad, progressive, dark",
       "avg_rating": 3.73,
       "rating_count": 5034,
@@ -26354,7 +26354,7 @@
       "release_date": "2007-09-25",
       "release_type": "album",
       "primary_genres": "Atmospheric Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "nature, forest, atmospheric, malevocals, epic, dark, dense, melancholic, autumn, heavy",
       "avg_rating": 3.76,
       "rating_count": 4991,
@@ -26550,7 +26550,7 @@
       "release_date": "1972-07-23",
       "release_type": "album",
       "primary_genres": "Glam Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "playful, sexual, malevocals, melodic, energetic, dense, passionate",
       "avg_rating": 3.86,
       "rating_count": 4969,
@@ -26690,7 +26690,7 @@
       "release_date": "1985-04-25",
       "release_type": "album",
       "primary_genres": "Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, malevocals, violence, energetic, rhythmic, raw, crime, angry, boastful, heavy",
       "avg_rating": 3.78,
       "rating_count": 4946,
@@ -26774,7 +26774,7 @@
       "release_date": "1961-09-01",
       "release_type": "album",
       "primary_genres": "Free Jazz",
-      "secondary_genres": "NA",
+      
       "descriptors": "improvisation, chaotic, instrumental, avant-garde, technical, dissonant, energetic, acoustic, anxious, complex",
       "avg_rating": 3.88,
       "rating_count": 4933,
@@ -26788,7 +26788,7 @@
       "release_date": "2008-03-07",
       "release_type": "album",
       "primary_genres": "Djent, Progressive Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "mechanical, technical, heavy, malevocals, complex, apocalyptic, hateful, aggressive, uncommontimesignatures, rhythmic",
       "avg_rating": 3.53,
       "rating_count": 4921,
@@ -27096,7 +27096,7 @@
       "release_date": "1992-11-02",
       "release_type": "album",
       "primary_genres": "Country Rock, Singer-Songwriter, Folk Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "pastoral, mellow, warm, autumn, malevocals, sentimental, melodic, soft, romantic, longing",
       "avg_rating": 3.73,
       "rating_count": 4872,
@@ -27222,7 +27222,7 @@
       "release_date": "1994-05-10",
       "release_type": "album",
       "primary_genres": "Noise Rock, Alternative Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "noisy, sexual, chaotic, love, dissonant, sombre, lo-fi, femalevocals, malevocals, warm",
       "avg_rating": 3.29,
       "rating_count": 4855,
@@ -27334,7 +27334,7 @@
       "release_date": "1961-09-01",
       "release_type": "album",
       "primary_genres": "Modal Jazz, Post-Bop",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, warm, acoustic, complex, improvisation, mellow, technical, nocturnal, dense, melodic",
       "avg_rating": 3.99,
       "rating_count": 4826,
@@ -27348,7 +27348,7 @@
       "release_date": "2007-02-20",
       "release_type": "album",
       "primary_genres": "Post-Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, melancholic, atmospheric, epic, lonely, soothing, uplifting",
       "avg_rating": 3.44,
       "rating_count": 4824,
@@ -27460,7 +27460,7 @@
       "release_date": "1993-02-08",
       "release_type": "album",
       "primary_genres": "Technical Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "technical, complex, cryptic, surreal, uncommontimesignatures, malevocals, heavy, sciencefiction, dark, death",
       "avg_rating": 3.88,
       "rating_count": 4801,
@@ -27614,7 +27614,7 @@
       "release_date": "2001-09-11",
       "release_type": "album",
       "primary_genres": "Thrash Metal, Groove Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "anti-religious, angry, aggressive, misanthropic, hateful, malevocals, heavy",
       "avg_rating": 3.04,
       "rating_count": 4787,
@@ -27642,7 +27642,7 @@
       "release_date": "1974-11-15",
       "release_type": "album",
       "primary_genres": "Glam Rock, Art Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, romantic, love, sensual, dense, sexual, passionate, hedonistic, eclectic, energetic",
       "avg_rating": 3.75,
       "rating_count": 4783,
@@ -27740,7 +27740,7 @@
       "release_date": "2003-01-17",
       "release_type": "album",
       "primary_genres": "Electropop, Synthpop",
-      "secondary_genres": "NA",
+      
       "descriptors": "playful, sexual, quirky, androgynousvocals, energetic, LGBT, eclectic, party, political, melodic",
       "avg_rating": 3.41,
       "rating_count": 4772,
@@ -27782,7 +27782,7 @@
       "release_date": "1987-11-09",
       "release_type": "album",
       "primary_genres": "Epic Doom Metal, Traditional Doom Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "epic, heavy, religious, death, malevocals, sombre, fantasy, melodic, dark, ominous",
       "avg_rating": 3.86,
       "rating_count": 4765,
@@ -27978,7 +27978,7 @@
       "release_date": "1972-02-01",
       "release_type": "album",
       "primary_genres": "Third Stream, Experimental Big Band, Avant-Garde Jazz",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, energetic, avant-garde, complex, dense, improvisation, progressive, technical, passionate, suspenseful",
       "avg_rating": 4.01,
       "rating_count": 4739,
@@ -27992,7 +27992,7 @@
       "release_date": "1991-10-30",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "heavy, violence, aggressive, death, rhythmic, technical, malevocals, energetic, sampling, conceptalbum",
       "avg_rating": 3.86,
       "rating_count": 4738,
@@ -28146,7 +28146,7 @@
       "release_date": "2002-10-28",
       "release_type": "album",
       "primary_genres": "Dark Jazz",
-      "secondary_genres": "NA",
+      
       "descriptors": "dark, sombre, nocturnal, ominous, instrumental, atmospheric, suspenseful, calm, mysterious, melancholic",
       "avg_rating": 3.75,
       "rating_count": 4701,
@@ -28454,7 +28454,7 @@
       "release_date": "1985-06-17",
       "release_type": "album",
       "primary_genres": "Neo-Prog",
-      "secondary_genres": "NA",
+      
       "descriptors": "uplifting, conceptalbum, sentimental, melodic, malevocals, melancholic, suite, complex, introspective, lush",
       "avg_rating": 3.74,
       "rating_count": 4675,
@@ -28538,7 +28538,7 @@
       "release_date": "1991-05-01",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "occult, satanic, rhythmic, aggressive, misanthropic, heavy, dark, ominous, infernal, energetic",
       "avg_rating": 3.8,
       "rating_count": 4660,
@@ -28888,7 +28888,7 @@
       "release_date": "2005-06-13",
       "release_type": "album",
       "primary_genres": "Alternative Rock, Post-Grunge, Acoustic Rock, Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, passionate, acoustic, calm, anthemic, melancholic, sombre, melodic, warm",
       "avg_rating": 2.95,
       "rating_count": 4611,
@@ -29056,7 +29056,7 @@
       "release_date": "2000-04-28",
       "release_type": "album",
       "primary_genres": "Dark Jazz",
-      "secondary_genres": "NA",
+      
       "descriptors": "nocturnal, atmospheric, dark, sombre, melancholic, urban, instrumental, lonely, lethargic, calm",
       "avg_rating": 3.79,
       "rating_count": 4590,
@@ -29602,7 +29602,7 @@
       "release_date": "1981-11-03",
       "release_type": "album",
       "primary_genres": "Heavy Metal, Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, anthemic, dark, energetic, fantasy, melodic, occult, heavy",
       "avg_rating": 3.7,
       "rating_count": 4534,
@@ -29784,7 +29784,7 @@
       "release_date": "1993-07-01",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "satanic, misanthropic, angry, heavy, occult, ominous, energetic, aggressive, rhythmic, dark",
       "avg_rating": 3.85,
       "rating_count": 4508,
@@ -29882,7 +29882,7 @@
       "release_date": "1978-05-07",
       "release_type": "album",
       "primary_genres": "Hard Rock, Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "fantasy, passionate, energetic, malevocals, melodic, uplifting, anthemic, heavy",
       "avg_rating": 3.85,
       "rating_count": 4502,
@@ -29896,7 +29896,7 @@
       "release_date": "1985-10-01",
       "release_type": "album",
       "primary_genres": "Death Metal, Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "raw, aggressive, satanic, infernal, energetic, malevocals, heavy, mythology, ominous, dark",
       "avg_rating": 3.77,
       "rating_count": 4501,
@@ -29924,7 +29924,7 @@
       "release_date": "1986-01-01",
       "release_type": "album",
       "primary_genres": "Coldwave, Post-Punk",
-      "secondary_genres": "NA",
+      
       "descriptors": "cold, rhythmic, mechanical, anxious, dark, malevocals, atmospheric, alienation, urban, futuristic",
       "avg_rating": 3.81,
       "rating_count": 4499,
@@ -29980,7 +29980,7 @@
       "release_date": "1975-09-01",
       "release_type": "album",
       "primary_genres": "Hard Rock, Progressive Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, fantasy, progressive, complex, melodic, political, heavy, energetic, passionate, dense",
       "avg_rating": 3.35,
       "rating_count": 4493,
@@ -30176,7 +30176,7 @@
       "release_date": "1973-02-25",
       "release_type": "album",
       "primary_genres": "Hard Rock, Glam Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, sarcastic, playful, raw, energetic, violence, death, boastful",
       "avg_rating": 3.77,
       "rating_count": 4474,
@@ -30316,7 +30316,7 @@
       "release_date": "2019-12-27",
       "release_type": "album",
       "primary_genres": "Trap, Pop Rap",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, rhythmic, energetic, sexual, playful, boastful, repetitive, nocturnal",
       "avg_rating": 2.52,
       "rating_count": 4443,
@@ -30386,7 +30386,7 @@
       "release_date": "1996-07-31",
       "release_type": "album",
       "primary_genres": "Dirty South, Gangsta Rap, Southern Hip Hop",
-      "secondary_genres": "NA",
+      
       "descriptors": "crime, drugs, nocturnal, boastful, malevocals, urban, introspective, sombre, violence, mellow",
       "avg_rating": 3.9,
       "rating_count": 4435,
@@ -30946,7 +30946,7 @@
       "release_date": "1988-10-24",
       "release_type": "album",
       "primary_genres": "Neoclassical Darkwave",
-      "secondary_genres": "NA",
+      
       "descriptors": "sombre, medieval, mythology, spiritual, atmospheric, ethereal, mysterious, folklore, femalevocals, malevocals",
       "avg_rating": 3.76,
       "rating_count": 4360,
@@ -31030,7 +31030,7 @@
       "release_date": "2006-03-28",
       "release_type": "album",
       "primary_genres": "East Coast Hip Hop, Hardcore Hip Hop",
-      "secondary_genres": "NA",
+      
       "descriptors": "drugs, aggressive, crime, energetic, rhythmic, violence, urban, malevocals, sampling, surreal",
       "avg_rating": 3.8,
       "rating_count": 4350,
@@ -31114,7 +31114,7 @@
       "release_date": "1993-11-01",
       "release_type": "album",
       "primary_genres": "Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, cold, raw, winter, energetic, dense, infernal, fantasy, triumphant, chaotic",
       "avg_rating": 3.76,
       "rating_count": 4343,
@@ -31310,7 +31310,7 @@
       "release_date": "1990-09-24",
       "release_type": "album",
       "primary_genres": "Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, boastful, rhythmic, anthemic, melodic",
       "avg_rating": 3.18,
       "rating_count": 4326,
@@ -31394,7 +31394,7 @@
       "release_date": "2006-03-06",
       "release_type": "album",
       "primary_genres": "Post-Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "melancholic, atmospheric, instrumental, melodic",
       "avg_rating": 3.53,
       "rating_count": 4320,
@@ -31576,7 +31576,7 @@
       "release_date": "1983-08-07",
       "release_type": "album",
       "primary_genres": "Heavy Metal, Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "heavy, malevocals, dark, raw, energetic, rebellious, hedonistic, infernal, nocturnal",
       "avg_rating": 3.06,
       "rating_count": 4303,
@@ -31674,7 +31674,7 @@
       "release_date": "1995-04-05",
       "release_type": "album",
       "primary_genres": "Power Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "fantasy, epic, melodic, malevocals, heavy, medieval, energetic, passionate, triumphant, anthemic",
       "avg_rating": 3.83,
       "rating_count": 4295,
@@ -31716,7 +31716,7 @@
       "release_date": "1992-01-17",
       "release_type": "album",
       "primary_genres": "Pop Punk, Punk Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, melodic, malevocals, playful, raw, longing, anxious, rebellious, passionate, love",
       "avg_rating": 3.18,
       "rating_count": 4289,
@@ -31800,7 +31800,7 @@
       "release_date": "1987-07-07",
       "release_type": "album",
       "primary_genres": "Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, dark, heavy, ominous, occult, malevocals, aggressive,...",
       "avg_rating": 3.8,
       "rating_count": 4283,
@@ -32066,7 +32066,7 @@
       "release_date": "1997-06-17",
       "release_type": "album",
       "primary_genres": "Pop Punk, Skate Punk",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, malevocals, summer, playful, breakup, melodic, vulgar, lonely, longing, humorous",
       "avg_rating": 3.17,
       "rating_count": 4265,
@@ -32234,7 +32234,7 @@
       "release_date": "1966-08-01",
       "release_type": "album",
       "primary_genres": "Free Jazz, Spiritual Jazz",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, improvisation, spiritual, chaotic, dense, avant-garde, passionate, dissonant, complex, energetic",
       "avg_rating": 3.9,
       "rating_count": 4254,
@@ -32248,7 +32248,7 @@
       "release_date": "1972-02-12",
       "release_type": "album",
       "primary_genres": "Southern Rock, Jam Band, Blues Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "warm, pastoral, improvisation, mellow, malevocals, summer, melodic, introspective, love, uplifting",
       "avg_rating": 3.85,
       "rating_count": 4254,
@@ -32360,7 +32360,7 @@
       "release_date": "1995-09-24",
       "release_type": "album",
       "primary_genres": "Neue Deutsche Härte, Industrial Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, dark, heavy, energetic, sexual, aggressive, rhythmic, disturbing, hedonistic, repetitive",
       "avg_rating": 3.49,
       "rating_count": 4236,
@@ -32668,7 +32668,7 @@
       "release_date": "2018-03-09",
       "release_type": "album",
       "primary_genres": "Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, anthemic, heavy, melodic, epic, triumphant",
       "avg_rating": 3.55,
       "rating_count": 4203,
@@ -32752,7 +32752,7 @@
       "release_date": "1970-11-27",
       "release_type": "album",
       "primary_genres": "Progressive Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "uncommontimesignatures, melodic, energetic, progressive, playful, medieval, complex, eclectic, malevocals, epic",
       "avg_rating": 3.66,
       "rating_count": 4193,
@@ -32990,7 +32990,7 @@
       "release_date": "1996-05-20",
       "release_type": "album",
       "primary_genres": "Alternative Rock, Britpop",
-      "secondary_genres": "NA",
+      
       "descriptors": "melodic, malevocals, energetic, melancholic, poetic, bittersweet, passionate, anthemic, angry",
       "avg_rating": 3.74,
       "rating_count": 4179,
@@ -33046,7 +33046,7 @@
       "release_date": "2005-05-23",
       "release_type": "album",
       "primary_genres": "Djent",
-      "secondary_genres": "NA",
+      
       "descriptors": "rhythmic, repetitive, mechanical, heavy, complex, dark, conceptalbum, technical, cryptic, uncommontimesignatures",
       "avg_rating": 3.65,
       "rating_count": 4178,
@@ -33130,7 +33130,7 @@
       "release_date": "2004-10-12",
       "release_type": "album",
       "primary_genres": "Grindcore",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, chaotic, manic, misanthropic, malevocals, disturbing, angry, heavy, hateful, violence",
       "avg_rating": 3.81,
       "rating_count": 4169,
@@ -33186,7 +33186,7 @@
       "release_date": "2001-07-24",
       "release_type": "album",
       "primary_genres": "Grindcore",
-      "secondary_genres": "NA",
+      
       "descriptors": "chaotic, manic, sexual, aggressive, misanthropic, malevocals, heavy, dark, disturbing, death",
       "avg_rating": 3.79,
       "rating_count": 4161,
@@ -33368,7 +33368,7 @@
       "release_date": "2006-08-08",
       "release_type": "album",
       "primary_genres": "Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "anti-religious, aggressive, misanthropic, heavy, malevocals, angry, political, manic, war, death",
       "avg_rating": 3.23,
       "rating_count": 4139,
@@ -33718,7 +33718,7 @@
       "release_date": "1973-06-01",
       "release_type": "album",
       "primary_genres": "American Primitivism",
-      "secondary_genres": "NA",
+      
       "descriptors": "meditative, acoustic, instrumental, technical, hypnotic, epic, progressive, spiritual, passionate, complex",
       "avg_rating": 3.93,
       "rating_count": 4098,
@@ -34362,7 +34362,7 @@
       "release_date": "2000-03-07",
       "release_type": "album",
       "primary_genres": "Nu Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, aggressive, angry, violence, heavy, vulgar, dark, energetic, hateful, misanthropic",
       "avg_rating": 2.46,
       "rating_count": 4024,
@@ -34390,7 +34390,7 @@
       "release_date": "1968-01-15",
       "release_type": "album",
       "primary_genres": "Post-Bop, Modal Jazz",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, technical, melancholic, complex, passionate, cold, nocturnal, soothing, atmospheric, ominous",
       "avg_rating": 3.84,
       "rating_count": 4022,
@@ -34544,7 +34544,7 @@
       "release_date": "1989-06-01",
       "release_type": "album",
       "primary_genres": "Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "war, aggressive, energetic, malevocals, heavy, death, violence, dark, technical, rhythmic",
       "avg_rating": 3.78,
       "rating_count": 4010,
@@ -34586,7 +34586,7 @@
       "release_date": "1966-12-01",
       "release_type": "album",
       "primary_genres": "Avant-Garde Jazz, Post-Bop",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, hypnotic, avant-garde, improvisation, complex, nocturnal, rhythmic, acoustic, mysterious, suspenseful",
       "avg_rating": 3.94,
       "rating_count": 4004,
@@ -34628,7 +34628,7 @@
       "release_date": "1989-11-02",
       "release_type": "album",
       "primary_genres": "Melodic Hardcore, Skate Punk",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, melodic, political, conscious, malevocals, angry, rebellious, repetitive, raw, anthemic",
       "avg_rating": 3.64,
       "rating_count": 4001,
@@ -34740,7 +34740,7 @@
       "release_date": "1992-10-05",
       "release_type": "album",
       "primary_genres": "Noise Rock, Post-Hardcore",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, aggressive, anxious, rhythmic, noisy, raw, dissonant, rebellious, misanthropic, angry",
       "avg_rating": 3.73,
       "rating_count": 3997,
@@ -34824,7 +34824,7 @@
       "release_date": "1972-01-01",
       "release_type": "album",
       "primary_genres": "Progressive Rock, Symphonic Prog",
-      "secondary_genres": "NA",
+      
       "descriptors": "technical, malevocals, complex, epic, triumphant, progressive, passionate, energetic, philosophical, uncommontimesignatures",
       "avg_rating": 3.58,
       "rating_count": 3992,
@@ -34838,7 +34838,7 @@
       "release_date": "1994-09-27",
       "release_type": "album",
       "primary_genres": "Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, heavy, crime, misanthropic, malevocals, violence, dark, hateful, death, manic",
       "avg_rating": 3.23,
       "rating_count": 3992,
@@ -34950,7 +34950,7 @@
       "release_date": "2014-08-26",
       "release_type": "album",
       "primary_genres": "Progressive Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "atmospheric, melodic, progressive, malevocals, mysterious, dark, psychedelic, sombre, apocalyptic",
       "avg_rating": 3.35,
       "rating_count": 3977,
@@ -34978,7 +34978,7 @@
       "release_date": "1954-04-01",
       "release_type": "album",
       "primary_genres": "Vocal Jazz, Cool Jazz, Standards",
-      "secondary_genres": "NA",
+      
       "descriptors": "love, romantic, lonely, melancholic, mellow, soft, malevocals, bittersweet, longing, calm",
       "avg_rating": 3.79,
       "rating_count": 3973,
@@ -35062,7 +35062,7 @@
       "release_date": "2005-07-25",
       "release_type": "album",
       "primary_genres": "Post-Punk Revival, Indie Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "melancholic, energetic, malevocals, cold, anxious, atmospheric, serious, lonely, introspective, dark",
       "avg_rating": 3.39,
       "rating_count": 3966,
@@ -35216,7 +35216,7 @@
       "release_date": "2000-08-08",
       "release_type": "album",
       "primary_genres": "Noise Rock, Post-Hardcore, Math Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "uncommontimesignatures, sarcastic, noisy, angry, misanthropic, malevocals, breakup, violence, alienation, raw",
       "avg_rating": 3.59,
       "rating_count": 3950,
@@ -35244,7 +35244,7 @@
       "release_date": "2004-06-29",
       "release_type": "album",
       "primary_genres": "Atmospheric Sludge Metal, Post-Rock, Post-Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "atmospheric, melancholic, heavy, malevocals, suspenseful, aquatic, sombre, cold, dark, ominous",
       "avg_rating": 3.78,
       "rating_count": 3947,
@@ -35286,7 +35286,7 @@
       "release_date": "2015-09-25",
       "release_type": "album",
       "primary_genres": "Synthpop, Electropop",
-      "secondary_genres": "NA",
+      
       "descriptors": "melodic, femalevocals, rhythmic, energetic, melancholic, love, atmospheric, bittersweet, ethereal, warm",
       "avg_rating": 3.27,
       "rating_count": 3945,
@@ -35398,7 +35398,7 @@
       "release_date": "2009-06-23",
       "release_type": "album",
       "primary_genres": "Progressive Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "uncommontimesignatures, melodic, complex, progressive, malevocals, technical, epic, philosophical, introspective, heavy",
       "avg_rating": 3.18,
       "rating_count": 3931,
@@ -35412,7 +35412,7 @@
       "release_date": "2010-06-22",
       "release_type": "album",
       "primary_genres": "East Coast Hip Hop, Conscious Hip Hop",
-      "secondary_genres": "NA",
+      
       "descriptors": "mellow, introspective, urban, sombre, political, philosophical, conscious, melodic, malevocals, poetic",
       "avg_rating": 3.67,
       "rating_count": 3931,
@@ -35468,7 +35468,7 @@
       "release_date": "1991-05-29",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, heavy, misanthropic, energetic, angry, malevocals, rhythmic, infernal, death, violence",
       "avg_rating": 3.91,
       "rating_count": 3925,
@@ -35566,7 +35566,7 @@
       "release_date": "1989-11-13",
       "release_type": "album",
       "primary_genres": "Deathgrind",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, political, malevocals, raw, heavy, energetic, conscious, apocalyptic, misanthropic, angry",
       "avg_rating": 3.79,
       "rating_count": 3915,
@@ -35580,7 +35580,7 @@
       "release_date": "1992-09-22",
       "release_type": "album",
       "primary_genres": "Death Metal, Brutal Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "vulgar, heavy, violence, sexual, aggressive, death, disturbing, malevocals, misanthropic, rhythmic",
       "avg_rating": 3.37,
       "rating_count": 3915,
@@ -35608,7 +35608,7 @@
       "release_date": "1982-03-24",
       "release_type": "album",
       "primary_genres": "Deathrock",
-      "secondary_genres": "NA",
+      
       "descriptors": "dark, anti-religious, raw, anxious, malevocals, misanthropic, atmospheric, paranormal, energetic, rebellious",
       "avg_rating": 3.68,
       "rating_count": 3914,
@@ -35846,7 +35846,7 @@
       "release_date": "1986-06-30",
       "release_type": "album",
       "primary_genres": "Synthpop, Dance-Pop",
-      "secondary_genres": "NA",
+      
       "descriptors": "femalevocals, party, love, melodic, passionate, energetic, romantic, playful, sensual, sentimental",
       "avg_rating": 3.53,
       "rating_count": 3892,
@@ -35944,7 +35944,7 @@
       "release_date": "1992-06-09",
       "release_type": "album",
       "primary_genres": "East Coast Hip Hop, Boom Bap, Jazz Rap, Conscious Hip Hop",
-      "secondary_genres": "NA",
+      
       "descriptors": "urban, rhythmic, conscious, sampling, malevocals, serious, nocturnal, boastful, spiritual",
       "avg_rating": 3.86,
       "rating_count": 3883,
@@ -35986,7 +35986,7 @@
       "release_date": "2009-09-15",
       "release_type": "album",
       "primary_genres": "Thrash Metal, Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, violence, technical, angry, heavy, aggressive",
       "avg_rating": 3.36,
       "rating_count": 3881,
@@ -36112,7 +36112,7 @@
       "release_date": "1976-08-01",
       "release_type": "album",
       "primary_genres": "Dub, Roots Reggae",
-      "secondary_genres": "NA",
+      
       "descriptors": "warm, mellow, atmospheric, summer, hypnotic, spiritual, nature, psychedelic, tropical, lo-fi",
       "avg_rating": 3.77,
       "rating_count": 3867,
@@ -36350,7 +36350,7 @@
       "release_date": "1963-01-14",
       "release_type": "album",
       "primary_genres": "Hard Bop",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, improvisation, playful, acoustic",
       "avg_rating": 3.9,
       "rating_count": 3850,
@@ -36532,7 +36532,7 @@
       "release_date": "1990-05-28",
       "release_type": "album",
       "primary_genres": "Alternative Rock, Indie Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "raw, femalevocals, energetic, sexual, melodic, dark, sparse, anxious, abstract, quirky",
       "avg_rating": 3.58,
       "rating_count": 3840,
@@ -36616,7 +36616,7 @@
       "release_date": "1963-02-01",
       "release_type": "album",
       "primary_genres": "Hard Bop, Cool Jazz",
-      "secondary_genres": "NA",
+      
       "descriptors": "acoustic, improvisation, instrumental, mellow, soft, soothing, melodic, calm, nocturnal, warm",
       "avg_rating": 3.79,
       "rating_count": 3834,
@@ -36854,7 +36854,7 @@
       "release_date": "2018-10-24",
       "release_type": "album",
       "primary_genres": "Contemporary Folk, Singer-Songwriter",
-      "secondary_genres": "NA",
+      
       "descriptors": "ethereal, soothing, calm, mellow, soft, femalevocals, sparse, acoustic, melancholic, melodic",
       "avg_rating": 3.78,
       "rating_count": 3805,
@@ -36910,7 +36910,7 @@
       "release_date": "1983-01-20",
       "release_type": "album",
       "primary_genres": "Hard Rock, Glam Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "melodic, malevocals, anthemic, playful, passionate, energetic, futuristic, love",
       "avg_rating": 3.52,
       "rating_count": 3798,
@@ -37050,7 +37050,7 @@
       "release_date": "1973-11-01",
       "release_type": "album",
       "primary_genres": "Glam Rock, Art Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "warm, lush, malevocals, sensual, passionate, eclectic, romantic, uplifting, melodic, poetic",
       "avg_rating": 3.75,
       "rating_count": 3785,
@@ -37078,7 +37078,7 @@
       "release_date": "1969-04-01",
       "release_type": "album",
       "primary_genres": "Canterbury Scene, Psychedelic Rock, Jazz-Rock, Experimental Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "surreal, playful, psychedelic, humorous, quirky, uncommontimesignatures, avant-garde, energetic, malevocals, progressive",
       "avg_rating": 3.75,
       "rating_count": 3783,
@@ -37092,7 +37092,7 @@
       "release_date": "1988-06-29",
       "release_type": "album",
       "primary_genres": "Progressive Metal, Technical Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "sciencefiction, uncommontimesignatures, dissonant, complex, technical, apocalyptic, conceptalbum, futuristic, malevocals, avant-garde",
       "avg_rating": 3.79,
       "rating_count": 3777,
@@ -37260,7 +37260,7 @@
       "release_date": "1985-05-27",
       "release_type": "album",
       "primary_genres": "Black Metal, Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "raw, lo-fi, satanic, occult, death, energetic, malevocals, dark, aggressive, infernal",
       "avg_rating": 3.57,
       "rating_count": 3764,
@@ -37414,7 +37414,7 @@
       "release_date": "2007-03-27",
       "release_type": "album",
       "primary_genres": "Groove Metal, Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, hateful, heavy, political, malevocals, dark, angry, energetic, melodic, vulgar",
       "avg_rating": 3.63,
       "rating_count": 3750,
@@ -37442,7 +37442,7 @@
       "release_date": "1997-10-27",
       "release_type": "album",
       "primary_genres": "Melodic Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, conceptalbum, heavy, melodic, energetic, aggressive, passionate, epic, melancholic,...",
       "avg_rating": 3.66,
       "rating_count": 3744,
@@ -37498,7 +37498,7 @@
       "release_date": "1992-09-21",
       "release_type": "album",
       "primary_genres": "Breakbeat Hardcore",
-      "secondary_genres": "NA",
+      
       "descriptors": "manic, urban, party, energetic, sampling, playful, repetitive, rhythmic, dense, hypnotic",
       "avg_rating": 3.58,
       "rating_count": 3742,
@@ -37750,7 +37750,7 @@
       "release_date": "2000-07-03",
       "release_type": "album",
       "primary_genres": "Melodic Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, melodic, malevocals, passionate, heavy, introspective, aggressive",
       "avg_rating": 3.6,
       "rating_count": 3730,
@@ -37778,7 +37778,7 @@
       "release_date": "1970-01-01",
       "release_type": "album",
       "primary_genres": "Samba Soul, Samba-rock, MPB",
-      "secondary_genres": "NA",
+      
       "descriptors": "uplifting, happy, summer, playful, passionate, romantic, tropical, energetic, malevocals, warm",
       "avg_rating": 4.01,
       "rating_count": 3729,
@@ -37834,7 +37834,7 @@
       "release_date": "1979-10-27",
       "release_type": "album",
       "primary_genres": "Heavy Metal, Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, heavy, malevocals, rebellious, boastful, aggressive, rhythmic, raw",
       "avg_rating": 3.72,
       "rating_count": 3724,
@@ -37988,7 +37988,7 @@
       "release_date": "2000-09-05",
       "release_type": "album",
       "primary_genres": "Alt-Country, Americana, Singer-Songwriter",
-      "secondary_genres": "NA",
+      
       "descriptors": "melancholic, lonely, malevocals, love, breakup, acoustic, introspective, melodic, longing, bittersweet",
       "avg_rating": 3.68,
       "rating_count": 3715,
@@ -38058,7 +38058,7 @@
       "release_date": "1990-09-19",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "death, aggressive, heavy, dark, malevocals, violence, apocalyptic, pessimistic, energetic, nocturnal",
       "avg_rating": 3.75,
       "rating_count": 3711,
@@ -38590,7 +38590,7 @@
       "release_date": "1995-03-28",
       "release_type": "album",
       "primary_genres": "Slowcore, Folk Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "sad, melancholic, atmospheric, introspective, malevocals, longing, bittersweet, lonely, warm, mellow",
       "avg_rating": 3.67,
       "rating_count": 3664,
@@ -39164,7 +39164,7 @@
       "release_date": "1988-05-10",
       "release_type": "album",
       "primary_genres": "Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, aggressive, malevocals, apocalyptic, heavy, melodic, dark,...",
       "avg_rating": 3.78,
       "rating_count": 3629,
@@ -39304,7 +39304,7 @@
       "release_date": "1994-11-15",
       "release_type": "album",
       "primary_genres": "East Coast Hip Hop, Boom Bap, Hardcore Hip Hop",
-      "secondary_genres": "NA",
+      
       "descriptors": "urban, cold, nocturnal, dark, atmospheric, raw, mysterious, sombre, malevocals, sampling",
       "avg_rating": 3.59,
       "rating_count": 3622,
@@ -39612,7 +39612,7 @@
       "release_date": "2009-09-08",
       "release_type": "album",
       "primary_genres": "East Coast Hip Hop, Pop Rap",
-      "secondary_genres": "NA",
+      
       "descriptors": "boastful, urban, rhythmic, sampling, malevocals, anthemic, energetic",
       "avg_rating": 2.76,
       "rating_count": 3595,
@@ -40158,7 +40158,7 @@
       "release_date": "1991-10-01",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, heavy, malevocals, misanthropic, angry, death, raw, occult, energetic, rhythmic",
       "avg_rating": 3.83,
       "rating_count": 3557,
@@ -40242,7 +40242,7 @@
       "release_date": "2008-10-20",
       "release_type": "album",
       "primary_genres": "Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, rhythmic, rebellious, hedonistic, boastful",
       "avg_rating": 2.88,
       "rating_count": 3552,
@@ -40438,7 +40438,7 @@
       "release_date": "1966-07-22",
       "release_type": "album",
       "primary_genres": "Blues Rock, British Blues",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, passionate, energetic, love, playful, repetitive",
       "avg_rating": 3.69,
       "rating_count": 3538,
@@ -40466,7 +40466,7 @@
       "release_date": "2008-05-13",
       "release_type": "album",
       "primary_genres": "Indie Pop, Indie Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "anxious, melancholic, malevocals, melodic, breakup, dark, sad, introspective, mellow, pessimistic",
       "avg_rating": 3.3,
       "rating_count": 3535,
@@ -40508,7 +40508,7 @@
       "release_date": "1982-07-12",
       "release_type": "album",
       "primary_genres": "Synthpop, New Romantic",
-      "secondary_genres": "NA",
+      
       "descriptors": "melancholic, malevocals, melodic, passionate, romantic, atmospheric, rhythmic, introspective, bittersweet, urban",
       "avg_rating": 3.17,
       "rating_count": 3532,
@@ -40774,7 +40774,7 @@
       "release_date": "2015-11-20",
       "release_type": "album",
       "primary_genres": "Pop Soul, Adult Contemporary",
-      "secondary_genres": "NA",
+      
       "descriptors": "femalevocals, melodic, lush, passionate, bittersweet, love, introspective, sad, ballad, melancholic",
       "avg_rating": 2.77,
       "rating_count": 3514,
@@ -40802,7 +40802,7 @@
       "release_date": "2008-09-19",
       "release_type": "album",
       "primary_genres": "Melodic Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "mythology, melodic, epic, heavy, malevocals, energetic, pagan, aggressive, triumphant, war",
       "avg_rating": 3.59,
       "rating_count": 3511,
@@ -40830,7 +40830,7 @@
       "release_date": "1990-06-25",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "satanic, infernal, aggressive, heavy, manic, misanthropic, anti-religious, dark, occult, malevocals",
       "avg_rating": 3.67,
       "rating_count": 3508,
@@ -40900,7 +40900,7 @@
       "release_date": "2019-04-13",
       "release_type": "album",
       "primary_genres": "Drone Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "heavy, meditative, ritualistic, atmospheric, hypnotic, warm, repetitive, dense, instrumental, sombre",
       "avg_rating": 3.37,
       "rating_count": 3508,
@@ -40928,7 +40928,7 @@
       "release_date": "1957-03-01",
       "release_type": "album",
       "primary_genres": "Rock & Roll, Rhythm & Blues",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, playful, uplifting, malevocals, raw, passionate, happy, party, rhythmic, rebellious",
       "avg_rating": 3.75,
       "rating_count": 3505,
@@ -41166,7 +41166,7 @@
       "release_date": "1974-07-01",
       "release_type": "album",
       "primary_genres": "Hard Rock, Glam Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, hedonistic, party, boastful, rebellious, sexual, energetic, playful, melodic",
       "avg_rating": 3.45,
       "rating_count": 3477,
@@ -41180,7 +41180,7 @@
       "release_date": "2003-07-22",
       "release_type": "album",
       "primary_genres": "Southern Rock, Garage Rock Revival",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, raw, melodic, bittersweet, rhythmic, playful",
       "avg_rating": 3.38,
       "rating_count": 3477,
@@ -41194,7 +41194,7 @@
       "release_date": "1983-12-12",
       "release_type": "album",
       "primary_genres": "Hardcore Punk, Horror Punk",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, raw, energetic, heavy, dark, aggressive, death, occult, manic, paranormal",
       "avg_rating": 3.68,
       "rating_count": 3476,
@@ -41208,7 +41208,7 @@
       "release_date": "2009-11-03",
       "release_type": "album",
       "primary_genres": "Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, malevocals, misanthropic, heavy, violence, hateful, angry, energetic, crime, death",
       "avg_rating": 3.1,
       "rating_count": 3476,
@@ -41320,7 +41320,7 @@
       "release_date": "1995-11-27",
       "release_type": "album",
       "primary_genres": "Melodic Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, complex, poetic, melodic, energetic, serious, melancholic, apocalyptic, progressive, heavy",
       "avg_rating": 3.72,
       "rating_count": 3471,
@@ -41334,7 +41334,7 @@
       "release_date": "2017-02-17",
       "release_type": "album",
       "primary_genres": "Trap, Southern Hip Hop",
-      "secondary_genres": "NA",
+      
       "descriptors": "urban, boastful, crime, hedonistic, malevocals, drugs, party, sexual, nocturnal, mysterious",
       "avg_rating": 2.74,
       "rating_count": 3471,
@@ -41488,7 +41488,7 @@
       "release_date": "2004-06-02",
       "release_type": "album",
       "primary_genres": "Symphonic Metal, Power Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "fantasy, femalevocals, malevocals, melodic, romantic, energetic, epic, orchestral, heavy, melancholic",
       "avg_rating": 3.52,
       "rating_count": 3461,
@@ -41572,7 +41572,7 @@
       "release_date": "1999-05-31",
       "release_type": "album",
       "primary_genres": "Melodic Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "melodic, energetic, heavy, malevocals, pessimistic, angry, passionate, ominous, philosophical, epic",
       "avg_rating": 3.65,
       "rating_count": 3456,
@@ -41712,7 +41712,7 @@
       "release_date": "1983-09-26",
       "release_type": "album",
       "primary_genres": "Glam Metal, Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, anthemic, malevocals, sexual, melodic, heavy, love, rhythmic, rebellious",
       "avg_rating": 3.48,
       "rating_count": 3446,
@@ -41880,7 +41880,7 @@
       "release_date": "2010-03-08",
       "release_type": "album",
       "primary_genres": "Atmospheric Black Metal, Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "pagan, malevocals, mythology, atmospheric, dark, forest, conceptalbum, sombre, repetitive, hypnotic",
       "avg_rating": 3.21,
       "rating_count": 3438,
@@ -41922,7 +41922,7 @@
       "release_date": "1995-05-15",
       "release_type": "album",
       "primary_genres": "Britpop, Power Pop",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, playful, humorous, hedonistic, melodic, quirky, manic",
       "avg_rating": 3.7,
       "rating_count": 3434,
@@ -41992,7 +41992,7 @@
       "release_date": "2006-09-22",
       "release_type": "album",
       "primary_genres": "Melodic Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "mythology, pagan, melodic, energetic, heavy, war, malevocals, epic, aggressive, triumphant",
       "avg_rating": 3.63,
       "rating_count": 3428,
@@ -42006,7 +42006,7 @@
       "release_date": "1991-09-17",
       "release_type": "album",
       "primary_genres": "Heavy Metal, Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, anthemic, melodic, rhythmic, heavy, melancholic",
       "avg_rating": 3.64,
       "rating_count": 3425,
@@ -42104,7 +42104,7 @@
       "release_date": "1998-12-07",
       "release_type": "album",
       "primary_genres": "Symphonic Metal, Power Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "femalevocals, melodic, fantasy, romantic, energetic, nocturnal, epic, sombre, aquatic, poetic",
       "avg_rating": 3.61,
       "rating_count": 3420,
@@ -42188,7 +42188,7 @@
       "release_date": "1982-09-27",
       "release_type": "album",
       "primary_genres": "Synthpop, New Romantic",
-      "secondary_genres": "NA",
+      
       "descriptors": "sombre, melancholic, malevocals, melodic, mellow, bittersweet, rhythmic, autumn, romantic, atmospheric",
       "avg_rating": 3.11,
       "rating_count": 3413,
@@ -42538,7 +42538,7 @@
       "release_date": "1980-08-18",
       "release_type": "album",
       "primary_genres": "Progressive Rock, Symphonic Prog",
-      "secondary_genres": "NA",
+      
       "descriptors": "progressive, complex, futuristic, malevocals, energetic, epic, technical, abstract",
       "avg_rating": 3.51,
       "rating_count": 3393,
@@ -42650,7 +42650,7 @@
       "release_date": "2000-10-24",
       "release_type": "album",
       "primary_genres": "Power Pop, Indie Pop",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, femalevocals, energetic, passionate, romantic, melodic, love, uplifting",
       "avg_rating": 3.65,
       "rating_count": 3385,
@@ -42776,7 +42776,7 @@
       "release_date": "1979-10-01",
       "release_type": "album",
       "primary_genres": "Hardcore Punk, Punk Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "nihilistic, energetic, malevocals, raw, political, angry, rebellious, aggressive, misanthropic, introspective",
       "avg_rating": 3.64,
       "rating_count": 3374,
@@ -43420,7 +43420,7 @@
       "release_date": "1974-10-25",
       "release_type": "album",
       "primary_genres": "Roots Reggae",
-      "secondary_genres": "NA",
+      
       "descriptors": "optimistic, uplifting, conscious, political, malevocals, protest, rhythmic, warm, melodic, spiritual",
       "avg_rating": 3.8,
       "rating_count": 3328,
@@ -43532,7 +43532,7 @@
       "release_date": "2008-10-13",
       "release_type": "album",
       "primary_genres": "Math Rock, Midwest Emo",
-      "secondary_genres": "NA",
+      
       "descriptors": "technical, melancholic, melodic, malevocals, uncommontimesignatures, mellow, sentimental, introspective, breakup, complex",
       "avg_rating": 3.5,
       "rating_count": 3323,
@@ -43602,7 +43602,7 @@
       "release_date": "1981-02-17",
       "release_type": "album",
       "primary_genres": "Hard Rock, Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, melodic, energetic, desert, anthemic",
       "avg_rating": 3.07,
       "rating_count": 3319,
@@ -43616,7 +43616,7 @@
       "release_date": "1996-09-02",
       "release_type": "album",
       "primary_genres": "Britpop, Glam Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, melodic, bittersweet, energetic, sexual, party, LGBT, optimistic, romantic, urban",
       "avg_rating": 3.74,
       "rating_count": 3318,
@@ -43714,7 +43714,7 @@
       "release_date": "1983-12-01",
       "release_type": "album",
       "primary_genres": "Heavy Metal, Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, dark, fantasy, rebellious, melodic, nocturnal, anthemic, playful, heavy",
       "avg_rating": 3.47,
       "rating_count": 3311,
@@ -43784,7 +43784,7 @@
       "release_date": "1988-01-01",
       "release_type": "album",
       "primary_genres": "Post-Punk, Alternative Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "playful, sexual, rhythmic, energetic, quirky, femalevocals, humorous, malevocals, surreal, passionate",
       "avg_rating": 3.48,
       "rating_count": 3307,
@@ -43854,7 +43854,7 @@
       "release_date": "1983-03-14",
       "release_type": "album",
       "primary_genres": "Neo-Prog",
-      "secondary_genres": "NA",
+      
       "descriptors": "melancholic, introspective, malevocals, melodic, complex, lush, progressive, poetic, passionate, lonely",
       "avg_rating": 3.73,
       "rating_count": 3298,
@@ -44260,7 +44260,7 @@
       "release_date": "1989-11-14",
       "release_type": "album",
       "primary_genres": "Industrial Metal, Industrial Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, mechanical, sampling, aggressive, energetic, repetitive, political, heavy, angry, dark",
       "avg_rating": 3.64,
       "rating_count": 3270,
@@ -44456,7 +44456,7 @@
       "release_date": "2003-11-03",
       "release_type": "album",
       "primary_genres": "Alternative Rock, Progressive Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "atmospheric, melancholic, passionate, melodic, progressive, introspective, malevocals, sad, lush, dark",
       "avg_rating": 3.68,
       "rating_count": 3259,
@@ -44484,7 +44484,7 @@
       "release_date": "1986-11-17",
       "release_type": "album",
       "primary_genres": "Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, energetic, malevocals, manic, death, dark, heavy, nihilistic, apocalyptic, infernal",
       "avg_rating": 3.83,
       "rating_count": 3257,
@@ -44554,7 +44554,7 @@
       "release_date": "1972-01-01",
       "release_type": "album",
       "primary_genres": "Afrobeat",
-      "secondary_genres": "NA",
+      
       "descriptors": "rhythmic, repetitive, political, conscious, energetic, malevocals, passionate, protest, warm, hypnotic",
       "avg_rating": 3.96,
       "rating_count": 3254,
@@ -44582,7 +44582,7 @@
       "release_date": "1975-10-24",
       "release_type": "album",
       "primary_genres": "Art Rock, Glam Rock, Pop Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "romantic, malevocals, sexual, melodic, eclectic, quirky, playful, progressive, drugs, love",
       "avg_rating": 3.67,
       "rating_count": 3253,
@@ -44596,7 +44596,7 @@
       "release_date": "1991-01-13",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "atmospheric, malevocals, heavy, dark, cold, fantasy, ominous, apocalyptic, sciencefiction, satanic",
       "avg_rating": 3.5,
       "rating_count": 3253,
@@ -45072,7 +45072,7 @@
       "release_date": "2012-02-28",
       "release_type": "album",
       "primary_genres": "Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, melodic, atmospheric, dark, nihilistic, heavy, misanthropic, aggressive, raw, pessimistic",
       "avg_rating": 3.72,
       "rating_count": 3225,
@@ -45212,7 +45212,7 @@
       "release_date": "1987-12-01",
       "release_type": "album",
       "primary_genres": "Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "war, aggressive, rhythmic, heavy, malevocals, energetic, angry, death, history, dark",
       "avg_rating": 3.8,
       "rating_count": 3219,
@@ -45254,7 +45254,7 @@
       "release_date": "1984-10-29",
       "release_type": "album",
       "primary_genres": "Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, heavy, passionate, melodic",
       "avg_rating": 3.59,
       "rating_count": 3218,
@@ -46024,7 +46024,7 @@
       "release_date": "2009-09-20",
       "release_type": "album",
       "primary_genres": "Alternative Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, melodic, malevocals, playful, uplifting, bittersweet",
       "avg_rating": 3.21,
       "rating_count": 3159,
@@ -46038,7 +46038,7 @@
       "release_date": "1974-09-01",
       "release_type": "album",
       "primary_genres": "Free Jazz",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, chaotic, improvisation, space, manic, technical, energetic, avant-garde, complex, uncommontimesignatures",
       "avg_rating": 3.81,
       "rating_count": 3158,
@@ -46052,7 +46052,7 @@
       "release_date": "1989-09-18",
       "release_type": "album",
       "primary_genres": "Technical Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "technical, energetic, complex, uncommontimesignatures, aggressive, heavy, malevocals, dark, manic, death",
       "avg_rating": 3.85,
       "rating_count": 3157,
@@ -46080,7 +46080,7 @@
       "release_date": "2016-01-22",
       "release_type": "album",
       "primary_genres": "Thrash Metal, Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "apocalyptic, political, futuristic, malevocals, heavy, war, energetic, aggressive, angry",
       "avg_rating": 3.1,
       "rating_count": 3157,
@@ -46094,7 +46094,7 @@
       "release_date": "1988-05-17",
       "release_type": "album",
       "primary_genres": "Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, melodic, energetic, heavy, anthemic, rebellious",
       "avg_rating": 3.09,
       "rating_count": 3154,
@@ -46290,7 +46290,7 @@
       "release_date": "2001-05-08",
       "release_type": "album",
       "primary_genres": "Pop Punk, Skate Punk",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, summer, rebellious, melodic, bittersweet, playful, breakup, introspective, sentimental",
       "avg_rating": 2.88,
       "rating_count": 3145,
@@ -46318,7 +46318,7 @@
       "release_date": "1992-10-01",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "war, rhythmic, heavy, dark, malevocals, history, dense, violence, epic, energetic",
       "avg_rating": 3.87,
       "rating_count": 3144,
@@ -46374,7 +46374,7 @@
       "release_date": "1988-09-08",
       "release_type": "album",
       "primary_genres": "Melodic Hardcore, Skate Punk",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, melodic, political, malevocals, conscious, raw, philosophical, anti-religious, pessimistic, rebellious",
       "avg_rating": 3.63,
       "rating_count": 3140,
@@ -46458,7 +46458,7 @@
       "release_date": "2004-10-25",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "dense, infernal, technical, hateful, triumphant, occult, satanic, heavy, mythology, aggressive",
       "avg_rating": 3.47,
       "rating_count": 3138,
@@ -46570,7 +46570,7 @@
       "release_date": "1998-05-19",
       "release_type": "album",
       "primary_genres": "Alternative Rock, Singer-Songwriter",
-      "secondary_genres": "NA",
+      
       "descriptors": "passionate, poetic, romantic, bittersweet, melancholic, sexual, melodic, lo-fi, sensual, political",
       "avg_rating": 3.53,
       "rating_count": 3132,
@@ -46584,7 +46584,7 @@
       "release_date": "2000-06-06",
       "release_type": "album",
       "primary_genres": "Indie Rock, Art Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "cryptic, femalevocals, dark, malevocals, atmospheric, ominous, nihilistic, melancholic, lonely",
       "avg_rating": 3.56,
       "rating_count": 3132,
@@ -47032,7 +47032,7 @@
       "release_date": "1994-04-12",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, death, vulgar, sexual, violence, heavy, disturbing, angry, malevocals, pessimistic",
       "avg_rating": 3.53,
       "rating_count": 3111,
@@ -47060,7 +47060,7 @@
       "release_date": "1973-10-19",
       "release_type": "album",
       "primary_genres": "Roots Reggae",
-      "secondary_genres": "NA",
+      
       "descriptors": "political, uplifting, religious, optimistic, warm, spiritual, conscious, protest, passionate, malevocals",
       "avg_rating": 3.82,
       "rating_count": 3109,
@@ -47130,7 +47130,7 @@
       "release_date": "1996-11-19",
       "release_type": "album",
       "primary_genres": "East Coast Hip Hop, Gangsta Rap, Boom Bap",
-      "secondary_genres": "NA",
+      
       "descriptors": "urban, crime, atmospheric, dark, anxious, violence, rhythmic, malevocals, ominous, nocturnal",
       "avg_rating": 3.81,
       "rating_count": 3103,
@@ -47228,7 +47228,7 @@
       "release_date": "1982-03-29",
       "release_type": "album",
       "primary_genres": "Hard Rock, Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, heavy, romantic, melodic, passionate, anthemic, love",
       "avg_rating": 3.72,
       "rating_count": 3099,
@@ -47424,7 +47424,7 @@
       "release_date": "2003-08-26",
       "release_type": "album",
       "primary_genres": "Ska Punk, Third Wave Ska",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, bittersweet, uplifting, melodic, passionate, malevocals, rebellious, playful, anthemic, suicide",
       "avg_rating": 3.69,
       "rating_count": 3085,
@@ -47438,7 +47438,7 @@
       "release_date": "2003-11-21",
       "release_type": "album",
       "primary_genres": "Nu Metal, Alternative Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "hateful, heavy, aggressive, pessimistic, malevocals, vulgar, anxious, lonely, misanthropic, sombre",
       "avg_rating": 2.77,
       "rating_count": 3085,
@@ -47536,7 +47536,7 @@
       "release_date": "2019-01-18",
       "release_type": "album",
       "primary_genres": "Trap, Southern Hip Hop",
-      "secondary_genres": "NA",
+      
       "descriptors": "nocturnal, drugs, hedonistic, boastful, malevocals, dark, atmospheric, rhythmic, psychedelic, hypnotic",
       "avg_rating": 2.93,
       "rating_count": 3082,
@@ -47578,7 +47578,7 @@
       "release_date": "1965-12-12",
       "release_type": "album",
       "primary_genres": "Folk Rock, Pop Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, melodic, introspective, bittersweet, autumn, warm, spiritual",
       "avg_rating": 3.56,
       "rating_count": 3080,
@@ -47592,7 +47592,7 @@
       "release_date": "1990-10-19",
       "release_type": "album",
       "primary_genres": "Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, energetic, political, malevocals, heavy, nihilistic, pessimistic, alienation, angry, apocalyptic",
       "avg_rating": 3.79,
       "rating_count": 3079,
@@ -47648,7 +47648,7 @@
       "release_date": "1963-02-01",
       "release_type": "album",
       "primary_genres": "Cool Jazz",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, mellow, acoustic, warm, soothing, nocturnal, improvisation, romantic, ballad",
       "avg_rating": 3.75,
       "rating_count": 3075,
@@ -47662,7 +47662,7 @@
       "release_date": "2008-09-23",
       "release_type": "album",
       "primary_genres": "Post-Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, atmospheric, melancholic, soothing, ethereal, natural, lush, epic, meditative",
       "avg_rating": 3.39,
       "rating_count": 3075,
@@ -48096,7 +48096,7 @@
       "release_date": "2008-11-01",
       "release_type": "album",
       "primary_genres": "Singer-Songwriter, Indie Folk",
-      "secondary_genres": "NA",
+      
       "descriptors": "acoustic, introspective, winter, sparse, lonely, malevocals, poetic, melancholic, sombre, cold",
       "avg_rating": 3.76,
       "rating_count": 3051,
@@ -48208,7 +48208,7 @@
       "release_date": "2003-04-28",
       "release_type": "album",
       "primary_genres": "Progressive Metal, Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "progressive, malevocals, atmospheric, dark, complex, heavy, melodic, mythology, mysterious, sombre",
       "avg_rating": 3.75,
       "rating_count": 3040,
@@ -48278,7 +48278,7 @@
       "release_date": "1992-06-09",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "satanic, aggressive, anti-religious, infernal, heavy, rhythmic, technical, malevocals, energetic, manic",
       "avg_rating": 3.74,
       "rating_count": 3033,
@@ -48768,7 +48768,7 @@
       "release_date": "2011-03-07",
       "release_type": "album",
       "primary_genres": "Black Metal, Atmospheric Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, melancholic, pagan, mythology, dark, philosophical, repetitive, introspective, nature, death",
       "avg_rating": 3.08,
       "rating_count": 3008,
@@ -48824,7 +48824,7 @@
       "release_date": "1972-01-01",
       "release_type": "album",
       "primary_genres": "Symphonic Prog, Progressive Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "melodic, progressive, malevocals, complex, epic, triumphant, pastoral, passionate,..., philosophical",
       "avg_rating": 3.81,
       "rating_count": 3004,
@@ -48894,7 +48894,7 @@
       "release_date": "1989-06-19",
       "release_type": "album",
       "primary_genres": "Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, energetic, nihilistic, angry, malevocals, heavy, pessimistic, dark",
       "avg_rating": 3.77,
       "rating_count": 3003,
@@ -49034,7 +49034,7 @@
       "release_date": "1998-04-28",
       "release_type": "album",
       "primary_genres": "East Coast Hip Hop, Boom Bap, Gangsta Rap, Hardcore Hip Hop",
-      "secondary_genres": "NA",
+      
       "descriptors": "crime, boastful, malevocals, aggressive, sexual, urban, technical, rhythmic, sampling, violence",
       "avg_rating": 3.79,
       "rating_count": 2998,
@@ -49174,7 +49174,7 @@
       "release_date": "1993-09-09",
       "release_type": "album",
       "primary_genres": "Sludge Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "misanthropic, angry, heavy, raw, aggressive, drugs, disturbing, dark, malevocals, rebellious",
       "avg_rating": 3.72,
       "rating_count": 2991,
@@ -49272,7 +49272,7 @@
       "release_date": "2005-02-28",
       "release_type": "album",
       "primary_genres": "Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, epic, energetic, heavy, melodic, anthemic, fantasy, passionate",
       "avg_rating": 3.39,
       "rating_count": 2986,
@@ -49440,7 +49440,7 @@
       "release_date": "1980-10-01",
       "release_type": "album",
       "primary_genres": "Hardcore Punk",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, angry, malevocals, raw, sarcastic, nihilistic, rebellious, aggressive, pessimistic, apathetic",
       "avg_rating": 3.57,
       "rating_count": 2978,
@@ -49510,7 +49510,7 @@
       "release_date": "1990-06-26",
       "release_type": "album",
       "primary_genres": "Hard Rock, Heavy Metal, Blues Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "occult, malevocals, heavy, energetic, dark, rhythmic, passionate",
       "avg_rating": 3.78,
       "rating_count": 2975,
@@ -49524,7 +49524,7 @@
       "release_date": "1978-09-08",
       "release_type": "album",
       "primary_genres": "Progressive Rock, Symphonic Prog",
-      "secondary_genres": "NA",
+      
       "descriptors": "melodic, optimistic, uplifting, malevocals, complex, eclectic, progressive",
       "avg_rating": 2.91,
       "rating_count": 2974,
@@ -49622,7 +49622,7 @@
       "release_date": "2000-04-10",
       "release_type": "album",
       "primary_genres": "Garage Rock Revival, Garage Punk",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, malevocals, rebellious, noisy, passionate, melodic, rhythmic, raw",
       "avg_rating": 3.43,
       "rating_count": 2969,
@@ -49678,7 +49678,7 @@
       "release_date": "1969-01-01",
       "release_type": "album",
       "primary_genres": "Free Jazz, Spiritual Jazz",
-      "secondary_genres": "NA",
+      
       "descriptors": "femalevocals, avant-garde, spiritual, abstract, improvisation, manic, passionate, dissonant, noisy, psychedelic",
       "avg_rating": 3.81,
       "rating_count": 2967,
@@ -49790,7 +49790,7 @@
       "release_date": "1999-05-24",
       "release_type": "album",
       "primary_genres": "Pop Rock, Britpop",
-      "secondary_genres": "NA",
+      
       "descriptors": "mellow, melancholic, malevocals, melodic, introspective, bittersweet, sentimental",
       "avg_rating": 3.5,
       "rating_count": 2961,
@@ -49930,7 +49930,7 @@
       "release_date": "1999-09-21",
       "release_type": "album",
       "primary_genres": "Gothic Metal, Doom Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "death, sombre, heavy, depressive, pessimistic, malevocals, nocturnal, melancholic, lethargic, dark",
       "avg_rating": 3.76,
       "rating_count": 2955,
@@ -49986,7 +49986,7 @@
       "release_date": "1970-08-01",
       "release_type": "album",
       "primary_genres": "Progressive Rock, Heavy Psych",
-      "secondary_genres": "NA",
+      
       "descriptors": "progressive, malevocals, psychedelic, atmospheric, sombre, melodic, mellow, complex, cryptic, dense",
       "avg_rating": 3.84,
       "rating_count": 2951,
@@ -50014,7 +50014,7 @@
       "release_date": "2012-07-17",
       "release_type": "album",
       "primary_genres": "East Coast Hip Hop",
-      "secondary_genres": "NA",
+      
       "descriptors": "introspective, bittersweet, breakup, urban, boastful, malevocals, conscious",
       "avg_rating": 3.35,
       "rating_count": 2951,
@@ -50028,7 +50028,7 @@
       "release_date": "1989-06-14",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, death, heavy, malevocals, violence, ominous, apocalyptic, energetic",
       "avg_rating": 3.65,
       "rating_count": 2950,
@@ -50098,7 +50098,7 @@
       "release_date": "1989-04-01",
       "release_type": "album",
       "primary_genres": "Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "occult, malevocals, dark, heavy, satanic, death, melodic, nocturnal, passionate, epic",
       "avg_rating": 3.33,
       "rating_count": 2949,
@@ -50224,7 +50224,7 @@
       "release_date": "2021-02-26",
       "release_type": "album",
       "primary_genres": "Singer-Songwriter, Indie Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "femalevocals, introspective, self-hatred, sad, sentimental, spiritual, drugs, bittersweet, passionate, melodic",
       "avg_rating": 3.24,
       "rating_count": 2942,
@@ -50364,7 +50364,7 @@
       "release_date": "2006-12-01",
       "release_type": "album",
       "primary_genres": "Doom Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "passionate, melancholic, longing, lonely, introspective, romantic, depressive, heavy, sad, malevocals",
       "avg_rating": 3.75,
       "rating_count": 2930,
@@ -50448,7 +50448,7 @@
       "release_date": "1994-09-01",
       "release_type": "album",
       "primary_genres": "Harsh Noise",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, noisy, chaotic, atonal, heavy, raw, improvisation, instrumental, dense, infernal",
       "avg_rating": 3.44,
       "rating_count": 2927,
@@ -50560,7 +50560,7 @@
       "release_date": "2019-09-02",
       "release_type": "album",
       "primary_genres": "Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, dark, atmospheric, nihilistic, misanthropic, heavy, dissonant, sombre, cold, apocalyptic",
       "avg_rating": 3.59,
       "rating_count": 2924,
@@ -50574,7 +50574,7 @@
       "release_date": "2001-02-06",
       "release_type": "album",
       "primary_genres": "Symphonic Metal, Power Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "fantasy, femalevocals, melodic, energetic, romantic, epic, melancholic",
       "avg_rating": 3.52,
       "rating_count": 2922,
@@ -50588,7 +50588,7 @@
       "release_date": "1983-10-27",
       "release_type": "album",
       "primary_genres": "Singer-Songwriter, Pop Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "political, malevocals, melodic, romantic, sarcastic, poetic",
       "avg_rating": 3.24,
       "rating_count": 2921,
@@ -50728,7 +50728,7 @@
       "release_date": "2012-07-10",
       "release_type": "album",
       "primary_genres": "Art Pop, Indie Pop, Progressive Pop",
-      "secondary_genres": "NA",
+      
       "descriptors": "quirky, progressive, malevocals, uplifting, abstract, autumn, love, manic, poetic, femalevocals",
       "avg_rating": 3.43,
       "rating_count": 2914,
@@ -50994,7 +50994,7 @@
       "release_date": "1989-09-01",
       "release_type": "album",
       "primary_genres": "Glam Metal, Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "hedonistic, energetic, sexual, malevocals, love, rebellious, heavy, uplifting, melodic, passionate",
       "avg_rating": 3.34,
       "rating_count": 2902,
@@ -51022,7 +51022,7 @@
       "release_date": "1975-10-18",
       "release_type": "album",
       "primary_genres": "Hard Rock, Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "introspective, energetic, pessimistic, malevocals, melancholic, depressive",
       "avg_rating": 3.43,
       "rating_count": 2901,
@@ -51148,7 +51148,7 @@
       "release_date": "2018-10-19",
       "release_type": "album",
       "primary_genres": "Hard Rock, Blues Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, anthemic, energetic, melodic",
       "avg_rating": 1.88,
       "rating_count": 2894,
@@ -51638,7 +51638,7 @@
       "release_date": "1972-11-01",
       "release_type": "album",
       "primary_genres": "Symphonic Prog, Progressive Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "progressive, fantasy, uncommontimesignatures, complex, malevocals, playful,..., eclectic, technical, mellow",
       "avg_rating": 3.81,
       "rating_count": 2867,
@@ -51736,7 +51736,7 @@
       "release_date": "1996-05-28",
       "release_type": "album",
       "primary_genres": "Crossover Thrash, Hardcore Punk",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, malevocals, political, anarchism, violence, angry, heavy, energetic, manic, raw",
       "avg_rating": 2.83,
       "rating_count": 2865,
@@ -51778,7 +51778,7 @@
       "release_date": "1984-03-27",
       "release_type": "album",
       "primary_genres": "Hard Rock, Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, love, energetic, anthemic, sexual, melodic, heavy, romantic, breakup, passionate",
       "avg_rating": 3.71,
       "rating_count": 2864,
@@ -51820,7 +51820,7 @@
       "release_date": "1994-04-26",
       "release_type": "album",
       "primary_genres": "Alternative Rock, Post-Grunge",
-      "secondary_genres": "NA",
+      
       "descriptors": "passionate, melodic, energetic, malevocals, aggressive, introspective, bittersweet, melancholic, spiritual",
       "avg_rating": 3.52,
       "rating_count": 2860,
@@ -51862,7 +51862,7 @@
       "release_date": "1999-12-07",
       "release_type": "album",
       "primary_genres": "Dungeon Synth, Ambient",
-      "secondary_genres": "NA",
+      
       "descriptors": "nocturnal, forest, melancholic, atmospheric, lonely, mysterious, medieval, instrumental, cold, epic",
       "avg_rating": 2.94,
       "rating_count": 2859,
@@ -51876,7 +51876,7 @@
       "release_date": "1974-03-15",
       "release_type": "album",
       "primary_genres": "Hard Rock, Blues Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, drugs, playful, energetic",
       "avg_rating": 3.49,
       "rating_count": 2858,
@@ -51890,7 +51890,7 @@
       "release_date": "1959-03-08",
       "release_type": "album",
       "primary_genres": "Bossanova",
-      "secondary_genres": "NA",
+      
       "descriptors": "peaceful, warm, malevocals, calm, mellow, soft, uplifting, summer, tropical, acoustic",
       "avg_rating": 3.82,
       "rating_count": 2857,
@@ -52100,7 +52100,7 @@
       "release_date": "2020-05-15",
       "release_type": "album",
       "primary_genres": "Trap, Southern Hip Hop",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, hypnotic, party, drugs, hedonistic, rhythmic, boastful, nocturnal, sexual, melodic",
       "avg_rating": 2.71,
       "rating_count": 2849,
@@ -52128,7 +52128,7 @@
       "release_date": "1964-10-19",
       "release_type": "album",
       "primary_genres": "Folk Pop, Contemporary Folk",
-      "secondary_genres": "NA",
+      
       "descriptors": "Christian, malevocals, melodic, acoustic, bittersweet, poetic, peaceful, folklore, religious, war",
       "avg_rating": 3.28,
       "rating_count": 2848,
@@ -52170,7 +52170,7 @@
       "release_date": "2009-10-16",
       "release_type": "album",
       "primary_genres": "Neue Deutsche Härte, Industrial Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, heavy, sexual, aggressive, angry, rhythmic, dark, energetic, sombre, love",
       "avg_rating": 3.22,
       "rating_count": 2846,
@@ -52618,7 +52618,7 @@
       "release_date": "1978-09-01",
       "release_type": "album",
       "primary_genres": "Ambient",
-      "secondary_genres": "NA",
+      
       "descriptors": "atmospheric, mysterious, minimalistic, instrumental, soothing, calm, melancholic, natural, cold",
       "avg_rating": 3.51,
       "rating_count": 2826,
@@ -53136,7 +53136,7 @@
       "release_date": "1994-12-05",
       "release_type": "album",
       "primary_genres": "Post-Grunge, Alternative Rock, Grunge",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, anxious, melodic, heavy, melancholic, energetic, passionate, introspective, bittersweet",
       "avg_rating": 3.17,
       "rating_count": 2805,
@@ -53276,7 +53276,7 @@
       "release_date": "2006-01-09",
       "release_type": "album",
       "primary_genres": "Power Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, passionate, melodic, epic, technical, optimistic, triumphant, dense, anthemic",
       "avg_rating": 2.62,
       "rating_count": 2799,
@@ -53388,7 +53388,7 @@
       "release_date": "2007-05-01",
       "release_type": "album",
       "primary_genres": "Hard Rock, Progressive Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, progressive, melodic, uncommontimesignatures, philosophical, anthemic, energetic, complex, epic, passionate",
       "avg_rating": 3.37,
       "rating_count": 2795,
@@ -53528,7 +53528,7 @@
       "release_date": "2002-05-24",
       "release_type": "album",
       "primary_genres": "Symphonic Metal, Power Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "melodic, femalevocals, malevocals, romantic, fantasy, energetic, passionate, melancholic, death, heavy",
       "avg_rating": 3.51,
       "rating_count": 2785,
@@ -53542,7 +53542,7 @@
       "release_date": "1991-09-23",
       "release_type": "album",
       "primary_genres": "Stoner Rock, Stoner Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, heavy, raw, angry, rebellious, energetic",
       "avg_rating": 3.32,
       "rating_count": 2783,
@@ -53556,7 +53556,7 @@
       "release_date": "1990-11-23",
       "release_type": "album",
       "primary_genres": "Melodic Hardcore, Skate Punk, Punk Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, melodic, political, conscious, malevocals, anthemic, angry, pessimistic, nihilistic, death",
       "avg_rating": 3.64,
       "rating_count": 2782,
@@ -53612,7 +53612,7 @@
       "release_date": "1974-01-01",
       "release_type": "album",
       "primary_genres": "Country Rock, Singer-Songwriter, Country",
-      "secondary_genres": "NA",
+      
       "descriptors": "pastoral, malevocals, warm, introspective, mellow, sentimental, bittersweet, longing, melodic, peaceful",
       "avg_rating": 3.76,
       "rating_count": 2780,
@@ -53668,7 +53668,7 @@
       "release_date": "2007-06-25",
       "release_type": "album",
       "primary_genres": "Post-Punk Revival, Indie Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, uplifting, melancholic, anxious, malevocals, sentimental, melodic, passionate, rhythmic",
       "avg_rating": 3.37,
       "rating_count": 2776,
@@ -53892,7 +53892,7 @@
       "release_date": "1986-09-01",
       "release_type": "album",
       "primary_genres": "Jangle Pop, Indie Pop",
-      "secondary_genres": "NA",
+      
       "descriptors": "melancholic, poetic, melodic, autumn, bittersweet, malevocals, energetic, cryptic, deadpan, lush",
       "avg_rating": 3.63,
       "rating_count": 2767,
@@ -53906,7 +53906,7 @@
       "release_date": "1995-05-09",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, infernal, heavy, malevocals, dark, hateful, occult, rhythmic, angry, satanic",
       "avg_rating": 3.53,
       "rating_count": 2767,
@@ -53948,7 +53948,7 @@
       "release_date": "1980-12-01",
       "release_type": "album",
       "primary_genres": "NWOBHM, Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "fantasy, malevocals, energetic, occult, melodic, passionate, dark",
       "avg_rating": 3.76,
       "rating_count": 2762,
@@ -53976,7 +53976,7 @@
       "release_date": "1979-02-02",
       "release_type": "album",
       "primary_genres": "Punk Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "political, rebellious, malevocals, energetic, passionate, angry, protest, raw, aggressive, anthemic",
       "avg_rating": 3.78,
       "rating_count": 2759,
@@ -54004,7 +54004,7 @@
       "release_date": "1991-02-01",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "heavy, war, dense, aggressive, dark, malevocals, energetic, rhythmic, death, apocalyptic",
       "avg_rating": 3.74,
       "rating_count": 2758,
@@ -54032,7 +54032,7 @@
       "release_date": "1988-09-18",
       "release_type": "album",
       "primary_genres": "Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "rebellious, energetic, malevocals, sarcastic, angry, political, heavy, aggressive, melodic, rhythmic",
       "avg_rating": 3.3,
       "rating_count": 2754,
@@ -54116,7 +54116,7 @@
       "release_date": "1991-07-01",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "death, vulgar, violence, disturbing, aggressive, malevocals, heavy, energetic, sexual",
       "avg_rating": 3.27,
       "rating_count": 2751,
@@ -54172,7 +54172,7 @@
       "release_date": "1978-01-24",
       "release_type": "album",
       "primary_genres": "Singer-Songwriter, Piano Rock, Pop Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "sarcastic, malevocals, deadpan, playful, poetic, eclectic, humorous, melodic, dark, war",
       "avg_rating": 3.8,
       "rating_count": 2750,
@@ -54298,7 +54298,7 @@
       "release_date": "1973-12-01",
       "release_type": "album",
       "primary_genres": "Funk, Soul",
-      "secondary_genres": "NA",
+      
       "descriptors": "passionate, rhythmic, malevocals, aggressive, hypnotic, repetitive, raw, improvisation, anthemic, conceptalbum",
       "avg_rating": 3.82,
       "rating_count": 2746,
@@ -54312,7 +54312,7 @@
       "release_date": "1994-11-25",
       "release_type": "album",
       "primary_genres": "Brutal Death Metal, Technical Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, heavy, malevocals, violence, anti-religious, death, technical, raw, hateful, manic",
       "avg_rating": 3.75,
       "rating_count": 2746,
@@ -54368,7 +54368,7 @@
       "release_date": "1983-08-18",
       "release_type": "album",
       "primary_genres": "Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, rhythmic, rebellious",
       "avg_rating": 2.9,
       "rating_count": 2744,
@@ -54410,7 +54410,7 @@
       "release_date": "2004-10-04",
       "release_type": "album",
       "primary_genres": "Pop Rock, Alternative Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "mellow, sentimental, malevocals, lush, atmospheric, melodic, melancholic, passionate, bittersweet",
       "avg_rating": 2.61,
       "rating_count": 2742,
@@ -54452,7 +54452,7 @@
       "release_date": "2000-11-14",
       "release_type": "album",
       "primary_genres": "Pop Punk, Skate Punk, Punk Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, anthemic, rebellious, melodic",
       "avg_rating": 2.81,
       "rating_count": 2741,
@@ -54508,7 +54508,7 @@
       "release_date": "1966-10-01",
       "release_type": "album",
       "primary_genres": "Free Jazz",
-      "secondary_genres": "NA",
+      
       "descriptors": "chaotic, improvisation, instrumental, passionate, atonal, energetic, dissonant, dense, complex, avant-garde",
       "avg_rating": 3.7,
       "rating_count": 2738,
@@ -54760,7 +54760,7 @@
       "release_date": "1995-05-15",
       "release_type": "album",
       "primary_genres": "Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "cold, winter, heavy, dense, malevocals, raw, aggressive, energetic, dissonant, noisy",
       "avg_rating": 3.51,
       "rating_count": 2728,
@@ -55166,7 +55166,7 @@
       "release_date": "2016-04-08",
       "release_type": "album",
       "primary_genres": "Atmospheric Sludge Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "atmospheric, heavy, dark, space, femalevocals, conceptalbum, malevocals, sciencefiction, progressive, sombre",
       "avg_rating": 3.71,
       "rating_count": 2709,
@@ -55180,7 +55180,7 @@
       "release_date": "1968-07-01",
       "release_type": "album",
       "primary_genres": "Blues Rock, Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, passionate, energetic, warm",
       "avg_rating": 3.62,
       "rating_count": 2708,
@@ -55236,7 +55236,7 @@
       "release_date": "1987-12-08",
       "release_type": "album",
       "primary_genres": "Heavy Metal, Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, heavy, melodic, fantasy, dark, passionate",
       "avg_rating": 3.01,
       "rating_count": 2706,
@@ -55278,7 +55278,7 @@
       "release_date": "1958-06-01",
       "release_type": "album",
       "primary_genres": "Vocal Jazz",
-      "secondary_genres": "NA",
+      
       "descriptors": "melancholic, femalevocals, sentimental, sad, lonely, love, orchestral, lush, passionate, bittersweet",
       "avg_rating": 3.74,
       "rating_count": 2705,
@@ -55544,7 +55544,7 @@
       "release_date": "2005-08-16",
       "release_type": "album",
       "primary_genres": "Alternative Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "passionate, malevocals, melodic, energetic, love, introspective, anthemic, melancholic, aggressive, angry",
       "avg_rating": 2.83,
       "rating_count": 2687,
@@ -55558,7 +55558,7 @@
       "release_date": "1987-06-12",
       "release_type": "album",
       "primary_genres": "Neo-Prog",
-      "secondary_genres": "NA",
+      
       "descriptors": "alcohol, malevocals, melodic, conceptalbum, progressive, melancholic, sentimental, poetic, introspective, lush",
       "avg_rating": 3.81,
       "rating_count": 2686,
@@ -55614,7 +55614,7 @@
       "release_date": "1991-10-01",
       "release_type": "album",
       "primary_genres": "Political Hip Hop, East Coast Hip Hop, Hardcore Hip Hop, Conscious Hip Hop",
-      "secondary_genres": "NA",
+      
       "descriptors": "protest, energetic, aggressive, political, sampling, noisy, angry, malevocals, rhythmic, conscious",
       "avg_rating": 3.71,
       "rating_count": 2684,
@@ -55670,7 +55670,7 @@
       "release_date": "2002-03-01",
       "release_type": "album",
       "primary_genres": "Folk Punk, Punk Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "femalevocals, political, energetic, passionate, angry, rebellious, anarchism, raw, anxious",
       "avg_rating": 3.56,
       "rating_count": 2683,
@@ -55740,7 +55740,7 @@
       "release_date": "1985-07-05",
       "release_type": "album",
       "primary_genres": "Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, rhythmic, rebellious",
       "avg_rating": 2.6,
       "rating_count": 2681,
@@ -55768,7 +55768,7 @@
       "release_date": "1977-11-25",
       "release_type": "album",
       "primary_genres": "Blues Rock, Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "mellow, warm, melodic, malevocals, soft",
       "avg_rating": 3.45,
       "rating_count": 2680,
@@ -55880,7 +55880,7 @@
       "release_date": "1994-09-01",
       "release_type": "album",
       "primary_genres": "Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "dark, raw, aggressive, malevocals, cold, occult, nocturnal, pagan, heavy, infernal",
       "avg_rating": 3.58,
       "rating_count": 2672,
@@ -55908,7 +55908,7 @@
       "release_date": "1981-12-01",
       "release_type": "album",
       "primary_genres": "Glam Metal, Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "rebellious, hedonistic, energetic, malevocals, sexual, love, raw, rhythmic, repetitive, aggressive",
       "avg_rating": 3.42,
       "rating_count": 2671,
@@ -55922,7 +55922,7 @@
       "release_date": "2005-10-03",
       "release_type": "album",
       "primary_genres": "Melodic Metalcore",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, angry, hateful, melodic, aggressive, heavy, breakup, suicide, passionate",
       "avg_rating": 2.78,
       "rating_count": 2671,
@@ -56104,7 +56104,7 @@
       "release_date": "1996-01-01",
       "release_type": "album",
       "primary_genres": "Dub Techno, Ambient Techno",
-      "secondary_genres": "NA",
+      
       "descriptors": "hypnotic, repetitive, aquatic, minimalistic, atmospheric, rhythmic, futuristic, cold, instrumental, dark",
       "avg_rating": 3.65,
       "rating_count": 2664,
@@ -56118,7 +56118,7 @@
       "release_date": "1962-08-01",
       "release_type": "album",
       "primary_genres": "Cool Jazz",
-      "secondary_genres": "NA",
+      
       "descriptors": "soft, calm, peaceful, instrumental, soothing, mellow, sparse, lush, romantic, passionate",
       "avg_rating": 3.76,
       "rating_count": 2663,
@@ -56244,7 +56244,7 @@
       "release_date": "1981-01-01",
       "release_type": "album",
       "primary_genres": "Singer-Songwriter",
-      "secondary_genres": "NA",
+      
       "descriptors": "lo-fi, sad, lonely, melancholic, malevocals, depressive, religious, raw, alienation, longing",
       "avg_rating": 3.68,
       "rating_count": 2656,
@@ -56286,7 +56286,7 @@
       "release_date": "2008-01-29",
       "release_type": "album",
       "primary_genres": "Progressive Metal, Melodic Metalcore",
-      "secondary_genres": "NA",
+      
       "descriptors": "technical, progressive, aggressive, energetic, melodic, epic, malevocals, uncommontimesignatures, triumphant, rhythmic",
       "avg_rating": 3.51,
       "rating_count": 2654,
@@ -56300,7 +56300,7 @@
       "release_date": "1992-07-01",
       "release_type": "album",
       "primary_genres": "Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "cold, raw, aggressive, malevocals, dark, energetic, fantasy, occult, atmospheric, lo-fi",
       "avg_rating": 3.48,
       "rating_count": 2653,
@@ -56342,7 +56342,7 @@
       "release_date": "1991-07-19",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "infernal, death, dark, misanthropic, heavy, anti-religious, aggressive, pessimistic, malevocals, hateful",
       "avg_rating": 3.76,
       "rating_count": 2652,
@@ -56426,7 +56426,7 @@
       "release_date": "1990-04-01",
       "release_type": "album",
       "primary_genres": "Pop Punk, Punk Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, malevocals, melodic, passionate, raw, bittersweet, anxious",
       "avg_rating": 2.88,
       "rating_count": 2649,
@@ -56706,7 +56706,7 @@
       "release_date": "1974-06-15",
       "release_type": "album",
       "primary_genres": "Hard Rock, Blues Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, passionate, repetitive, hedonistic, playful, love, rhythmic, lush, energetic",
       "avg_rating": 3.48,
       "rating_count": 2641,
@@ -56720,7 +56720,7 @@
       "release_date": "1988-08-23",
       "release_type": "album",
       "primary_genres": "Noise Rock, Post-Hardcore",
-      "secondary_genres": "NA",
+      
       "descriptors": "noisy, angry, raw, rhythmic, dissonant, malevocals, aggressive, misanthropic, anxious, sexual",
       "avg_rating": 3.63,
       "rating_count": 2641,
@@ -56804,7 +56804,7 @@
       "release_date": "1984-10-08",
       "release_type": "album",
       "primary_genres": "Post-Punk",
-      "secondary_genres": "NA",
+      
       "descriptors": "cryptic, surreal, sarcastic, satirical, repetitive, malevocals, raw, psychedelic, playful, quirky",
       "avg_rating": 3.77,
       "rating_count": 2636,
@@ -56874,7 +56874,7 @@
       "release_date": "2005-12-13",
       "release_type": "album",
       "primary_genres": "Singer-Songwriter, Avant-Folk",
-      "secondary_genres": "NA",
+      
       "descriptors": "melancholic, acoustic, lonely, introspective, depressive, death, malevocals, repetitive, funereal, sombre",
       "avg_rating": 3.72,
       "rating_count": 2635,
@@ -56916,7 +56916,7 @@
       "release_date": "1968-11-01",
       "release_type": "album",
       "primary_genres": "Minimalism, Indeterminacy",
-      "secondary_genres": "NA",
+      
       "descriptors": "polyphonic, repetitive, rhythmic, minimalistic, hypnotic, warm, instrumental, playful, uplifting, acoustic",
       "avg_rating": 3.72,
       "rating_count": 2632,
@@ -56958,7 +56958,7 @@
       "release_date": "2015-01-06",
       "release_type": "album",
       "primary_genres": "Trap, Pop Rap, Southern Hip Hop",
-      "secondary_genres": "NA",
+      
       "descriptors": "party, boastful, malevocals, alcohol, rhythmic, sexual, drugs, playful, energetic, nocturnal",
       "avg_rating": 2.8,
       "rating_count": 2632,
@@ -57518,7 +57518,7 @@
       "release_date": "2011-11-01",
       "release_type": "album",
       "primary_genres": "Heavy Metal, Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, violence, energetic, heavy, death, dark, political, melodic",
       "avg_rating": 2.76,
       "rating_count": 2610,
@@ -57560,7 +57560,7 @@
       "release_date": "2015-09-11",
       "release_type": "album",
       "primary_genres": "Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, malevocals, heavy, misanthropic, energetic, death, angry, hateful, infernal, nihilistic",
       "avg_rating": 2.81,
       "rating_count": 2608,
@@ -57686,7 +57686,7 @@
       "release_date": "2004-02-03",
       "release_type": "album",
       "primary_genres": "Alternative Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, melodic, passionate, eclectic, bittersweet",
       "avg_rating": 3.21,
       "rating_count": 2599,
@@ -57854,7 +57854,7 @@
       "release_date": "1991-10-08",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "death, heavy, aggressive, technical, dark, ominous, malevocals, dense, complex, angry",
       "avg_rating": 3.55,
       "rating_count": 2594,
@@ -57952,7 +57952,7 @@
       "release_date": "1984-10-12",
       "release_type": "album",
       "primary_genres": "Jangle Pop",
-      "secondary_genres": "NA",
+      
       "descriptors": "bittersweet, melodic, malevocals, romantic, poetic, longing, urban, sarcastic, acoustic, autumn",
       "avg_rating": 3.75,
       "rating_count": 2590,
@@ -58666,7 +58666,7 @@
       "release_date": "2006-06-10",
       "release_type": "album",
       "primary_genres": "Melodic Metalcore, Progressive Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "melodic, energetic, malevocals, political, passionate, conceptalbum, uncommontimesignatures, technical, femalevocals, sad",
       "avg_rating": 3.54,
       "rating_count": 2557,
@@ -58736,7 +58736,7 @@
       "release_date": "2013-09-02",
       "release_type": "album",
       "primary_genres": "Progressive Rock, Progressive Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "technical, progressive, melodic, malevocals, epic, uplifting, lush, eclectic, atmospheric, quirky",
       "avg_rating": 3.68,
       "rating_count": 2554,
@@ -58848,7 +58848,7 @@
       "release_date": "1956-03-01",
       "release_type": "album",
       "primary_genres": "Baroque Music",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, complex, technical, energetic, acoustic, polyphonic, melodic, mellow, uplifting, meditative",
       "avg_rating": 3.89,
       "rating_count": 2547,
@@ -58862,7 +58862,7 @@
       "release_date": "1957-11-27",
       "release_type": "album",
       "primary_genres": "Rock & Roll, Rockabilly",
-      "secondary_genres": "NA",
+      
       "descriptors": "playful, malevocals, love, melodic, romantic, uplifting, longing, sentimental, passionate, warm",
       "avg_rating": 3.59,
       "rating_count": 2547,
@@ -58932,7 +58932,7 @@
       "release_date": "1994-01-24",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "war, energetic, heavy, rhythmic, angry, aggressive, malevocals, epic, death, martial",
       "avg_rating": 3.85,
       "rating_count": 2546,
@@ -59016,7 +59016,7 @@
       "release_date": "1984-03-12",
       "release_type": "album",
       "primary_genres": "Neo-Prog",
-      "secondary_genres": "NA",
+      
       "descriptors": "passionate, melodic, introspective, malevocals, eclectic, progressive, lush, uplifting, melancholic, atmospheric",
       "avg_rating": 3.73,
       "rating_count": 2543,
@@ -59198,7 +59198,7 @@
       "release_date": "1987-08-25",
       "release_type": "album",
       "primary_genres": "Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, sexual, melodic, love, passionate",
       "avg_rating": 3.32,
       "rating_count": 2538,
@@ -59520,7 +59520,7 @@
       "release_date": "2004-08-03",
       "release_type": "album",
       "primary_genres": "Technical Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "technical, heavy, malevocals, complex, hateful, misanthropic, existential, progressive, uncommontimesignatures, dense",
       "avg_rating": 3.54,
       "rating_count": 2531,
@@ -59576,7 +59576,7 @@
       "release_date": "1984-08-17",
       "release_type": "album",
       "primary_genres": "Heavy Metal, Glam Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "sexual, aggressive, malevocals, melodic, heavy, passionate, anthemic, energetic, rebellious, rhythmic",
       "avg_rating": 3.71,
       "rating_count": 2529,
@@ -59590,7 +59590,7 @@
       "release_date": "1995-02-17",
       "release_type": "album",
       "primary_genres": "Pop Punk, Skate Punk",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, vulgar, humorous, malevocals, love, playful, chaotic, sexual",
       "avg_rating": 2.79,
       "rating_count": 2529,
@@ -59688,7 +59688,7 @@
       "release_date": "1990-08-20",
       "release_type": "album",
       "primary_genres": "Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, mythology, heavy, epic, melodic, triumphant, dark, energetic, fantasy",
       "avg_rating": 3.11,
       "rating_count": 2525,
@@ -59912,7 +59912,7 @@
       "release_date": "1988-08-01",
       "release_type": "album",
       "primary_genres": "Technical Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "technical, aggressive, energetic, heavy, malevocals, complex, uncommontimesignatures, death, apocalyptic, chaotic",
       "avg_rating": 3.81,
       "rating_count": 2516,
@@ -60024,7 +60024,7 @@
       "release_date": "1972-02-01",
       "release_type": "album",
       "primary_genres": "Free Jazz, Avant-Garde Jazz",
-      "secondary_genres": "NA",
+      
       "descriptors": "improvisation, chaotic, avant-garde, technical, spiritual, passionate, energetic, dense, eclectic, apocalyptic",
       "avg_rating": 3.88,
       "rating_count": 2511,
@@ -60178,7 +60178,7 @@
       "release_date": "2004-10-18",
       "release_type": "album",
       "primary_genres": "Progressive Metal, Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "atmospheric, dark, complex, malevocals, progressive, epic, heavy, mythology, introspective, spiritual",
       "avg_rating": 3.72,
       "rating_count": 2508,
@@ -60276,7 +60276,7 @@
       "release_date": "2012-10-09",
       "release_type": "album",
       "primary_genres": "Pop Rap, Conscious Hip Hop",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, conscious, introspective, religious, optimistic, uplifting, summer",
       "avg_rating": 2.65,
       "rating_count": 2506,
@@ -60346,7 +60346,7 @@
       "release_date": "1987-09-22",
       "release_type": "album",
       "primary_genres": "Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, heavy, dark, malevocals, energetic, angry, death, political, violence",
       "avg_rating": 3.72,
       "rating_count": 2503,
@@ -60416,7 +60416,7 @@
       "release_date": "2001-04-10",
       "release_type": "album",
       "primary_genres": "Post-Hardcore, Emo",
-      "secondary_genres": "NA",
+      
       "descriptors": "passionate, melancholic, energetic, aggressive, melodic, sombre, poetic, malevocals, introspective, anxious",
       "avg_rating": 3.61,
       "rating_count": 2499,
@@ -60444,7 +60444,7 @@
       "release_date": "1982-09-02",
       "release_type": "album",
       "primary_genres": "Baroque Music",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, technical, acoustic, complex, polyphonic, melodic, peaceful, soothing, playful, passionate",
       "avg_rating": 3.96,
       "rating_count": 2498,
@@ -60682,7 +60682,7 @@
       "release_date": "1993-10-25",
       "release_type": "album",
       "primary_genres": "Slowcore, Folk Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "melancholic, introspective, lonely, bittersweet, sad, malevocals, depressive, sentimental, lethargic, sombre",
       "avg_rating": 3.41,
       "rating_count": 2491,
@@ -60878,7 +60878,7 @@
       "release_date": "1985-01-01",
       "release_type": "album",
       "primary_genres": "Traditional Doom Metal, Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "heavy, malevocals, dark, raw, death, rhythmic, occult, satanic, dense, anthemic",
       "avg_rating": 3.76,
       "rating_count": 2483,
@@ -61074,7 +61074,7 @@
       "release_date": "1979-02-01",
       "release_type": "album",
       "primary_genres": "Anarcho-Punk",
-      "secondary_genres": "NA",
+      
       "descriptors": "rebellious, anarchism, angry, raw, protest, chaotic, conscious, vulgar, anti-religious, noisy",
       "avg_rating": 3.57,
       "rating_count": 2477,
@@ -61298,7 +61298,7 @@
       "release_date": "2002-07-22",
       "release_type": "album",
       "primary_genres": "Melodic Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "melancholic, melodic, introspective, sombre, malevocals, philosophical, aggressive, energetic",
       "avg_rating": 3.69,
       "rating_count": 2467,
@@ -61368,7 +61368,7 @@
       "release_date": "2005-03-03",
       "release_type": "album",
       "primary_genres": "Gangsta Rap, East Coast Hip Hop, Pop Rap",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, crime, rhythmic, vulgar, hedonistic, urban, aggressive, boastful, sexual, violence",
       "avg_rating": 2.31,
       "rating_count": 2464,
@@ -61424,7 +61424,7 @@
       "release_date": "1979-02-25",
       "release_type": "album",
       "primary_genres": "Hard Rock, Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, love, ballad, energetic, sexual, anthemic",
       "avg_rating": 3.74,
       "rating_count": 2461,
@@ -61466,7 +61466,7 @@
       "release_date": "2001-11-20",
       "release_type": "album",
       "primary_genres": "Film Score, Cinematic Classical, Orchestral",
-      "secondary_genres": "NA",
+      
       "descriptors": "epic, fantasy, orchestral, suspenseful, lush, ominous, choral, mysterious, triumphant, acoustic",
       "avg_rating": 4,
       "rating_count": 2460,
@@ -61564,7 +61564,7 @@
       "release_date": "2004-05-11",
       "release_type": "album",
       "primary_genres": "Melodic Metalcore",
-      "secondary_genres": "NA",
+      
       "descriptors": "passionate, melodic, melancholic, malevocals, energetic, introspective, heavy, breakup",
       "avg_rating": 3.3,
       "rating_count": 2455,
@@ -61998,7 +61998,7 @@
       "release_date": "2011-04-26",
       "release_type": "album",
       "primary_genres": "Post-Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, atmospheric, melancholic, sentimental, melodic, longing",
       "avg_rating": 3.15,
       "rating_count": 2440,
@@ -62040,7 +62040,7 @@
       "release_date": "1975-03-19",
       "release_type": "album",
       "primary_genres": "Hard Rock, Glam Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, hedonistic, sexual, love, energetic, happy",
       "avg_rating": 3.24,
       "rating_count": 2438,
@@ -62096,7 +62096,7 @@
       "release_date": "2018-01-12",
       "release_type": "album",
       "primary_genres": "Film Score, Modern Classical",
-      "secondary_genres": "NA",
+      
       "descriptors": "romantic, calm, warm, instrumental, melancholic, atmospheric, acoustic, lush, polyphonic",
       "avg_rating": 3.78,
       "rating_count": 2436,
@@ -62292,7 +62292,7 @@
       "release_date": "1990-02-13",
       "release_type": "album",
       "primary_genres": "Southern Rock, Blues Rock, Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, malevocals, bittersweet, passionate, love",
       "avg_rating": 3.63,
       "rating_count": 2427,
@@ -62334,7 +62334,7 @@
       "release_date": "1994-08-01",
       "release_type": "album",
       "primary_genres": "Black Metal, Viking Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "mythology, cold, pagan, aggressive, folklore, malevocals, energetic, winter, raw, technical",
       "avg_rating": 3.65,
       "rating_count": 2426,
@@ -62642,7 +62642,7 @@
       "release_date": "2021-02-08",
       "release_type": "album",
       "primary_genres": "Hardcore Breaks",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, sampling, rhythmic, futuristic, playful, chaotic, instrumental, manic, party, aggressive",
       "avg_rating": 3.48,
       "rating_count": 2419,
@@ -62656,7 +62656,7 @@
       "release_date": "1970-10-01",
       "release_type": "album",
       "primary_genres": "Zeuhl, Jazz-Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "sciencefiction, apocalyptic, war, complex, energetic, conceptalbum, malevocals, warm, raw, progressive",
       "avg_rating": 3.74,
       "rating_count": 2418,
@@ -62768,7 +62768,7 @@
       "release_date": "1975-08-01",
       "release_type": "album",
       "primary_genres": "Berlin School, Space Ambient",
-      "secondary_genres": "NA",
+      
       "descriptors": "space, ethereal, futuristic, atmospheric, instrumental, meditative, calm, melancholic, nocturnal, hypnotic",
       "avg_rating": 3.76,
       "rating_count": 2416,
@@ -62852,7 +62852,7 @@
       "release_date": "1977-06-30",
       "release_type": "album",
       "primary_genres": "Hard Rock, Glam Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "sexual, malevocals, energetic, love",
       "avg_rating": 3.39,
       "rating_count": 2414,
@@ -62866,7 +62866,7 @@
       "release_date": "1988-02-02",
       "release_type": "album",
       "primary_genres": "Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, rebellious, anthemic",
       "avg_rating": 2.74,
       "rating_count": 2414,
@@ -62936,7 +62936,7 @@
       "release_date": "1974-10-22",
       "release_type": "album",
       "primary_genres": "Hard Rock, Glam Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "warm, sensual, energetic, malevocals, raw",
       "avg_rating": 3.29,
       "rating_count": 2412,
@@ -63090,7 +63090,7 @@
       "release_date": "1998-03-31",
       "release_type": "album",
       "primary_genres": "Minimalism",
-      "secondary_genres": "NA",
+      
       "descriptors": "repetitive, hypnotic, ethereal, minimalistic, rhythmic, instrumental, polyphonic, suite, complex, dense",
       "avg_rating": 3.96,
       "rating_count": 2408,
@@ -63160,7 +63160,7 @@
       "release_date": "1980-07-10",
       "release_type": "album",
       "primary_genres": "Roots Reggae",
-      "secondary_genres": "NA",
+      
       "descriptors": "uplifting, malevocals, conscious, warm, political, rhythmic, melodic, love, religious, happy",
       "avg_rating": 3.74,
       "rating_count": 2407,
@@ -63636,7 +63636,7 @@
       "release_date": "2007-04-24",
       "release_type": "album",
       "primary_genres": "Melodic Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "sombre, atmospheric, melodic, melancholic, philosophical, malevocals, introspective, heavy, dark, futuristic",
       "avg_rating": 3.65,
       "rating_count": 2389,
@@ -63818,7 +63818,7 @@
       "release_date": "1962-08-01",
       "release_type": "album",
       "primary_genres": "Modal Jazz, Post-Bop",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, improvisation, acoustic, warm, dense, technical, melodic, playful, complex, passionate",
       "avg_rating": 3.83,
       "rating_count": 2383,
@@ -64028,7 +64028,7 @@
       "release_date": "2001-06-11",
       "release_type": "album",
       "primary_genres": "Britpop, Pop Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, lonely, autumn, mellow, melancholic, bittersweet, melodic, soft",
       "avg_rating": 3.39,
       "rating_count": 2374,
@@ -64238,7 +64238,7 @@
       "release_date": "1977-09-02",
       "release_type": "album",
       "primary_genres": "Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, malevocals, love, melodic, rebellious, anthemic, rhythmic",
       "avg_rating": 3.77,
       "rating_count": 2367,
@@ -64336,7 +64336,7 @@
       "release_date": "1978-04-01",
       "release_type": "album",
       "primary_genres": "Hard Rock, Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, melodic, heavy, rebellious, passionate, anthemic, rhythmic, energetic",
       "avg_rating": 3.79,
       "rating_count": 2364,
@@ -64350,7 +64350,7 @@
       "release_date": "2015-05-25",
       "release_type": "album",
       "primary_genres": "Progressive Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "passionate, uncommontimesignatures, malevocals, rhythmic, technical, melancholic, anxious, progressive, complex, lonely",
       "avg_rating": 3.69,
       "rating_count": 2364,
@@ -64560,7 +64560,7 @@
       "release_date": "1979-04-23",
       "release_type": "album",
       "primary_genres": "Euro-Disco, Europop",
-      "secondary_genres": "NA",
+      
       "descriptors": "optimistic, energetic, femalevocals, uplifting, melodic, rhythmic, party, lush",
       "avg_rating": 3.57,
       "rating_count": 2358,
@@ -64742,7 +64742,7 @@
       "release_date": "2007-10-23",
       "release_type": "album",
       "primary_genres": "Alternative Rock, Alternative Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "political, manic, conscious, melodic, eclectic, malevocals, quirky, angry, dark",
       "avg_rating": 3.24,
       "rating_count": 2353,
@@ -64938,7 +64938,7 @@
       "release_date": "2002-05-21",
       "release_type": "album",
       "primary_genres": "Melodic Metalcore",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, passionate, melodic, aggressive, malevocals, heavy, conscious, anthemic, spiritual",
       "avg_rating": 3.46,
       "rating_count": 2344,
@@ -65008,7 +65008,7 @@
       "release_date": "2006-10-03",
       "release_type": "album",
       "primary_genres": "Indie Rock, Heartland Rock, Pub Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "anthemic, drugs, party, bittersweet, playful, sentimental, hedonistic, energetic, malevocals, alcohol",
       "avg_rating": 3.58,
       "rating_count": 2341,
@@ -65050,7 +65050,7 @@
       "release_date": "1996-10-30",
       "release_type": "album",
       "primary_genres": "Melodic Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "melodic, cold, nocturnal, malevocals, dark, triumphant, aggressive, mysterious, occult, melancholic",
       "avg_rating": 3.75,
       "rating_count": 2339,
@@ -65106,7 +65106,7 @@
       "release_date": "1990-08-01",
       "release_type": "album",
       "primary_genres": "War Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "satanic, raw, chaotic, lo-fi, apocalyptic, infernal, violence, aggressive, anti-religious, malevocals",
       "avg_rating": 3.48,
       "rating_count": 2337,
@@ -65204,7 +65204,7 @@
       "release_date": "1983-12-01",
       "release_type": "album",
       "primary_genres": "Heavy Metal, USPower Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, epic, fantasy, sciencefiction, apocalyptic, melodic, heavy, triumphant, passionate, energetic",
       "avg_rating": 3.81,
       "rating_count": 2333,
@@ -65330,7 +65330,7 @@
       "release_date": "1961-10-01",
       "release_type": "album",
       "primary_genres": "Hard Bop",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, improvisation, acoustic, technical, melodic, energetic",
       "avg_rating": 3.75,
       "rating_count": 2330,
@@ -65484,7 +65484,7 @@
       "release_date": "1977-06-01",
       "release_type": "album",
       "primary_genres": "Film Score, Cinematic Classical, Orchestral",
-      "secondary_genres": "NA",
+      
       "descriptors": "epic, space, instrumental, orchestral, melodic, anthemic, uplifting, fantasy, atmospheric, acoustic",
       "avg_rating": 3.99,
       "rating_count": 2324,
@@ -65624,7 +65624,7 @@
       "release_date": "1995-04-11",
       "release_type": "album",
       "primary_genres": "Groove Metal, Industrial Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "sampling, heavy, sciencefiction, sexual, aggressive, malevocals, occult, dense, rhythmic, paranormal",
       "avg_rating": 3.57,
       "rating_count": 2319,
@@ -65806,7 +65806,7 @@
       "release_date": "1967-03-01",
       "release_type": "album",
       "primary_genres": "Deep Soul, Southern Soul",
-      "secondary_genres": "NA",
+      
       "descriptors": "passionate, love, warm, sensual, malevocals, melodic, raw",
       "avg_rating": 3.83,
       "rating_count": 2313,
@@ -66044,7 +66044,7 @@
       "release_date": "1998-04-27",
       "release_type": "album",
       "primary_genres": "Symphonic Black Metal, Gothic Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "history, romantic, nocturnal, sexual, dark, malevocals, sensual, conceptalbum, funereal, medieval",
       "avg_rating": 3.55,
       "rating_count": 2305,
@@ -66282,7 +66282,7 @@
       "release_date": "1967-01-01",
       "release_type": "album",
       "primary_genres": "Romanticism",
-      "secondary_genres": "NA",
+      
       "descriptors": "instrumental, nocturnal, mellow, melancholic, sparse, soothing, melodic, soft, acoustic, peaceful",
       "avg_rating": 4.02,
       "rating_count": 2296,
@@ -66296,7 +66296,7 @@
       "release_date": "2002-11-18",
       "release_type": "album",
       "primary_genres": "Melodic Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "epic, war, mythology, melodic, history, malevocals, heavy, energetic, death, violence",
       "avg_rating": 3.58,
       "rating_count": 2295,
@@ -66338,7 +66338,7 @@
       "release_date": "2004-09-27",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "misanthropic, aggressive, malevocals, anti-religious, dark, death, melodic, angry, infernal, occult",
       "avg_rating": 3.64,
       "rating_count": 2294,
@@ -66422,7 +66422,7 @@
       "release_date": "1974-09-10",
       "release_type": "album",
       "primary_genres": "Zeuhl",
-      "secondary_genres": "NA",
+      
       "descriptors": "mysterious, dark, hypnotic, progressive, uncommontimesignatures, avant-garde, malevocals, femalevocals, ominous, psychedelic",
       "avg_rating": 3.78,
       "rating_count": 2290,
@@ -66436,7 +66436,7 @@
       "release_date": "1995-01-01",
       "release_type": "album",
       "primary_genres": "Doom Metal, Stoner Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "heavy, drugs, malevocals, fantasy, occult, ominous, surreal, psychedelic, apocalyptic, epic",
       "avg_rating": 3.42,
       "rating_count": 2289,
@@ -66548,7 +66548,7 @@
       "release_date": "1983-06-04",
       "release_type": "album",
       "primary_genres": "Hard Rock, Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, rhythmic, heavy, melodic, malevocals, rebellious, aggressive, dense",
       "avg_rating": 3.67,
       "rating_count": 2284,
@@ -66660,7 +66660,7 @@
       "release_date": "2003-09-08",
       "release_type": "album",
       "primary_genres": "Symphonic Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "triumphant, malevocals, ominous, sciencefiction, heavy, dark, suspenseful, epic, occult",
       "avg_rating": 3.3,
       "rating_count": 2278,
@@ -66912,7 +66912,7 @@
       "release_date": "1984-05-10",
       "release_type": "album",
       "primary_genres": "Heavy Metal, Glam Metal, Hard Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, rebellious, energetic, anthemic, triumphant, heavy, melodic, raw",
       "avg_rating": 3.56,
       "rating_count": 2271,
@@ -66996,7 +66996,7 @@
       "release_date": "1998-09-15",
       "release_type": "album",
       "primary_genres": "Heavy Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, melodic, epic, energetic, fantasy, passionate, heavy",
       "avg_rating": 3.83,
       "rating_count": 2269,
@@ -67038,7 +67038,7 @@
       "release_date": "2001-11-13",
       "release_type": "album",
       "primary_genres": "Death Doom Metal, Gothic Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "romantic, melancholic, sombre, heavy, malevocals, depressive, love, fantasy, longing, lonely",
       "avg_rating": 3.81,
       "rating_count": 2267,
@@ -67080,7 +67080,7 @@
       "release_date": "2008-03-17",
       "release_type": "album",
       "primary_genres": "Death Metal, Symphonic Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "epic, mythology, malevocals, dark, melodic, orchestral, occult, heavy, death, ominous",
       "avg_rating": 3.68,
       "rating_count": 2266,
@@ -67206,7 +67206,7 @@
       "release_date": "2005-01-01",
       "release_type": "album",
       "primary_genres": "Post-Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "atmospheric, instrumental, melancholic, melodic, passionate, sentimental, Wallof Sound",
       "avg_rating": 3.53,
       "rating_count": 2261,
@@ -67430,7 +67430,7 @@
       "release_date": "2009-06-15",
       "release_type": "album",
       "primary_genres": "Progressive Rock, Progressive Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "progressive, malevocals, melodic, epic, heavy, melancholic, atmospheric, introspective, uncommontimesignatures",
       "avg_rating": 3.71,
       "rating_count": 2254,
@@ -67570,7 +67570,7 @@
       "release_date": "2010-01-20",
       "release_type": "album",
       "primary_genres": "Contemporary Folk, Singer-Songwriter",
-      "secondary_genres": "NA",
+      
       "descriptors": "calm, soft, femalevocals, soothing, mellow, minimalistic, acoustic, peaceful, bittersweet, melodic",
       "avg_rating": 3.73,
       "rating_count": 2250,
@@ -67864,7 +67864,7 @@
       "release_date": "2007-07-17",
       "release_type": "album",
       "primary_genres": "Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, aggressive, technical, infernal, anti-religious, rebellious, occult, satanic, mythology, ominous",
       "avg_rating": 3.31,
       "rating_count": 2240,
@@ -67892,7 +67892,7 @@
       "release_date": "1970-02-01",
       "release_type": "album",
       "primary_genres": "Garage Rock, Hard Rock, Proto-Punk, Rock & Roll",
-      "secondary_genres": "NA",
+      
       "descriptors": "happy, melodic, malevocals, energetic, passionate",
       "avg_rating": 3.47,
       "rating_count": 2239,
@@ -68228,7 +68228,7 @@
       "release_date": "2005-01-19",
       "release_type": "album",
       "primary_genres": "Melodic Death Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "heavy, philosophical, melodic, aggressive, malevocals, conscious, introspective, melancholic, sombre",
       "avg_rating": 3.65,
       "rating_count": 2228,
@@ -68242,7 +68242,7 @@
       "release_date": "2010-11-19",
       "release_type": "album",
       "primary_genres": "Black Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "satanic, occult, dark, malevocals, heavy, space, atmospheric, aggressive, infernal, epic",
       "avg_rating": 3.65,
       "rating_count": 2228,
@@ -68508,7 +68508,7 @@
       "release_date": "2011-12-06",
       "release_type": "album",
       "primary_genres": "Nu Metal, Brostep",
-      "secondary_genres": "NA",
+      
       "descriptors": "mechanical, malevocals, energetic, futuristic, introspective, urban, dark, melodic, heavy",
       "avg_rating": 1.85,
       "rating_count": 2220,
@@ -68802,7 +68802,7 @@
       "release_date": "1954-12-01",
       "release_type": "album",
       "primary_genres": "Hard Bop",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, instrumental, warm, melodic, acoustic, urban, technical, rhythmic, uplifting, happy",
       "avg_rating": 3.88,
       "rating_count": 2207,
@@ -68900,7 +68900,7 @@
       "release_date": "1995-03-21",
       "release_type": "album",
       "primary_genres": "Jazz-Rock, Alternative Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "dark, bittersweet, mellow, malevocals, sensual, sexual, sombre, warm, soothing",
       "avg_rating": 3.66,
       "rating_count": 2204,
@@ -68956,7 +68956,7 @@
       "release_date": "1999-10-18",
       "release_type": "album",
       "primary_genres": "Funk Metal, Funk Rock, Experimental Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, quirky, sarcastic, malevocals, rhythmic, manic, technical, playful, heavy, uncommontimesignatures",
       "avg_rating": 3.19,
       "rating_count": 2201,
@@ -69152,7 +69152,7 @@
       "release_date": "2016-10-07",
       "release_type": "album",
       "primary_genres": "Djent, Progressive Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "technical, complex, mechanical, heavy, aggressive, uncommontimesignatures, dense, dissonant, malevocals, dark",
       "avg_rating": 3.34,
       "rating_count": 2194,
@@ -69236,7 +69236,7 @@
       "release_date": "2010-11-02",
       "release_type": "album",
       "primary_genres": "Power Pop, Alternative Rock",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, melodic, introspective, anthemic",
       "avg_rating": 1.76,
       "rating_count": 2192,
@@ -69460,7 +69460,7 @@
       "release_date": "2017-05-05",
       "release_type": "album",
       "primary_genres": "Post-Hardcore",
-      "secondary_genres": "NA",
+      
       "descriptors": "energetic, malevocals, anxious, aggressive, cryptic, passionate, rebellious, protest",
       "avg_rating": 3.01,
       "rating_count": 2185,
@@ -69544,7 +69544,7 @@
       "release_date": "1984-05-15",
       "release_type": "album",
       "primary_genres": "Blues Rock, Electric Texas Blues",
-      "secondary_genres": "NA",
+      
       "descriptors": "malevocals, energetic, rhythmic, melodic, summer, warm, love, epic, sentimental, folklore",
       "avg_rating": 3.81,
       "rating_count": 2180,
@@ -69838,7 +69838,7 @@
       "release_date": "2004-02-02",
       "release_type": "album",
       "primary_genres": "Thrash Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "aggressive, rhythmic, malevocals, hateful, vulgar, violence, energetic, heavy, anti-religious, melodic",
       "avg_rating": 3.75,
       "rating_count": 2174,
@@ -69908,7 +69908,7 @@
       "release_date": "1988-05-18",
       "release_type": "album",
       "primary_genres": "Speed Metal, Power Metal",
-      "secondary_genres": "NA",
+      
       "descriptors": "fantasy, energetic, melodic, malevocals, anthemic, heavy, aggressive, triumphant",
       "avg_rating": 3.38,
       "rating_count": 2172,
