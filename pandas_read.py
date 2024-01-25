@@ -12,12 +12,3 @@ secondary_genres = df["secondary_genres"].values
 avg_rating = df["avg_rating"].values
 rating_count = df["rating_count"].values
 
-#print(position)
-#print(release_name)
-#print(artist_name)
-#print(primary_genres)
-print(secondary_genres)
-#print(avg_rating)
-#print(rating_count)
-
-print(secondary_genres.size)
