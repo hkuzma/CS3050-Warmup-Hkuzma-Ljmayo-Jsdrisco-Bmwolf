@@ -14,7 +14,10 @@ def connect():
 def main():
     db = connect()
     
-    df = pd.read_json("rym.json")
+    try:
+        df = pd.read_json("CS3050-Warmup-Hkuzma-Ljmayo-Jsdrisco-Bmwolf\\rym.json")
+    except Exception:
+        df = pd.read_json("rym.json")
 
     position = df["position"].values
     release_name = df["release_name"].values
