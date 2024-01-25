@@ -1,6 +1,6 @@
 import firebase_admin
-from firebase_admin import firestore
+from firebase_admin import credentials
 
-# Application Default credentials are automatically created.
-app = firebase_admin.initialize_app()
-db = firestore.client()
+cred = credentials.Certificate("cs3050-warmup.json")
+firebase_admin.initialize_app(cred)
+
