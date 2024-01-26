@@ -26,11 +26,17 @@ def main():
     
     for i in range(0, len(position)):
         if pd.isna(secondary_genres[i]):
-            data = {"position": int(position[i]), "release_name": str(release_name[i]), "artist_name": str(artist_name[i]), 
-                    "primary_genres": str(primary_genres[i]), "avg_rating": float(avg_rating[i]), "rating_count": int(rating_count[i])}
+            primary_genres[i] = str(primary_genres[i])
+            genreList = primary_genres[i].split(", ")
+            data = {"position": int(position[i]), "album_name": str(release_name[i]), "artist_name": str(artist_name[i]), 
+                    "primary_genres": genreList, "avg_rating": float(avg_rating[i]), "rating_count": int(rating_count[i])}
         else:
-            data = {"position": int(position[i]), "release_name": str(release_name[i]), "artist_name": str(artist_name[i]), 
-                    "primary_genres": str(primary_genres[i]), "secondary_genres": str(secondary_genres[i]), "avg_rating": float(avg_rating[i]), "rating_count": int(rating_count[i])}
+            primary_genres[i] = str(primary_genres[i])
+            primaryGenreList = primary_genres[i].split(", ")
+            secondary_genres[i] = str(secondary_genres[i])
+            secondaryGenresList = secondary_genres[i].split(", ")
+            data = {"position": int(position[i]), "album_name": str(release_name[i]), "artist_name": str(artist_name[i]), 
+                    "primary_genres": primaryGenreList, "secondary_genres": secondaryGenresList, "avg_rating": float(avg_rating[i]), "rating_count": int(rating_count[i])}
         db.collection("rym").document(str(position[i])).set(data)
     return 0
 
