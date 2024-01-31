@@ -5,6 +5,7 @@ Frontend (query) responsibilities:
     - Help command
     - Cleaning input
     - Checking for bad queries
+    - Giving finalized query data to middleend
 
 Middleend (parser) responsibilities:
 - Translation: query language to Firebase syntax
