@@ -1,4 +1,6 @@
 import pandas
+
+
 class Album:
     # Initialize a new Album document class with secondary genres
     def __init__(self, position, release_name, artist_name,

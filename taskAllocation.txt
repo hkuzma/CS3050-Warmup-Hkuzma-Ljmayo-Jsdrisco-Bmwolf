@@ -1,0 +1,11 @@
+Frontend (query) responsibilities:
+- Interface
+    - Greeting User
+    - Running Until Quit
+    - Help command
+    - Cleaning input
+    - Checking for bad queries
+
+Middleend (parser) responsibilities:
+- Translation: query language to Firebase syntax
+- Return Firebase query results back to frontendk
