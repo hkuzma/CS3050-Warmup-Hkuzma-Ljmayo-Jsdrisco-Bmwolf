@@ -1,7 +1,7 @@
 def main():
     quit = False
     while quit != True:
-        user_input = input("??")
+        user_input = input("??\n")
         user_input = user_input.lower()
         if user_input == "quit":
             quit = True
@@ -13,3 +13,6 @@ def main():
 
 def printCommands():
     pass
+
+if __name__ == "__main__":
+    main()
