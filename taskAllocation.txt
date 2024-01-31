@@ -9,4 +9,10 @@ Frontend (query) responsibilities:
 
 Middleend (parser) responsibilities:
 - Translation: query language to Firebase syntax
-- Return Firebase query results back to frontendk
+- Return Firebase query results back to frontend
+
+Query Language Details:
+- Compound queries: strictly capital AND and OR
+- ALBUM_NAME, ARTIST_NAME, AVG_RATING keywords
+- String keywords: WHERE
+- Numerical keywords: <, >, ==, less than/greater than or equal to
