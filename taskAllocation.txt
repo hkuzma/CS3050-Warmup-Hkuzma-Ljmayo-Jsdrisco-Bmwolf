@@ -16,3 +16,21 @@ Query Language Details:
 - ALBUM_NAME, ARTIST_NAME, AVG_RATING keywords
 - String keywords: WHERE
 - Numerical keywords: <, >, ==, less than/greater than or equal to
+
+
+parser function
+parse(user_input) - parameter is a list in format
+the second list is only used if the compound operator is present
+[field, (==, <=, etc), search value, AND/OR, [second field, ==/<=, search value]]
+
+
+problems in json file
+78 album ALBUM_NAME
+66 artist ALBUM_NAME *
+81 album ALBUM_NAME
+86 album name
+99 artist name *
+100 artist name *
+
+*change all of bjork to regular o
+
