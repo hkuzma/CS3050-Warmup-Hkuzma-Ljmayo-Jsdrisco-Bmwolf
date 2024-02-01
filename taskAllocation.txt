@@ -13,6 +13,6 @@ Middleend (parser) responsibilities:
 
 Query Language Details:
 - Compound queries: strictly capital AND and OR
-- ALBUM_NAME, ARTIST_NAME, AVG_RATING keywords
+- ALBUM_NAME, ARTIST_NAME, AVG_RATING, PRIMARY_GENRES, SECONDARY_GENRES keywords
 - String keywords: WHERE
 - Numerical keywords: <, >, ==, less than/greater than or equal to
