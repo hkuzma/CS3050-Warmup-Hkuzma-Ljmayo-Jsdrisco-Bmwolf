@@ -10,14 +10,13 @@ def parser(user_input):
     rym_ref = db.collection("rym")
     if user_input[0] == "primary_genres" or "secondary_genres":
         query = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).stream()
-        print("Returned Query")
         return query
-    print("Exiting parser")
+    query = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).stream()
     db.close()
+    return query
 
 def main():
-    results = parser(["primary_genres", "array_contains", "Art Rock"])
-    print("hello")
+    results = parser(["avg_rating", ">", 4.2])
     for result in results:
         print(f"{result.id} => {result.to_dict()}")
 
