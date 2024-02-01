@@ -12,6 +12,7 @@ def main():
 
 
 def printCommands():
+    
     pass
 
 if __name__ == "__main__":

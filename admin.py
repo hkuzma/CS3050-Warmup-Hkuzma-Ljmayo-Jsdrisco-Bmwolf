@@ -41,6 +41,7 @@ def main():
             data = {"position": int(position[i]), "album_name": str(release_name[i]), "artist_name": str(artist_name[i]), 
                     "primary_genres": primaryGenreList, "secondary_genres": secondaryGenresList, "avg_rating": float(avg_rating[i]), "rating_count": int(rating_count[i])}
         db.collection("rym").document(str(position[i])).set(data)
+    db.close()
     return 0
 
 if __name__ == "__main__":
