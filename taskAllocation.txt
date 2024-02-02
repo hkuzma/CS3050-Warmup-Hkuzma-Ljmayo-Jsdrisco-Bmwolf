@@ -20,8 +20,10 @@ Query Language Details:
 
 parser function
 parse(user_input) - parameter is a list in format
-the second list is only used if the compound operator is present
-[field, (==, <=, etc), search value, AND/OR, [second field, ==/<=, search value]]
+the second set of values is only used if the compound operator is present
+[field, (==, <=, etc), search value, AND/OR, second field, ==/<=, search value]
+
+parser function returns a list of dictionaries 
 
 
 problems in json file
