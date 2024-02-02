@@ -8,6 +8,10 @@ from admin import connect
 def parser(user_input):
     db = connect()
     rym_ref = db.collection("rym")
+    # assume user input is a list, the first thing is the field we want to search
+    # the second thing is the operation, i.e. >, ==, side note, for primary and secondary genres, second input will already be pre determined to be array-contains
+    # third is the user input
+    # if there is more, then 4 will be AND or OR and 5,6,7 will repeat the first 1,2,3 inputs
     if "AND" in user_input:
         query = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).where(filter=FieldFilter(user_input[4], user_input[5], user_input[6])).stream()
         return count_results(query)
@@ -18,7 +22,7 @@ def parser(user_input):
         query = rym_ref.where(filter=or_filter).stream()
         return count_results(query)
     if user_input[0] == "primary_genres" or "secondary_genres":
-        query = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).stream()
+        query = rym_ref.where(filter=FieldFilter(user_input[0], "array-contains", user_input[2])).stream()
         return count_results(query)
     query = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).stream()
     db.close()
