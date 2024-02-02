@@ -40,11 +40,11 @@ def count_results(results):
         print("Returning results")
         return new_list
 
-def main():
-    results = parser(["avg_rating", ">", 4.2, "OR", "artist_name", "==", "Radiohead"])
-    for result in results:
-        print(f"{result}")
-    return 0
+# def main():
+#     results = parser(["avg_rating", ">", 4.2, "OR", "artist_name", "==", "Radiohead"])
+#     for result in results:
+#         print(f"{result}")
+#     return 0
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
