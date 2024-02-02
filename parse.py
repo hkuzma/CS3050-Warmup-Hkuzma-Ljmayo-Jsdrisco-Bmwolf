@@ -40,7 +40,6 @@ def count_results(results):
     if count == 0:
         return ["No Data"]
     else:
-        print("Returning results")
         return new_list
 
 # def main():
