@@ -5,13 +5,19 @@ from google.cloud.firestore_v1.base_query import FieldFilter, Or
 from admin import connect
 
 
-def parser(user_input):
+def query(user_input):
     db = connect()
     rym_ref = db.collection("rym")
     # assume user input is a list, the first thing is the field we want to search
     # the second thing is the operation, i.e. >, ==, side note, for primary and secondary genres, second input will already be pre determined to be array-contains
     # third is the user input
     # if there is more, then 4 will be AND or OR and 5,6,7 will repeat the first 1,2,3 inputs
+
+
+    # TODO
+    # ADD IN OF for avg_rating OF album_name
+    # ADD IN genre support for and and or
+    # SPLIT INTO FUNCTIONS
     if "AND" in user_input:
         query = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).where(filter=FieldFilter(user_input[4], user_input[5], user_input[6])).stream()
         db.close()
