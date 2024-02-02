@@ -14,15 +14,18 @@ def parser(user_input):
     # if there is more, then 4 will be AND or OR and 5,6,7 will repeat the first 1,2,3 inputs
     if "AND" in user_input:
         query = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).where(filter=FieldFilter(user_input[4], user_input[5], user_input[6])).stream()
+        db.close()
         return count_results(query)
     if "OR" in user_input:
         filter_1 = FieldFilter(user_input[0], user_input[1], user_input[2])
         filter_2 = FieldFilter(user_input[4], user_input[5], user_input[6])
         or_filter = Or(filters=[filter_1, filter_2])
         query = rym_ref.where(filter=or_filter).stream()
+        db.close()
         return count_results(query)
     if user_input[0] == "primary_genres" or "secondary_genres":
         query = rym_ref.where(filter=FieldFilter(user_input[0], "array-contains", user_input[2])).stream()
+        db.close()
         return count_results(query)
     query = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).stream()
     db.close()
