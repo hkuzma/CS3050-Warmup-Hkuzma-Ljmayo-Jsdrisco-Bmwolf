@@ -29,10 +29,10 @@ def main():
                 print_commands()
             case "--example":
                 print_example()
-            case _: 
+            case _:
                 input_storage = user_input.split()
                 handle_query(input_storage)
-                
+
            
 
     print("Exiting")
