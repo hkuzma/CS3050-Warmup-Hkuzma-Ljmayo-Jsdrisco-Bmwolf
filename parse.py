@@ -21,6 +21,10 @@ def printCommands():
           f"Then, select a field: artist_name, album_name, avg_rating (0 to 5), genre. \n"
           f"Use standard operators to specify your search: ==, >, <, ≥, ≤. \n")
     print("Type --quit to quit, --help to see this message again, or --example to see example valid queries.")
+    
+    
+def printExample():
+    print("?? genre == “Alternative Rock” AND avg_rating > 0")
 
 if __name__ == "__main__":
     main()
