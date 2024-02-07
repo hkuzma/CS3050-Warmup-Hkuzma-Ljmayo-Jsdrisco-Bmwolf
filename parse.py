@@ -1,4 +1,5 @@
 from typing import List
+import shlex
 
 # Class constants
 
@@ -6,7 +7,6 @@ from typing import List
 QUERY_START_POS = 0
 QUERY_FIELD_POS = 1
 QUERY_OP_POS = 2
-QUERY_DATA_POS = 3
 
 # Valid fields & operators
 QUERY_VALID_FIELDS = ['artist_name', 'album_name', 'avg_rating', 'genre']
@@ -30,10 +30,9 @@ def main():
             case "--example":
                 print_example()
             case _:
-                input_storage = user_input.split()
-                handle_query(input_storage)
-
-           
+                input_storage = shlex.split(user_input, posix=False)
+                result = handle_query(input_storage)
+                print(result)
 
     print("Exiting")
 
@@ -50,12 +49,14 @@ def print_commands():
 # Print example queries for the user.
 def print_example():
     print('?? artist_name == "Nas"')
-    print("?? genre == “Alternative Rock” AND avg_rating > 0")
+    print("?? genre == “Alternative Rock” && avg_rating > 0")
 
 
 # Handles query input from the user
 def handle_query(query: List[str]):
     # Invalid query start cases - returns control to main.
+    if len(query) == 0:
+        return "Invalid query"
     if query[QUERY_START_POS] != "??":
         return "Missing ?? at start - please enter a valid query"
     if query[QUERY_FIELD_POS] not in QUERY_VALID_FIELDS:
@@ -63,19 +64,16 @@ def handle_query(query: List[str]):
     if query[QUERY_OP_POS] not in QUERY_VALID_OPERATORS:
         return "Unrecognized operator - please enter a valid operator"
 
+    query_list = query
     # Handle multiple word entries - grabs and places into a single string
-    full_query_name = ""
-    for word in query[QUERY_DATA_POS:]:
-        if word == "&&":
-            break
+    compound_query = None
+    if "&&" in query:
+        second_half = query.index("&&") + 1
+        compound_query = handle_query(query[second_half:])
+        if compound_query is type(list):
+            query_list.extend(compound_query)
         else:
-            full_query_name += word
-
-    for i in range(len(query)):
-        if query[i] == "AND":
-            if query[i+1] not in QUERY_VALID_FIELDS:
-                return "Please ender a valid field"
-
+            return compound_query
     
     '''else:    
         for i in range(input_storage):
