@@ -15,9 +15,10 @@ def main():
                 printCommands()
             case _: 
                 input_storage = user_input.split()
-                if(input_storage[0] != "??"):
+                if(input_storage[] != "??"):
                     print("Please enter a valid query")
-                if()
+                if(input_storage[])
+                
                 else:    
                     for i in range(input_storage):
                         if input_storage[i] == "==":
