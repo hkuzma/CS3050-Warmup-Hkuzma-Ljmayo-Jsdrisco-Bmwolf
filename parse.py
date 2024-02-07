@@ -56,11 +56,13 @@ def handle_query(query: List[str]):
         return "Please enter a valid field"
     if query[QUERY_OP_POS] not in QUERY_VALID_OPERATORS:
         return "Please enter a valid operator"
-    for i in range(query):
-        if query[i] == "AND":
+    for i in query:
+        if query[i] == "&&":
             if query [i+1] not in QUERY_VALID_FIELDS:
                 return "Please ender a valid field"
             
+    
+    
     
     '''else:    
         for i in range(input_storage):
