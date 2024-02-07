@@ -1,21 +1,22 @@
+# Main loop: grabs user query input and manages help commands.
 def main():
     quit = False
-    while quit != True:
-        user_input = input("??\n")
-        user_input = user_input.lower()
-        if user_input == "quit":
-            quit = True
-            break
-        if user_input == "help":
-            printCommands()
+    printCommands()
+
+    while not quit:
+        user_input = input("")
+        user_input = user_input.lower().strip()
+
+        match user_input:
+            case "--quit":
+                quit = True
+            case "--help":
+                printCommands()
+
     print("Exiting")
 
-
-
-
-
 def printCommands():
-    print("Welcome to the album query engine!")
+    print("\nWelcome to the album query engine!")
     print(f"Type ?? To start a query. \n"
           f"Then, select a field: artist_name, album_name, avg_rating (0 to 5), genre. \n"
           f"Use standard operators to specify your search: ==, >, <, ≥, ≤. \n")
