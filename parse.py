@@ -26,15 +26,12 @@ def main():
                 quit = True
             case "--help":
                 print_commands()
+            case "--example":
+                print_example()
             case _: 
                 input_storage = user_input.split()
                 if input_storage[QUERY_START_POS] != "??":
                     print("Please enter a valid query")
-                else:    
-                    for i in range(input_storage):
-                        if input_storage[i] == "==":
-                        
-                         print(input_storage)
 
     print("Exiting")
 
@@ -43,19 +40,19 @@ def print_commands():
     print("\nWelcome to the album query engine!")
     print(f"Type ?? To start a query. \n"
           f"Then, select a field: artist_name, album_name, avg_rating (0 to 5), genre. \n"
-          f"Use standard operators to specify your search: ==, >, <, ≥, ≤. \n"
+          f"Use standard operators to specify your search: ==, >, <, >=, <=. \n"
           f"Single compound AND queries accepted.")
     print("Type --quit to quit, --help to see this message again, or --example to see example valid queries.")
     
 
 # Print example queries for the user.
 def print_example():
-    print('?? artist_name == "Nas"')
+    print('\n ?? artist_name == "Nas"')
     print("?? genre == “Alternative Rock” AND avg_rating > 0")
 
 
 def handle_query(query: List[str]):
-
+    pass
 
 
 # Run main.
