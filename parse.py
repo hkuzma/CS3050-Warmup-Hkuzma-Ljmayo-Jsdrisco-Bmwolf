@@ -11,9 +11,15 @@ def main():
     print("Exiting")
 
 
+
+
+
 def printCommands():
-    
-    pass
+    print("Welcome to the album query engine!")
+    print(f"Type ?? To start a query. \n"
+          f"Then, select a field: artist_name, album_name, avg_rating (0 to 5), genre. \n"
+          f"Use standard operators to specify your search: ==, >, <, ≥, ≤. \n")
+    print("Type --quit to quit, --help to see this message again, or --example to see example valid queries.")
 
 if __name__ == "__main__":
     main()
