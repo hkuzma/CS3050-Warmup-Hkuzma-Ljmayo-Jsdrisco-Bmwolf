@@ -50,12 +50,17 @@ def print_example():
 
 
 def handle_query(query: List[str]):
-    if(query[QUERY_START_POS] != "??"):
-        print("Please enter a valid query")
-    if(query[QUERY_FIELD_POS] not in QUERY_VALID_FIELDS):
-        print("Please enter a valid field")
-    if(query[QUERY_OP_POS] not in QUERY_VALID_OPERATORS):
-        print("Please enter a valid operator")
+    if query[QUERY_START_POS] != "??":
+        return "Please enter a valid query"  
+    if query[QUERY_FIELD_POS] not in QUERY_VALID_FIELDS:
+        return "Please enter a valid field"
+    if query[QUERY_OP_POS] not in QUERY_VALID_OPERATORS:
+        return "Please enter a valid operator"
+    for i in range(query):
+        if query[i] == "AND":
+            if query [i+1] not in QUERY_VALID_FIELDS:
+                return "Please ender a valid field"
+            
     
     '''else:    
         for i in range(input_storage):
