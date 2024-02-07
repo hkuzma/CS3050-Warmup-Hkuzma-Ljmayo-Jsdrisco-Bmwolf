@@ -1,5 +1,6 @@
 # Main loop: grabs user query input and manages help commands.
 def main():
+    input_storage = []
     quit = False
     printCommands()
 
@@ -12,6 +13,16 @@ def main():
                 quit = True
             case "--help":
                 printCommands()
+            case _: 
+                input_storage = user_input.split()
+                if(input_storage[0] != "??"):
+                    print("Please enter a valid query")
+                if()
+                else:    
+                    for i in range(input_storage):
+                        if input_storage[i] == "==":
+                        
+                         print(input_storage)
 
     print("Exiting")
 
