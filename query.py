@@ -4,39 +4,119 @@ from firebase_admin import firestore
 from google.cloud.firestore_v1.base_query import FieldFilter, Or
 from admin import connect
 
+# TODO
+    # AT THE END ADD IN SUPPORT FOR SOMETHING LIKE avg_rating OF
+    # ADD IN genre support for or
+    # SPLIT INTO FUNCTIONS
 
+'''
+    param: 
+        user_input: a list that contains the query info
+    return:
+        returns a list of dictionaries with the data requested
+'''
 def query(user_input):
     db = connect()
     rym_ref = db.collection("rym")
     # assume user input is a list, the first thing is the field we want to search
-    # the second thing is the operation, i.e. >, ==, side note, for primary and secondary genres, second input will already be pre determined to be array-contains
+    # the second thing is the operation, i.e. >, ==, side note, for primary and secondary genres, second input will already be pre determined to be array_contains
     # third is the user input
     # if there is more, then 4 will be AND or OR and 5,6,7 will repeat the first 1,2,3 inputs
 
+    # calls function for and queries
+    if "&&" in user_input:
+        return and_query(db, rym_ref, user_input)
+    
+    # calls function for genre queries
+    if user_input[0] == "genre":
+        return genre_query(db, rym_ref, user_input)
+    
+    # if "OR" in user_input:
+    #     filter_1 = FieldFilter(user_input[0], user_input[1], user_input[2])
+    #     filter_2 = FieldFilter(user_input[4], user_input[5], user_input[6])
+    #     or_filter = Or(filters=[filter_1, filter_2])
+    #     query = rym_ref.where(filter=or_filter).stream()
+    #     db.close()
+    #     return count_results(query)
 
-    # TODO
-    # ADD IN OF for avg_rating OF album_name
-    # ADD IN genre support for and and or
-    # SPLIT INTO FUNCTIONS
-    if "AND" in user_input:
-        query = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).where(filter=FieldFilter(user_input[4], user_input[5], user_input[6])).stream()
-        db.close()
-        return count_results(query)
-    if "OR" in user_input:
-        filter_1 = FieldFilter(user_input[0], user_input[1], user_input[2])
-        filter_2 = FieldFilter(user_input[4], user_input[5], user_input[6])
-        or_filter = Or(filters=[filter_1, filter_2])
-        query = rym_ref.where(filter=or_filter).stream()
-        db.close()
-        return count_results(query)
-    if user_input[0] == "primary_genres" or "secondary_genres":
-        query = rym_ref.where(filter=FieldFilter(user_input[0], "array-contains", user_input[2])).stream()
-        db.close()
-        return count_results(query)
+    # handles all other queries
     query = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).stream()
     db.close()
     return count_results(query)
 
+
+''' params:
+        db: reference to the database so that we can close it in the function
+        rym_ref: reference to our actual data
+        user_input: a List of strings that we will use to query, has && in it
+    return type: 
+        list: returns a list of dictionaries of the data that satisfies the users input
+'''
+def and_query(db, rym_ref, user_input):
+    # this is a check for genre, we combined primary and secondary genres together
+    if user_input[0] == "genre":
+        # array contains is the operator used for arrays in firebase
+        user_input[1] = "array_contains"
+        # two queries, one to get the && for primary genres and one to get the && for secondary genres
+        query_primary = rym_ref.where(filter=FieldFilter("primary_genres", user_input[1], user_input[2])).where(filter=FieldFilter(user_input[4], user_input[5], user_input[6])).stream()
+        query_secondary = rym_ref.where(filter=FieldFilter("secondary_genres", user_input[1], user_input[2])).where(filter=FieldFilter(user_input[4], user_input[5], user_input[6])).stream()
+        db.close()
+        return check_genre_data(query_primary, query_secondary)
+    # this code checks the second part of the && for genres
+    if user_input[4] == "genre":
+        # same comments as above, but we look for genres on the second where now
+        user_input[5] = "array_contains"
+        query_primary = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).where(filter=FieldFilter("primary_genres", user_input[5], user_input[6])).stream()
+        query_secondary = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).where(filter=FieldFilter("secondary_genres", user_input[5], user_input[6])).stream()
+        db.close()
+        return check_genre_data(query_primary, query_secondary)
+    # handles all other && queries besides genre
+    query = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).where(filter=FieldFilter(user_input[4], user_input[5], user_input[6])).stream()
+    db.close()
+    return count_results(query)
+
+
+''' params:
+        db: reference to the database so that we can close it in the function
+        rym_ref: reference to our actual data
+        user_input: a List of strings that we will use to query, has && in it
+    return type: 
+        list: returns a list of dictionaries of the data that satisfies the users input
+'''
+def genre_query(db, rym_ref, user_input):
+    # array_contains is the operator for arrays in firebase
+    user_input[1] = "array_contains"
+    # query both primary and secondary genres and 
+    query_primary = rym_ref.where(filter=FieldFilter("primary_genres", user_input[1], user_input[2])).stream()
+    query_secondary = rym_ref.where(filter=FieldFilter("secondary_genres", user_input[1], user_input[2])).stream()
+    db.close()
+    return check_genre_data(query_primary, query_secondary)
+
+'''
+    params:
+        primary/secondary_query: a query object that holds genre data
+    return:
+        returns a list of genre data from params
+'''
+def check_genre_data(primary_query, secondary_query):
+    return_primary = count_results(primary_query)
+    return_secondary = count_results(secondary_query)
+    # if one of the two genres is empty, return the non empty ones
+    if return_primary == ["No Data"] and return_secondary != ["No Data"]:
+        return return_secondary
+    if return_secondary == ["No Data"] and return_primary != ["No Data"]:
+        return return_primary
+    # return the combination of the primary and secondary genre results
+    return_list = return_primary + return_secondary
+    return return_list
+
+
+'''
+    params:
+        results: a query object that holds the data that we want to return
+    return:
+        returns turns the query data into a list of dictionaries, or returns no data if the query object is empty
+'''
 def count_results(results):
     count = 0
     new_list = []
@@ -48,8 +128,9 @@ def count_results(results):
     else:
         return new_list
 
+# testing function
 # def main():
-#     results = parser(["avg_rating", ">", 4.2, "OR", "artist_name", "==", "Radiohead"])
+#     results = query(["genre", "==", "Art Rock", "&&", "artist_name", "==", "Radiohead"])
 #     for result in results:
 #         print(f"{result}")
 #     return 0
