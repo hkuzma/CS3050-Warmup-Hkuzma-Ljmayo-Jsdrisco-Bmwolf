@@ -27,12 +27,8 @@ parser function returns a list of dictionaries
 
 
 problems in json file
-78 album ALBUM_NAME
-66 artist ALBUM_NAME *
-81 album ALBUM_NAME
-86 album name
-99 artist name *
-100 artist name *
+
+
 
 *change all of bjork to regular o
 
