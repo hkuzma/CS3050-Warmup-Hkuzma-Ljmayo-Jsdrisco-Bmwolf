@@ -74,7 +74,7 @@ def handle_query(query: List[str]):
     # Non-numeric input for avg_rating
     if query[QUERY_FIELD_POS] == "avg_rating":
         try:
-            i = int(query[QUERY_OP_POS + 1])
+            i = float(query[QUERY_OP_POS + 1])
         except ValueError:
             return "Invalid data type - must be numeric for avg_rating"
 
@@ -92,8 +92,8 @@ def handle_query(query: List[str]):
         compound_query = handle_query(query[second_half:])
         first_half = query[:second_half]
 
-        if first_half[QUERY_FIELD_POS] == "avg_rating" and len(query) != 4:
-            return "Invalid numeric input"
+        if len(first_half) != 4:
+            return "Invalid query - check quotation and number of inputs"
 
         if type(compound_query) is list:
             first_half.extend(compound_query)
@@ -110,8 +110,8 @@ def handle_query(query: List[str]):
         else:
             return compound_query
     else:
-        if query[QUERY_FIELD_POS] == "avg_rating" and len(query) != 3:
-            return "Invalid numeric input"
+        if len(query) != 3:
+            return "Invalid query - check quotation and number of inputs"
         return query
    
 
