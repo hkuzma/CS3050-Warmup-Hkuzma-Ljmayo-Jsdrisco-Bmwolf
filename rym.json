@@ -1072,20 +1072,6 @@
     "review_count": 415
   },
   {
-    "uid": 78,
-    "position": 78,
-    "release_name": "F♯A♯∞",
-    "artist_name": "Godspeed You Black Emperor!",
-    "release_date": "1997-08-14",
-    "release_type": "album",
-    "primary_genres": "Post-Rock",
-    "secondary_genres": "Field Recordings, Spoken Word, Ambient, Drone",
-    "descriptors": "apocalyptic, instrumental, atmospheric, dark, sombre, ominous, epic, lonely, suspenseful, melancholic",
-    "avg_rating": 4.13,
-    "rating_count": 28098,
-    "review_count": 368
-  },
-  {
     "uid": 79,
     "position": 79,
     "release_name": "Discovery",
@@ -1112,20 +1098,6 @@
     "avg_rating": 3.95,
     "rating_count": 27904,
     "review_count": 433
-  },
-  {
-    "uid": 81,
-    "position": 81,
-    "release_name": "Ágætis byrjun",
-    "artist_name": "Sigur Rós",
-    "release_date": "1999-06-12",
-    "release_type": "album",
-    "primary_genres": "Post-Rock",
-    "secondary_genres": "Dream Pop, Ambient",
-    "descriptors": "ethereal, atmospheric, soothing, mellow, melancholic, winter, calm, lush, bittersweet, androgynousvocals",
-    "avg_rating": 4.04,
-    "rating_count": 27797,
-    "review_count": 503
   },
   {
     "uid": 82,
@@ -1181,20 +1153,6 @@
     "avg_rating": 3.93,
     "rating_count": 27262,
     "review_count": 580
-  },
-  {
-    "uid": 86,
-    "position": 86,
-    "release_name": "★ [Blackstar]",
-    "artist_name": "David Bowie",
-    "release_date": "2016-01-08",
-    "release_type": "album",
-    "primary_genres": "Art Rock",
-    "secondary_genres": "Jazz-Rock, Experimental Rock, Electronic",
-    "descriptors": "dark, death, introspective, poetic, malevocals, melancholic, conceptalbum, funereal, sad, existential",
-    "avg_rating": 4.08,
-    "rating_count": 26920,
-    "review_count": 310
   },
   {
     "uid": 87,
