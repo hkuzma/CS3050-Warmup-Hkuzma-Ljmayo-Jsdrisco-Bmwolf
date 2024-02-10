@@ -136,12 +136,12 @@ def count_results(results):
     else:
         return new_list
 
-# testing function
-# def main():
-#     results = query(["genre", "==", "Art Rock", "&&", "artist_name", "==", "Radiohead"])
-#     for result in results:
-#         print(f"{result}")
-#     return 0
+#testing function
+def main():
+    results = query(["artist_name", "==", "Kanye West"])
+    for result in results:
+        print(f"{result}")
+    return 0
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()

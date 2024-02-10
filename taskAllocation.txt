@@ -27,9 +27,5 @@ the second set of values is only used if the compound operator is present
 parser function returns a list of dictionaries 
 
 
-problems in json file
-
-
-
 *change all of bjork to regular o
 
