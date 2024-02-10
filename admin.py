@@ -8,7 +8,7 @@ def connect():
     if not firebase_admin._apps:
         cred = credentials.Certificate("../cs3050-warmup.json")
         firebase_admin.initialize_app(cred)
-        db = firestore.client()
+    db = firestore.client()
     return db
 
 def main():
