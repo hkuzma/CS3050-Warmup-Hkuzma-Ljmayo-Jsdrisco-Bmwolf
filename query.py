@@ -32,13 +32,8 @@ def query(user_input):
     if user_input[0] == "genre":
         return genre_query(db, rym_ref, user_input)
     
-    # if "OR" in user_input:
-    #     filter_1 = FieldFilter(user_input[0], user_input[1], user_input[2])
-    #     filter_2 = FieldFilter(user_input[4], user_input[5], user_input[6])
-    #     or_filter = Or(filters=[filter_1, filter_2])
-    #     query = rym_ref.where(filter=or_filter).stream()
-    #     db.close()
-    #     return count_results(query)
+    if "||" in user_input:
+        return or_query(db, rym_ref, user_input)
 
     # handles all other queries
     query = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).stream()
@@ -77,6 +72,54 @@ def and_query(db, rym_ref, user_input):
     query = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).where(filter=FieldFilter(user_input[4], user_input[5], user_input[6])).stream()
     db.close()
     return count_results(query)
+
+'''
+    or_query handles all or queries and is a helper function for query()
+    params: 
+        params:
+        db: reference to the database so that we can close it in the function
+        rym_ref: reference to our actual data
+        user_input: a List of strings that we will use to query, has && in it
+    return type: 
+        list: returns a list of dictionaries of the data that satisfies the users input
+'''
+def or_query(db, rym_ref, user_input):
+    # this is a check for genre, we combined primary and secondary genres together
+    if user_input[0] == "genre":
+        # array contains is the operator used for arrays in firebase
+        genre_result1 = genre_query(db, rym_ref, user_input)
+        query = rym_ref.where(filter=FieldFilter(user_input[4], user_input[5], user_input[6])).stream()
+        results1 = count_results(query)
+        all_results = genre_result1 + results2
+        return remove_dups(all_results)
+    # this code checks the second part of the or for genres
+    if user_input[4] == "genre":
+        # same comments as above, but we look for genres on the second where now
+        genre_result2 = genre_query(db, rym_ref, user_input)
+        query = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).stream()
+        results2 = count_results(query)
+        all_results = genre_result1 + results2
+        return remove_dups(all_results)
+    # This code handles all general cases of and besides genres
+    filter_1 = FieldFilter(user_input[0], user_input[1], user_input[2])
+    filter_2 = FieldFilter(user_input[4], user_input[5], user_input[6])        
+    or_filter = Or(filters=[filter_1, filter_2])
+    query = rym_ref.where(filter=or_filter).stream()
+    db.close()
+    return count_results(query)
+
+
+'''
+    remove_dups removes any duplicates in our lists and is a helper function for or_query() which is the only is the only function that can have dups
+    params: 
+        results: a list of all of our data that will be returned from a query
+    returns a list of our data without duplicates
+'''
+def remove_dups(results):
+    for result in results:
+            if results.count(result) > 1:
+                results.remove(result)
+    return results
 
 
 ''' 
