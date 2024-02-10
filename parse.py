@@ -74,8 +74,20 @@ def handle_query(query: List[str]):
             return first_half
         else:
             return compound_query
+    if "||" in query:
+        second_half = query.index("||") + 1
+        compound_query = handle_query(query[second_half:])
+        first_half = query[:second_half]
+        if type(compound_query) is list:
+            first_half.extend(compound_query)
+            return first_half
+        else:
+            return compound_query
     else:
         return query
+   
+
+
     
     '''else:    
         for i in range(input_storage):
