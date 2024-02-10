@@ -10,6 +10,7 @@ from admin import connect
     # SPLIT INTO FUNCTIONS
 
 '''
+    query is the function to be called by the parser - fetches data from the database based on the query
     param: 
         user_input: a list that contains the query info
     return:
@@ -45,7 +46,9 @@ def query(user_input):
     return count_results(query)
 
 
-''' params:
+''' 
+    and_query handles all and queries - helper function for query
+    params:
         db: reference to the database so that we can close it in the function
         rym_ref: reference to our actual data
         user_input: a List of strings that we will use to query, has && in it
@@ -76,7 +79,9 @@ def and_query(db, rym_ref, user_input):
     return count_results(query)
 
 
-''' params:
+''' 
+    genre_query handles all single genre queries - helper function to query
+    params:
         db: reference to the database so that we can close it in the function
         rym_ref: reference to our actual data
         user_input: a List of strings that we will use to query, has && in it
@@ -93,6 +98,8 @@ def genre_query(db, rym_ref, user_input):
     return check_genre_data(query_primary, query_secondary)
 
 '''
+    check_genre_data checks if the query objects returned from queries from genre hold any data 
+    if one of the lists contains "No Data" that is removed from the list
     params:
         primary/secondary_query: a query object that holds genre data
     return:
@@ -112,6 +119,7 @@ def check_genre_data(primary_query, secondary_query):
 
 
 '''
+    count_results takes in a query object and turns them into lists 
     params:
         results: a query object that holds the data that we want to return
     return:
@@ -128,12 +136,12 @@ def count_results(results):
     else:
         return new_list
 
-# testing function
-# def main():
-#     results = query(["genre", "==", "Art Rock", "&&", "artist_name", "==", "Radiohead"])
-#     for result in results:
-#         print(f"{result}")
-#     return 0
+#testing function
+def main():
+    results = query(["artist_name", "==", "Kanye West"])
+    for result in results:
+        print(f"{result}")
+    return 0
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
