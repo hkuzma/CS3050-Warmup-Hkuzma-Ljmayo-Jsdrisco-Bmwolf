@@ -86,19 +86,24 @@ def and_query(db, rym_ref, user_input):
 def or_query(db, rym_ref, user_input):
     # this is a check for genre, we combined primary and secondary genres together
     if user_input[0] == "genre":
-        # array contains is the operator used for arrays in firebase
-        genre_result1 = genre_query(db, rym_ref, user_input)
+        #genre_query only expects list of 3 arguments - pass associatred qenre query within or statement
+        genre_list = [user_input[0],user_input[1] , user_input[2]]
+        genre_result1 = genre_query(db, rym_ref, genre_list)
+
+        #handles second part of or
         query = rym_ref.where(filter=FieldFilter(user_input[4], user_input[5], user_input[6])).stream()
         results1 = count_results(query)
-        all_results = genre_result1 + results2
+        #put results together
+        all_results = genre_result1 + results1
         return remove_dups(all_results)
     # this code checks the second part of the or for genres
     if user_input[4] == "genre":
         # same comments as above, but we look for genres on the second where now
-        genre_result2 = genre_query(db, rym_ref, user_input)
+        genre_list = [user_input[4],user_input[5] , user_input[6]]
+        genre_result2 = genre_query(db, rym_ref, genre_list)
         query = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).stream()
         results2 = count_results(query)
-        all_results = genre_result1 + results2
+        all_results = genre_result2 + results2
         return remove_dups(all_results)
     # This code handles all general cases of and besides genres
     filter_1 = FieldFilter(user_input[0], user_input[1], user_input[2])
@@ -179,12 +184,34 @@ def count_results(results):
     else:
         return new_list
 
-#testing function
-def main():
-    results = query(["artist_name", "==", "Kanye West"])
+# # testing function
+# def main():
+#      results = query(["genre", "==", "Art Rock", "&&", "artist_name", "==", "Radiohead"])
+#      for result in results:
+#          print(f"{result}")
+#      return 0
+    
+#for testing
+def print_query(query):
     for result in results:
         print(f"{result}")
-    return 0
+
+def test_or_1():
+    results = query(["artist_name", "==", "Bjork", "||", "genre", "==", "Baroque Pop"])
+    for result in results:
+         print(f"{result}")
+
+def test_or_2():
+    results = query(["artist_name", "==", "Bjork", "||", "avg_rating", ">=", 4.3])
+    for result in results:
+         print(f"{result}")
+
 
 if __name__ == "__main__":
-    main()
+     #main()
+     
+     test_or_2()
+    
+
+
+    
