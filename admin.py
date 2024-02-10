@@ -5,9 +5,10 @@ import numpy as np
 import pandas as pd
 
 def connect():
-    cred = credentials.Certificate("../cs3050-warmup.json")
-    firebase_admin.initialize_app(cred)
-    db = firestore.client()
+    if not firebase_admin._apps:
+        cred = credentials.Certificate("../cs3050-warmup.json")
+        firebase_admin.initialize_app(cred)
+        db = firestore.client()
     return db
 
 def main():
