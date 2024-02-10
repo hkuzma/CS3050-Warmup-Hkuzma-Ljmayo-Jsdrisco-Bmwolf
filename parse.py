@@ -38,10 +38,12 @@ def main():
                         print("Missing ?? at start - please enter a valid query")
                     else:
                         result = handle_query(input_storage[1:])
-                        print(result)
-                        q = query(result)
-                        i = 0
-                except Exception as e:
+                        if type(result) is list:
+                            q = query(result)
+                            print(q)
+                        else:
+                            print(result)
+                except ValueError:
                     print("Invalid query - ensure your quotation is correct")
 
     print("Exiting")
@@ -66,9 +68,9 @@ def print_example():
 def handle_query(query: list):
     # Invalid query start cases - returns control to main.
 
-    # Length 0 query/clause
-    if len(query) == 0:
-        return "Invalid query - empty clause"
+    # Too short query/clause
+    if len(query) < 3:
+        return "Invalid query - clause too short"
 
     # Invalid field
     if query[QUERY_FIELD_POS].lower() not in QUERY_VALID_FIELDS:
@@ -118,9 +120,10 @@ def handle_query(query: list):
         else:
             return compound_query
     else:
-        if len(query) != 3:
-            return "Invalid query - check quotation and number of inputs"
-        return query
+        if len(query) > 3:
+            return "Invalid query - too many inputs"
+        else:
+            return query
    
 
 
