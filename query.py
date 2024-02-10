@@ -89,7 +89,12 @@ def or_query(db, rym_ref, user_input):
         #genre_query only expects list of 3 arguments - pass associatred qenre query within or statement
         genre_list = [user_input[0],user_input[1] , user_input[2]]
         genre_result1 = genre_query(db, rym_ref, genre_list)
-
+        # this handles if a user wants to genres
+        if user_input[4] == "genre":
+            genre_list = [user_input[4],user_input[5] , user_input[6]]
+            genre_result2 = genre_query(db, rym_ref, genre_list)
+            all_results = genre_result1 + genre_result2
+            return remove_dups(all_results)
         #handles second part of or
         query = rym_ref.where(filter=FieldFilter(user_input[4], user_input[5], user_input[6])).stream()
         results1 = count_results(query)
