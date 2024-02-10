@@ -19,6 +19,8 @@ from admin import connect
 def query(user_input):
     db = connect()
     rym_ref = db.collection("rym")
+    if user_input[0] == "album_name" or "artist_name" or "genre":
+        user_input[2] = user_input[2].replace('"', '')
     # assume user input is a list, the first thing is the field we want to search
     # the second thing is the operation, i.e. >, ==, side note, for primary and secondary genres, second input will already be pre determined to be array_contains
     # third is the user input
@@ -26,6 +28,8 @@ def query(user_input):
 
     # calls function for and queries
     if "&&" in user_input:
+        if user_input[4] == "album_name" or "artist_name" or "genre":
+            user_input[6] = user_input[6].replace('"', '')
         return and_query(db, rym_ref, user_input)
     
     # calls function for genre queries
@@ -33,6 +37,8 @@ def query(user_input):
         return genre_query(db, rym_ref, user_input)
     
     if "||" in user_input:
+        if user_input[4] == "album_name" or "artist_name" or "genre":
+            user_input[6] = user_input[6].replace('"', '')
         return or_query(db, rym_ref, user_input)
 
     # handles all other queries
@@ -94,12 +100,14 @@ def or_query(db, rym_ref, user_input):
             genre_list = [user_input[4],user_input[5] , user_input[6]]
             genre_result2 = genre_query(db, rym_ref, genre_list)
             all_results = genre_result1 + genre_result2
+            db.close()
             return remove_dups(all_results)
         #handles second part of or
         query = rym_ref.where(filter=FieldFilter(user_input[4], user_input[5], user_input[6])).stream()
         results1 = count_results(query)
         #put results together
         all_results = genre_result1 + results1
+        db.close()
         return remove_dups(all_results)
     # this code checks the second part of the or for genres
     if user_input[4] == "genre":
@@ -109,6 +117,7 @@ def or_query(db, rym_ref, user_input):
         query = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).stream()
         results2 = count_results(query)
         all_results = genre_result2 + results2
+        db.close()
         return remove_dups(all_results)
     # This code handles all general cases of and besides genres
     filter_1 = FieldFilter(user_input[0], user_input[1], user_input[2])
@@ -190,32 +199,36 @@ def count_results(results):
         return new_list
 
 # testing function
-# def main():
-#      results = query(["genre", "==", "Art Rock", "&&", "artist_name", "==", "Radiohead"])
-#      for result in results:
-#          print(f"{result}")
-#      return 0
+def main():
+     results = query(["genre", "==", "Art Rock", "&&", "artist_name", "==", "Radiohead"])
+     for result in results:
+         print(f"{result}")
+     return 0
     
-#for testing
-# def print_query(query):
-#     for result in query:
-#         print(f"{result}")
+# for testing
+def print_query(query):
+    for result in query:
+        print(f"{result}")
 
-# def test_or_1():
-#     results = query(["artist_name", "==", "Bjork", "||", "genre", "==", "Baroque Pop"])
-#     for result in results:
-#          print(f"{result}")
+def test_or_1():
+    results = query(["artist_name", "==", "Bjork", "||", "genre", "==", "Baroque Pop"])
+    for result in results:
+         print(f"{result}")
 
-# def test_or_2():
-#     results = query(["artist_name", "==", "Bjork", "||", "avg_rating", ">=", 4.3])
-#     for result in results:
-#          print(f"{result}")
+def test_or_2():
+    results = query(["artist_name", "==", "Bjork", "||", "avg_rating", ">=", 4.3])
+    for result in results:
+         print(f"{result}")
+
+def test_3():
+    results = query(["album_name", "==", "To Pimp a Butterfly"])
+    print_query(results)
 
 
-# if __name__ == "__main__":
-#      #main()
+if __name__ == "__main__":
+     #main()
      
-#      test_or_2()
+     test_3()
     
 
 
