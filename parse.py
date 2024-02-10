@@ -1,5 +1,6 @@
 from typing import List
 import shlex
+from query import query
 
 # Class constants
 
@@ -38,6 +39,8 @@ def main():
                     else:
                         result = handle_query(input_storage[1:])
                         print(result)
+                        q = query(result)
+                        i = 0
                 except Exception as e:
                     print("Invalid query - ensure your quotation is correct")
 
@@ -60,7 +63,7 @@ def print_example():
 
 
 # Handles query input from the user
-def handle_query(query: List[str]):
+def handle_query(query: list):
     # Invalid query start cases - returns control to main.
 
     # Length 0 query/clause
@@ -75,6 +78,7 @@ def handle_query(query: List[str]):
     if query[QUERY_FIELD_POS] == "avg_rating":
         try:
             i = float(query[QUERY_OP_POS + 1])
+            query[QUERY_OP_POS + 1] = i
         except ValueError:
             return "Invalid data type - must be numeric for avg_rating"
 
@@ -83,7 +87,7 @@ def handle_query(query: List[str]):
         return "Unrecognized operator - please enter a valid operator"
 
     # Query does not begin with a double quote
-    if query[QUERY_OP_POS + 1][0] != '"' and query[QUERY_FIELD_POS] != "avg_rating":
+    if query[QUERY_FIELD_POS] != "avg_rating" and query[QUERY_OP_POS + 1][0] != '"':
         return "Query must begin with a double quote"
 
     # Handle compound queries - returns a string message if error exists in any clause
@@ -100,7 +104,7 @@ def handle_query(query: List[str]):
             return first_half
         else:
             return compound_query
-    if "||" in query:
+    elif "||" in query:
         second_half = query.index("||") + 1
         compound_query = handle_query(query[second_half:])
         first_half = query[:second_half]
