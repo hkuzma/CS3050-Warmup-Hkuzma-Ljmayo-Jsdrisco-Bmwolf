@@ -20,7 +20,7 @@ def main():
 
     while not quit:
         user_input = input("")
-        user_input = user_input.lower().strip()
+        user_input = user_input.strip()
 
         match user_input:
             case "--quit":
@@ -71,23 +71,27 @@ def handle_query(query: list):
         return "Invalid query - empty clause"
 
     # Invalid field
-    if query[QUERY_FIELD_POS] not in QUERY_VALID_FIELDS:
+    if query[QUERY_FIELD_POS].lower() not in QUERY_VALID_FIELDS:
         return "Invalid field - please enter a valid field"
 
     # Non-numeric input for avg_rating
-    if query[QUERY_FIELD_POS] == "avg_rating":
+    if query[QUERY_FIELD_POS].lower() == "avg_rating":
         try:
             i = float(query[QUERY_OP_POS + 1])
             query[QUERY_OP_POS + 1] = i
         except ValueError:
             return "Invalid data type - must be numeric for avg_rating"
 
+    # Using > < >= <= for string comparison
+    if query[QUERY_FIELD_POS].lower() != "avg_rating" and query[QUERY_OP_POS] != "==":
+        return "Invalid operator - for string input == is required"
+
     # Invalid operator
     if query[QUERY_OP_POS] not in QUERY_VALID_OPERATORS:
         return "Unrecognized operator - please enter a valid operator"
 
     # Query does not begin with a double quote
-    if query[QUERY_FIELD_POS] != "avg_rating" and query[QUERY_OP_POS + 1][0] != '"':
+    if query[QUERY_FIELD_POS].lower() != "avg_rating" and query[QUERY_OP_POS + 1][0] != '"':
         return "Query must begin with a double quote"
 
     # Handle compound queries - returns a string message if error exists in any clause
