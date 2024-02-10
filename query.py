@@ -184,7 +184,7 @@ def count_results(results):
     else:
         return new_list
 
-# # testing function
+# testing function
 # def main():
 #      results = query(["genre", "==", "Art Rock", "&&", "artist_name", "==", "Radiohead"])
 #      for result in results:
@@ -192,25 +192,25 @@ def count_results(results):
 #      return 0
     
 #for testing
-def print_query(query):
-    for result in query:
-        print(f"{result}")
+# def print_query(query):
+#     for result in query:
+#         print(f"{result}")
 
-def test_or_1():
-    results = query(["artist_name", "==", "Bjork", "||", "genre", "==", "Baroque Pop"])
-    for result in results:
-         print(f"{result}")
+# def test_or_1():
+#     results = query(["artist_name", "==", "Bjork", "||", "genre", "==", "Baroque Pop"])
+#     for result in results:
+#          print(f"{result}")
 
-def test_or_2():
-    results = query(["artist_name", "==", "Bjork", "||", "avg_rating", ">=", 4.3])
-    for result in results:
-         print(f"{result}")
+# def test_or_2():
+#     results = query(["artist_name", "==", "Bjork", "||", "avg_rating", ">=", 4.3])
+#     for result in results:
+#          print(f"{result}")
 
 
-if __name__ == "__main__":
-     #main()
+# if __name__ == "__main__":
+#      #main()
      
-     test_or_2()
+#      test_or_2()
     
 
 
