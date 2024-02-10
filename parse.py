@@ -4,9 +4,8 @@ import shlex
 # Class constants
 
 # Positions
-QUERY_START_POS = 0
-QUERY_FIELD_POS = 1
-QUERY_OP_POS = 2
+QUERY_FIELD_POS = 0
+QUERY_OP_POS = 1
 
 # Valid fields & operators
 QUERY_VALID_FIELDS = ['artist_name', 'album_name', 'avg_rating', 'genre']
@@ -31,8 +30,11 @@ def main():
                 print_example()
             case _:
                 input_storage = shlex.split(user_input, posix=False)
-                result = handle_query(input_storage)
-                print(result)
+                if input_storage[0] != "??":
+                    print("Missing ?? at start - please enter a valid query")
+                else:
+                    result = handle_query(input_storage[1:])
+                    print(result)
 
     print("Exiting")
 
@@ -56,24 +58,24 @@ def print_example():
 def handle_query(query: List[str]):
     # Invalid query start cases - returns control to main.
     if len(query) == 0:
-        return "Invalid query"
-    if query[QUERY_START_POS] != "??":
-        return "Missing ?? at start - please enter a valid query"
+        return "Invalid query - empty clause"
     if query[QUERY_FIELD_POS] not in QUERY_VALID_FIELDS:
         return "Invalid field - please enter a valid field"
     if query[QUERY_OP_POS] not in QUERY_VALID_OPERATORS:
         return "Unrecognized operator - please enter a valid operator"
 
-    query_list = query
-    # Handle multiple word entries - grabs and places into a single string
-    compound_query = None
+    # Handle compound queries - returns a string message if error exists in any clause
     if "&&" in query:
         second_half = query.index("&&") + 1
         compound_query = handle_query(query[second_half:])
-        if compound_query is type(list):
-            query_list.extend(compound_query)
+        first_half = query[:second_half]
+        if type(compound_query) is list:
+            first_half.extend(compound_query)
+            return first_half
         else:
             return compound_query
+    else:
+        return query
     
     '''else:    
         for i in range(input_storage):
