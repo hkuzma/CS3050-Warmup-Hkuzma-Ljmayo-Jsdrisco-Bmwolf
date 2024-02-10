@@ -132,6 +132,18 @@ def handle_query(query: list):
         for i in range(input_storage):
             if input_storage[i] == "==":        
                 print(input_storage) '''
+def print_query(query):
+    for i in query:
+        if i == "No Data":
+            return "No Data"
+        else:
+            print(f"{i.get('position')}). Album Name: {i.get('album_name')} + By {i.get('artist_name')} with avg rating: {i.get('avg_rating')} + \n")
+            print(f"Primary Genres: {i.get('primary_genres')} \n")
+            try:
+                print(f"Secondary Genres: {i.get('secondary_genres')} \n")
+            except:
+                pass
+
 
 
 
