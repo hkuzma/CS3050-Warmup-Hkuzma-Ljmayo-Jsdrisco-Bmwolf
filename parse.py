@@ -29,12 +29,17 @@ def main():
             case "--example":
                 print_example()
             case _:
-                input_storage = shlex.split(user_input, posix=False)
-                if input_storage[0] != "??":
-                    print("Missing ?? at start - please enter a valid query")
-                else:
-                    result = handle_query(input_storage[1:])
-                    print(result)
+                try:
+                    input_storage = shlex.split(user_input, posix=False)
+                    if len(input_storage) == 0:
+                        print("Invalid - empty query")
+                    elif input_storage[0] != "??":
+                        print("Missing ?? at start - please enter a valid query")
+                    else:
+                        result = handle_query(input_storage[1:])
+                        print(result)
+                except Exception as e:
+                    print("Invalid query - ensure your quotation is correct")
 
     print("Exiting")
 
@@ -50,31 +55,54 @@ def print_commands():
 
 # Print example queries for the user.
 def print_example():
-    print('?? artist_name == "Nas"')
+    print('\n?? artist_name == "Nas"')
     print("?? genre == “Alternative Rock” && avg_rating > 0")
 
 
 # Handles query input from the user
 def handle_query(query: List[str]):
     # Invalid query start cases - returns control to main.
+
+    # Length 0 query/clause
     if len(query) == 0:
         return "Invalid query - empty clause"
+
+    # Invalid field
     if query[QUERY_FIELD_POS] not in QUERY_VALID_FIELDS:
         return "Invalid field - please enter a valid field"
+
+    # Non-numeric input for avg_rating
+    if query[QUERY_FIELD_POS] == "avg_rating":
+        try:
+            i = int(query[QUERY_OP_POS + 1])
+        except ValueError:
+            return "Invalid data type - must be numeric for avg_rating"
+
+    # Invalid operator
     if query[QUERY_OP_POS] not in QUERY_VALID_OPERATORS:
         return "Unrecognized operator - please enter a valid operator"
+
+    # Query does not begin with a double quote
+    if query[QUERY_OP_POS + 1][0] != '"' and query[QUERY_FIELD_POS] != "avg_rating":
+        return "Query must begin with a double quote"
 
     # Handle compound queries - returns a string message if error exists in any clause
     if "&&" in query:
         second_half = query.index("&&") + 1
         compound_query = handle_query(query[second_half:])
         first_half = query[:second_half]
+
+        if first_half[QUERY_FIELD_POS] == "avg_rating" and len(query) != 4:
+            return "Invalid numeric input"
+
         if type(compound_query) is list:
             first_half.extend(compound_query)
             return first_half
         else:
             return compound_query
     else:
+        if query[QUERY_FIELD_POS] == "avg_rating" and len(query) != 3:
+            return "Invalid numeric input"
         return query
     
     '''else:    
