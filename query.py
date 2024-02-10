@@ -19,7 +19,7 @@ from admin import connect
 def query(user_input):
     db = connect()
     rym_ref = db.collection("rym")
-    if user_input[0] == "album_name" or "artist_name" or "genre":
+    if user_input[0] != "avg_rating":
         user_input[2] = user_input[2].replace('"', '')
     # assume user input is a list, the first thing is the field we want to search
     # the second thing is the operation, i.e. >, ==, side note, for primary and secondary genres, second input will already be pre determined to be array_contains
@@ -28,7 +28,7 @@ def query(user_input):
 
     # calls function for and queries
     if "&&" in user_input:
-        if user_input[4] == "album_name" or "artist_name" or "genre":
+        if user_input[4] != "avg_rating":
             user_input[6] = user_input[6].replace('"', '')
         return and_query(db, rym_ref, user_input)
     
@@ -37,7 +37,7 @@ def query(user_input):
         return genre_query(db, rym_ref, user_input)
     
     if "||" in user_input:
-        if user_input[4] == "album_name" or "artist_name" or "genre":
+        if user_input[4] != "avg_rating":
             user_input[6] = user_input[6].replace('"', '')
         return or_query(db, rym_ref, user_input)
 
