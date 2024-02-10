@@ -193,7 +193,7 @@ def count_results(results):
     
 #for testing
 def print_query(query):
-    for result in results:
+    for result in query:
         print(f"{result}")
 
 def test_or_1():
