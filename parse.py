@@ -135,7 +135,11 @@ def handle_query(query: list):
 def print_query(query):
     for i in query:
         if i == "No Data":
-            pass
+            if len(query) == 1:
+                print("No Data")
+                return
+            else:
+                pass
         else:
             print(f"\n{i.get('position')}). Album Name: {i.get('album_name')} By {i.get('artist_name')} with avg rating: {i.get('avg_rating')}")
             print(f"Primary Genres: {i.get('primary_genres')}")
