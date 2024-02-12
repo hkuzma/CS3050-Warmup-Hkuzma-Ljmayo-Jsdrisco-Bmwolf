@@ -225,8 +225,10 @@ def test_3():
     print_query(results)
 
 def test(input):
+    print(input)
     results = query(input)
     print_query(results)
+    print("______")
 
 if __name__ == "__main__":
     #test cases
@@ -235,10 +237,11 @@ if __name__ == "__main__":
      test(["artist_name", "==", '"asdf"'])
      print("should be empty")
      print("_________")
-     print(["artist_name", "==", '"Radiohead"'])
+     test(["artist_name", "==", '"Radiohead"'])
      print("should print radiohead")
 
     #genre test cases
+     print("_______")
      test(["genre",  "==", "asdf"])
      print("should be empty")
      test(["genre", "==", "Art Rock"])
