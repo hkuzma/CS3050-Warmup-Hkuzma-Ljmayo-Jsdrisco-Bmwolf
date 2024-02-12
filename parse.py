@@ -135,9 +135,9 @@ def handle_query(query: list):
 def print_query(query):
     for i in query:
         if i == "No Data":
-            return "No Data"
+            pass
         else:
-            print(f"{i.get('position')}). Album Name: {i.get('album_name')} By {i.get('artist_name')} with avg rating: {i.get('avg_rating')}")
+            print(f"\n{i.get('position')}). Album Name: {i.get('album_name')} By {i.get('artist_name')} with avg rating: {i.get('avg_rating')}")
             print(f"Primary Genres: {i.get('primary_genres')}")
             try:
                 print(f"Secondary Genres: {i.get('secondary_genres')}")

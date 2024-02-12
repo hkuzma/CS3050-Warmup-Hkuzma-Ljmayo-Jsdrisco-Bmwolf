@@ -32,14 +32,14 @@ def query(user_input):
             user_input[6] = user_input[6].replace('"', '')
         return and_query(db, rym_ref, user_input)
     
-    # calls function for genre queries
-    if user_input[0] == "genre":
-        return genre_query(db, rym_ref, user_input)
-    
     if "||" in user_input:
         if user_input[4] != "avg_rating":
             user_input[6] = user_input[6].replace('"', '')
         return or_query(db, rym_ref, user_input)
+    
+    # calls function for genre queries
+    if user_input[0] == "genre":
+        return genre_query(db, rym_ref, user_input)
 
     # handles all other queries
     query = rym_ref.where(filter=FieldFilter(user_input[0], user_input[1], user_input[2])).stream()
