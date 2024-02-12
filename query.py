@@ -221,13 +221,37 @@ def test_or_2():
          print(f"{result}")
 
 def test_3():
-    results = query(["album_name", "==", "To Pimp a Butterfly"])
+    results = query(["artist_name", "==", '"asdf"', '||', "artist_name", "==", '"The Strokes"'])
     print_query(results)
 
+def test(input):
+    results = query(input)
+    print_query(results)
 
 if __name__ == "__main__":
-     #main()
+    #test cases
+    #single cases
+     #artist test cases
+     test(["artist_name", "==", '"asdf"'])
+     print("should be empty")
+     print("_________")
+     print(["artist_name", "==", '"Radiohead"'])
+     print("should print radiohead")
+
+    #genre test cases
+     test(["genre",  "==", "asdf"])
+     print("should be empty")
+     test(["genre", "==", "Art Rock"])
+     print("_______")
+
+
+     #or cases
      
+     #case or genre first artist name second
+     test(["genre", "==", "asdf", "||", "artist_name", "==", "Radiohead"])
+     print("Should print radiohead")
+
+     #single cases
      test_3()
     
 
