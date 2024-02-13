@@ -133,9 +133,15 @@ def handle_query(query: list):
             if input_storage[i] == "==":        
                 print(input_storage) '''
 def print_query(query):
+    if len(query) == 0:
+        print("No Data")
+        return
     for i in query:
         if i == "No Data":
             if len(query) == 1:
+                print("No Data")
+                return
+            if len(query) == 2 and query[1] == "No Data":
                 print("No Data")
                 return
             else:

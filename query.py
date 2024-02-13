@@ -61,6 +61,27 @@ def and_query(db, rym_ref, user_input):
     if user_input[0] == "genre":
         # array contains is the operator used for arrays in firebase
         user_input[1] = "array_contains"
+        # this handles double genre
+        if user_input[4] == "genre":
+            # get all data for the first genre
+            query1 = genre_query(db, rym_ref, [user_input[0],user_input[1], user_input[2]])
+            # get all data from the second genre
+            query2 = genre_query(db, rym_ref, [user_input[0],user_input[1], user_input[6]])
+            # add the lists together
+            results = query1 + query2
+            final_list = []
+            # go through all items in the list
+            for item in results:
+                # some items might not have a secondary genre so just pass them
+                # otherwise append them to the return list
+                try:
+                    if user_input[2] in item.get("primary_genres") or user_input[2] in item.get("secondary_genres"):
+                        if user_input[6] in item.get("primary_genres") or user_input[6] in item.get("secondary_genres"):
+                            final_list.append(item)
+                except:
+                    pass
+            # remove the duplicates from the list
+            return remove_dups(final_list)
         # two queries, one to get the && for primary genres and one to get the && for secondary genres
         query_primary = rym_ref.where(filter=FieldFilter("primary_genres", user_input[1], user_input[2])).where(filter=FieldFilter(user_input[4], user_input[5], user_input[6])).stream()
         query_secondary = rym_ref.where(filter=FieldFilter("secondary_genres", user_input[1], user_input[2])).where(filter=FieldFilter(user_input[4], user_input[5], user_input[6])).stream()
