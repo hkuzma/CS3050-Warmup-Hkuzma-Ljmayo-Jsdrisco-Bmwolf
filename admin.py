@@ -3,6 +3,7 @@ from firebase_admin import credentials
 from firebase_admin import firestore
 import numpy as np
 import pandas as pd
+import sys
 
 # connect function
 # returns a reference to the db
@@ -17,11 +18,17 @@ def connect():
 def main():
     db = connect()
     
-    #read from the json
+    # check to see if they add only 1 additional argument to run
+    if len(sys.argv) != 2:
+        print("Please enter the name of a json file")
+        return 1
+
+    # try to read the json, if not return
     try:
-        df = pd.read_json("CS3050-Warmup-Hkuzma-Ljmayo-Jsdrisco-Bmwolf\\rym.json")
-    except Exception:
-        df = pd.read_json("rym.json")
+        df = pd.read_json(sys.argv[1])
+    except:
+        print("Error reading json file")
+        return 1
 
     # parse everything
     position = df["position"].values
@@ -53,6 +60,7 @@ def main():
         # send the data
         db.collection("rym").document(str(position[i])).set(data)
     # close the database
+    print("Updated db")
     db.close()
     return 0
 

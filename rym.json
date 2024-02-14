@@ -1349,5 +1349,19 @@
     "avg_rating": 4.15,
     "rating_count": 25068,
     "review_count": 271
+  },
+  {
+    "uid": 101,
+    "position": 101,
+    "release_name": "Red",
+    "artist_name": "King Crimson",
+    "release_date": "1974-10-06",
+    "release_type": "album",
+    "primary_genres": "Progressive Rock, Art Rock",
+    "secondary_genres": "Jazz-Rock, Hard Rock, Free Improvisation",
+    "descriptors": "dark, anxious, heavy, technical, ominous, complex, uncommontimesignatures, progressive, malevocals",
+    "avg_rating": 4.22,
+    "rating_count": 24763,
+    "review_count": 416
   }
 ]
