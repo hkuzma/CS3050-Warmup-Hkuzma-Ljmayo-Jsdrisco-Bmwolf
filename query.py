@@ -227,9 +227,9 @@ def main():
      return 0
     
 # for testing
-def print_query(query):
-    for result in query:
-        print(f"{result}")
+# def print_query(query):
+#     for result in query:
+#         print(f"{result.}")
 
 def test_or_1():
     results = query(["artist_name", "==", "Bjork", "||", "genre", "==", "Baroque Pop"])
@@ -243,41 +243,91 @@ def test_or_2():
 
 def test_3():
     results = query(["artist_name", "==", '"asdf"', '||', "artist_name", "==", '"The Strokes"'])
-    print_query(results)
-
-def test(input):
-    print(input)
-    results = query(input)
-    print_query(results)
-    print("______")
-
-if __name__ == "__main__":
-    #test cases
-    #single cases
-     #artist test cases
-     test(["artist_name", "==", '"asdf"'])
-     print("should be empty")
-     print("_________")
-     test(["artist_name", "==", '"Radiohead"'])
-     print("should print radiohead")
-
-    #genre test cases
-     print("_______")
-     test(["genre",  "==", "asdf"])
-     print("should be empty")
-     test(["genre", "==", "Art Rock"])
-     print("_______")
-
-
-     #or cases
-     
-     #case or genre first artist name second
-     test(["genre", "==", "asdf", "||", "artist_name", "==", "Radiohead"])
-     print("Should print radiohead")
-
-     #single cases
-     test_3()
     
 
+
+'''
+sudo test case prints out all values in database 
+test runs the query and checks the expected fields to check
+input - query
+field - list of fields to print out from 
+
+'''
+def test(input, field):
+    print(input)
+    results = query(input)
+    for result in results:
+        if result == "No Data":
+            if len(results) == 1:
+                print("No Data")
+                print("________END TEST________________________________________________________")
+                return
+            if len(results) == 2 and results[1] == "No Data":
+                print("No Data")
+                print("________END TEST________________________________________________________")
+                return
+            else:
+                pass
+        else:   
+            if len(field) > 2:
+                print(f"{result.get(field[0])}")
+                print(f"{result.get(field[1])}")
+                print(f"{result.get(field[2])}")
+            elif len(field) > 1:
+                print(f"{result.get(field[0])}")
+                print(f"{result.get(field[1])}")
+            else:
+                print(f"{result.get(field[0])}")
+        print("----END DATA----")
+    print("\n")
+    print("________END TEST________________________________________________________")
+    print("\n")
+
+
+def testing():
+    #test cases
+    #single cases
+    #artist test cases
+    #invalid test cases
+    #print("no data test")
+    test(["artist_name", "==", '"asdf"'], ["artist_name"]) #test passed
+
+    #valid test cases
+    test(["artist_name", "==", '"Radiohead"'], ["artist_name"]) #test passed
+
+
+    #genre test cases
+
+    #invalid test case
+     
+    test(["genre",  "==", "asdf"], ["primary_genres", "secondary_genres"]) #test passed
+
+    
+    test(["genre", "==", "Art Rock"], ["primary_genres", "secondary_genres"]) #tested passed
+
+
+    #or cases
+    test(["genre", "==", "Art Rock", "||", "artist_name", "==", "asdf"], ["artist_name", "primary_genres", "secondary_genres"]) #valid 1st invalid second test case passed
+
+    test(["genre", "==", "asdf", "||", "artist_name", "==", "aasdf"], ["artist_name", "primary_genres", "secondary_genres"]) #both invalid test case passed
+     
+    test(["genre", "==", "asdf", "||", "artist_name", "==", "Radiohead"], ["artist_name", "primary_genres", "secondary_genres"]) #invalid 1st valid 2nd test case passed
+
+    test(["genre", "==", "Art Rock", "||", "genre", "==", "Alternative Rock"], ["primary_genres", "secondary_genres"]) #2 genre case passed
+
+    test(["album_name", "==", "Illmatic", "||", "avg_rating", ">", "4"], ["album_name", "avg_rating"]) #test failed with exception
+
+    test(["avg_rating", ">", "4", "||", "album_name", "==", "Illmatic"], ["album_name", "avg_rating"]) #test failed with exception
+
+    test(["avg_rating", ">", 4, "||", "artist_name", "==", "Nas"], ["artist_name", "avg_rating"]) #test passed
+
+    test(["album_name", "==", "OK Computer", "||", "artist_name", "==", "Nas"], ["artist_name", "album_name"]) #test passed
+
+    test(["avg_rating", ">", 4, "||", "artist_name", "==", "The Strokes"], ["album_name", "avg_rating"]) #test passed
+
+
+if __name__ == "__main__":
+    #print(query(["album_name", "==", "Illmatic", "||", "avg_rating", ">", 4]))
+    test(["avg_rating", ">", 4, "||", "artist_name", "==", "The Strokes"], ["album_name", "avg_rating"])
 
     
