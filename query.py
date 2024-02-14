@@ -19,6 +19,7 @@ from admin import connect
 def query(user_input):
     db = connect()
     rym_ref = db.collection("rym")
+    # get rid of extra ""
     if user_input[0] != "avg_rating":
         user_input[2] = user_input[2].replace('"', '')
     # assume user input is a list, the first thing is the field we want to search
@@ -26,13 +27,16 @@ def query(user_input):
     # third is the user input
     # if there is more, then 4 will be AND or OR and 5,6,7 will repeat the first 1,2,3 inputs
 
-    # calls function for and queries
+    # calls function for && queries
     if "&&" in user_input:
+        # get rid of extra ""
         if user_input[4] != "avg_rating":
             user_input[6] = user_input[6].replace('"', '')
         return and_query(db, rym_ref, user_input)
     
+    # calls function for || queries
     if "||" in user_input:
+        # get rid of extra ""
         if user_input[4] != "avg_rating":
             user_input[6] = user_input[6].replace('"', '')
         return or_query(db, rym_ref, user_input)
