@@ -61,6 +61,27 @@ def and_query(db, rym_ref, user_input):
     if user_input[0] == "genre":
         # array contains is the operator used for arrays in firebase
         user_input[1] = "array_contains"
+        # this handles double genre
+        if user_input[4] == "genre":
+            # get all data for the first genre
+            query1 = genre_query(db, rym_ref, [user_input[0],user_input[1], user_input[2]])
+            # get all data from the second genre
+            query2 = genre_query(db, rym_ref, [user_input[0],user_input[1], user_input[6]])
+            # add the lists together
+            results = query1 + query2
+            final_list = []
+            # go through all items in the list
+            for item in results:
+                # some items might not have a secondary genre so just pass them
+                # otherwise append them to the return list
+                try:
+                    if user_input[2] in item.get("primary_genres") or user_input[2] in item.get("secondary_genres"):
+                        if user_input[6] in item.get("primary_genres") or user_input[6] in item.get("secondary_genres"):
+                            final_list.append(item)
+                except:
+                    pass
+            # remove the duplicates from the list
+            return remove_dups(final_list)
         # two queries, one to get the && for primary genres and one to get the && for secondary genres
         query_primary = rym_ref.where(filter=FieldFilter("primary_genres", user_input[1], user_input[2])).where(filter=FieldFilter(user_input[4], user_input[5], user_input[6])).stream()
         query_secondary = rym_ref.where(filter=FieldFilter("secondary_genres", user_input[1], user_input[2])).where(filter=FieldFilter(user_input[4], user_input[5], user_input[6])).stream()
@@ -205,55 +226,106 @@ def main():
          print(f"{result}")
      return 0
     
-# for testing
-def print_query(query):
-    for result in query:
-        print(f"{result}")
 
-def test_or_1():
-    results = query(["artist_name", "==", "Bjork", "||", "genre", "==", "Baroque Pop"])
-    for result in results:
-         print(f"{result}")
+'''
+sudo test case prints out all values in database 
+test runs the query and checks the expected fields to check
+input - query
+field - list of fields to print out from 
 
-def test_or_2():
-    results = query(["artist_name", "==", "Bjork", "||", "avg_rating", ">=", 4.3])
-    for result in results:
-         print(f"{result}")
-
-def test_3():
-    results = query(["artist_name", "==", '"asdf"', '||', "artist_name", "==", '"The Strokes"'])
-    print_query(results)
-
-def test(input):
+'''
+def test(input, field):
+    print(input)
     results = query(input)
-    print_query(results)
+    for result in results:
+        if result == "No Data":
+            if len(results) == 1:
+                print("No Data")
+                print("________END TEST________________________________________________________")
+                return
+            if len(results) == 2 and results[1] == "No Data":
+                print("No Data")
+                print("________END TEST________________________________________________________")
+                return
+            else:
+                pass
+        else:   
+            if len(field) > 2:
+                print(f"{result.get(field[0])}")
+                print(f"{result.get(field[1])}")
+                print(f"{result.get(field[2])}")
+            elif len(field) > 1:
+                print(f"{result.get(field[0])}")
+                print(f"{result.get(field[1])}")
+            else:
+                print(f"{result.get(field[0])}")
+        print("----END DATA----")
+    print("\n")
+    print("________END TEST________________________________________________________")
+    print("\n")
+
+#keep track of tested queries would not reccomend running this function it would take a while
+def testing():
+
+    test(["artist_name", "==", '"asdf"'], ["artist_name"]) #test passed
+
+    test(["artist_name", "==", '"Radiohead"'], ["artist_name"]) #test passed
+
+    test(["genre",  "==", "asdf"], ["primary_genres", "secondary_genres"]) #test passed
+
+    test(["genre", "==", "Art Rock"], ["primary_genres", "secondary_genres"]) #tested passed
+
+    #or cases
+    test(["genre", "==", "Art Rock", "||", "artist_name", "==", "asdf"], ["artist_name", "primary_genres", "secondary_genres"]) #valid 1st invalid second test case passed
+
+    test(["genre", "==", "asdf", "||", "artist_name", "==", "aasdf"], ["artist_name", "primary_genres", "secondary_genres"]) #both invalid test case passed
+     
+    test(["genre", "==", "asdf", "||", "artist_name", "==", "Radiohead"], ["artist_name", "primary_genres", "secondary_genres"]) #invalid 1st valid 2nd test case passed
+
+    test(["genre", "==", "Art Rock", "||", "genre", "==", "Alternative Rock"], ["primary_genres", "secondary_genres"]) #2 genre case passed
+
+    test(["album_name", "==", "Illmatic", "||", "avg_rating", ">", "4"], ["album_name", "avg_rating"]) #test passed
+
+    test(["avg_rating", ">", 4, "||", "album_name", "==", "Illmatic"], ["album_name", "avg_rating"]) #test passed
+
+    test(["avg_rating", ">", 4, "||", "artist_name", "==", "Nas"], ["artist_name", "avg_rating"]) #test passed
+
+    test(["album_name", "==", "OK Computer", "||", "artist_name", "==", "Nas"], ["artist_name", "album_name"]) #test passed
+
+    test(["avg_rating", ">", 4, "||", "artist_name", "==", "The Strokes"], ["album_name", "avg_rating"]) #test passed
+
+    test(["avg_rating", ">", 4.5, "||", "artist_name", "==", "The Beatles"], ["artist_name", "avg_rating"]) #test passed
+
+    test(["album_name", "==", "Illmatic", "||", "album_name", "==", "OK Computer"], ["album_name"]) #test passed
+
+    #and cases
+    test(["avg_rating", ">", 4.5, "&&", "artist_name", "==", "The Strokes"], ["album_name", "avg_rating"]) #test passed
+    
+    test(["genre", "==", "Art Rock", "&&", "genre", "==", "Alternative Rock"], ["primary_genres", "secondary_genres"]) #test passed
+
+    test(["artist_name", "==", "asdf", "&&", "genre", "==", "Alternative Rock"], ["primary_genres", "secondary_genres"]) #test passed
+
+    test(["artist_name", "==", "Radiohead", "&&", "artist_name", "==", "The Strokes"], ["primary_genres", "secondary_genres"]) #test passed
+
+    test(["album_name", "==", "Illmatic", "&&", "artist_name", "==", "asdf"], ["album_name", "artist_name"]) #test passed
+
+    test(["genre", "==", "Art Rock", "&&", "artist_name", "==", "Pink Floyd"], ["genre", "artist_name"]) #test passed
+
+    test(["album_name", "==", "To Pimp a Butterfly", "&&", "genre", "==", "Jazz Rap"], ["album_name", "primary_genres", "secondary_genres"]) #test passed
+
+    test(["artist_name", "==", "The Beatles", "&&", "avg_rating", ">=", 4.1], ["artist_name", "avg_rating"]) #test passed
+
+    test(["genre", "==", "Post-Punk", "&&", "avg_rating", ">=", 4.1], ["primary_genres", "secondary_genres", "avg_rating"]) #test passed
+
+    test(["artist_name", "==", "Joy Division", "&&", "avg_rating", ">", 4.1], ["primary_genres", "secondary_genres", "avg_rating"])#test passed
+
+    test(["artist_name", "==", "Radiohead", "&&", "avg_rating", "<", 3.9], ["primary_genres", "secondary_genres", "avg_rating"])#test passed
+
+    
 
 if __name__ == "__main__":
-    #test cases
-    #single cases
-     #artist test cases
-     test(["artist_name", "==", '"asdf"'])
-     print("should be empty")
-     print("_________")
-     print(["artist_name", "==", '"Radiohead"'])
-     print("should print radiohead")
 
-    #genre test cases
-     test(["genre",  "==", "asdf"])
-     print("should be empty")
-     test(["genre", "==", "Art Rock"])
-     print("_______")
-
-
-     #or cases
-     
-     #case or genre first artist name second
-     test(["genre", "==", "asdf", "||", "artist_name", "==", "Radiohead"])
-     print("Should print radiohead")
-
-     #single cases
-     test_3()
-    
+    test(["artist_name", "==", "Radiohead", "&&", "avg_rating", "<", 3.9], ["primary_genres", "secondary_genres", "avg_rating"])
 
 
     
