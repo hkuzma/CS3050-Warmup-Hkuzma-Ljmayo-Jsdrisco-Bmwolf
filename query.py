@@ -226,25 +226,6 @@ def main():
          print(f"{result}")
      return 0
     
-# for testing
-# def print_query(query):
-#     for result in query:
-#         print(f"{result.}")
-
-def test_or_1():
-    results = query(["artist_name", "==", "Bjork", "||", "genre", "==", "Baroque Pop"])
-    for result in results:
-         print(f"{result}")
-
-def test_or_2():
-    results = query(["artist_name", "==", "Bjork", "||", "avg_rating", ">=", 4.3])
-    for result in results:
-         print(f"{result}")
-
-def test_3():
-    results = query(["artist_name", "==", '"asdf"', '||', "artist_name", "==", '"The Strokes"'])
-    
-
 
 '''
 sudo test case prints out all values in database 
@@ -283,28 +264,16 @@ def test(input, field):
     print("________END TEST________________________________________________________")
     print("\n")
 
-
+#keep track of tested queries would not reccomend running this function it would take a while
 def testing():
-    #test cases
-    #single cases
-    #artist test cases
-    #invalid test cases
-    #print("no data test")
+
     test(["artist_name", "==", '"asdf"'], ["artist_name"]) #test passed
 
-    #valid test cases
     test(["artist_name", "==", '"Radiohead"'], ["artist_name"]) #test passed
 
-
-    #genre test cases
-
-    #invalid test case
-     
     test(["genre",  "==", "asdf"], ["primary_genres", "secondary_genres"]) #test passed
 
-    
     test(["genre", "==", "Art Rock"], ["primary_genres", "secondary_genres"]) #tested passed
-
 
     #or cases
     test(["genre", "==", "Art Rock", "||", "artist_name", "==", "asdf"], ["artist_name", "primary_genres", "secondary_genres"]) #valid 1st invalid second test case passed
@@ -315,9 +284,9 @@ def testing():
 
     test(["genre", "==", "Art Rock", "||", "genre", "==", "Alternative Rock"], ["primary_genres", "secondary_genres"]) #2 genre case passed
 
-    test(["album_name", "==", "Illmatic", "||", "avg_rating", ">", "4"], ["album_name", "avg_rating"]) #test failed with exception
+    test(["album_name", "==", "Illmatic", "||", "avg_rating", ">", "4"], ["album_name", "avg_rating"]) #test passed
 
-    test(["avg_rating", ">", "4", "||", "album_name", "==", "Illmatic"], ["album_name", "avg_rating"]) #test failed with exception
+    test(["avg_rating", ">", 4, "||", "album_name", "==", "Illmatic"], ["album_name", "avg_rating"]) #test passed
 
     test(["avg_rating", ">", 4, "||", "artist_name", "==", "Nas"], ["artist_name", "avg_rating"]) #test passed
 
@@ -325,9 +294,38 @@ def testing():
 
     test(["avg_rating", ">", 4, "||", "artist_name", "==", "The Strokes"], ["album_name", "avg_rating"]) #test passed
 
+    test(["avg_rating", ">", 4.5, "||", "artist_name", "==", "The Beatles"], ["artist_name", "avg_rating"]) #test passed
+
+    test(["album_name", "==", "Illmatic", "||", "album_name", "==", "OK Computer"], ["album_name"]) #test passed
+
+    #and cases
+    test(["avg_rating", ">", 4.5, "&&", "artist_name", "==", "The Strokes"], ["album_name", "avg_rating"]) #test passed
+    
+    test(["genre", "==", "Art Rock", "&&", "genre", "==", "Alternative Rock"], ["primary_genres", "secondary_genres"]) #test passed
+
+    test(["artist_name", "==", "asdf", "&&", "genre", "==", "Alternative Rock"], ["primary_genres", "secondary_genres"]) #test passed
+
+    test(["artist_name", "==", "Radiohead", "&&", "artist_name", "==", "The Strokes"], ["primary_genres", "secondary_genres"]) #test passed
+
+    test(["album_name", "==", "Illmatic", "&&", "artist_name", "==", "asdf"], ["album_name", "artist_name"]) #test passed
+
+    test(["genre", "==", "Art Rock", "&&", "artist_name", "==", "Pink Floyd"], ["genre", "artist_name"]) #test passed
+
+    test(["album_name", "==", "To Pimp a Butterfly", "&&", "genre", "==", "Jazz Rap"], ["album_name", "primary_genres", "secondary_genres"]) #test passed
+
+    test(["artist_name", "==", "The Beatles", "&&", "avg_rating", ">=", 4.1], ["artist_name", "avg_rating"]) #test passed
+
+    test(["genre", "==", "Post-Punk", "&&", "avg_rating", ">=", 4.1], ["primary_genres", "secondary_genres", "avg_rating"]) #test passed
+
+    test(["artist_name", "==", "Joy Division", "&&", "avg_rating", ">", 4.1], ["primary_genres", "secondary_genres", "avg_rating"])#test passed
+
+    test(["artist_name", "==", "Radiohead", "&&", "avg_rating", "<", 3.9], ["primary_genres", "secondary_genres", "avg_rating"])#test passed
+
+    
 
 if __name__ == "__main__":
-    #print(query(["album_name", "==", "Illmatic", "||", "avg_rating", ">", 4]))
-    test(["avg_rating", ">", 4, "||", "artist_name", "==", "The Strokes"], ["album_name", "avg_rating"])
+
+    test(["artist_name", "==", "Radiohead", "&&", "avg_rating", "<", 3.9], ["primary_genres", "secondary_genres", "avg_rating"])
+
 
     
